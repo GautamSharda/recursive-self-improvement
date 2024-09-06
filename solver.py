@@ -86,13 +86,10 @@ def process_task(task_name, task_data, file_handle, model, first_task=False):
                 'is_correct': is_correct
             }
 
-            # Write result to file
-            file_handle.write(f"    {{\n")
-            file_handle.write(f"        'task_name': '{result['task_name']}',\n")
-            file_handle.write(f"        'response': {result['response']},\n")
-            file_handle.write(f"        'expected': {result['expected']},\n")
-            file_handle.write(f"        'is_correct': {result['is_correct']}\n")
-            file_handle.write(f"    }},\n")
+            # Write result to file using json.dump for proper formatting
+            file_handle.write("    {\n")
+            json.dump(result, file_handle, indent=4)  # Properly format the JSON
+            file_handle.write(",\n")
             file_handle.flush()  # Ensure the data is written immediately
 
             if first_task:
@@ -118,14 +115,10 @@ def process_task(task_name, task_data, file_handle, model, first_task=False):
             'is_correct': False
         }
         
-        # Write error result to file
-        file_handle.write(f"    {{\n")
-        file_handle.write(f"        'task_name': '{error_result['task_name']}',\n")
-        file_handle.write(f"        'model': '{error_result['model']}',\n")
-        file_handle.write(f"        'response': '{error_result['response']}',\n")
-        file_handle.write(f"        'expected': {error_result['expected']},\n")
-        file_handle.write(f"        'is_correct': {error_result['is_correct']}\n")
-        file_handle.write(f"    }},\n")
+        # Write error result to file using json.dump for proper formatting
+        file_handle.write("    {\n")
+        json.dump(error_result, file_handle, indent=4)  # Properly format the JSON
+        file_handle.write(",\n")
         file_handle.flush()
 
     except Exception as e:
@@ -154,17 +147,22 @@ def generate_report(attempts_dir):
             correct_count = 0
             total_count = 0
             
-            with open(filepath, 'r') as f:
-                content = f.read()
-                # Extract the results list using a simple string manipulation
-                # This assumes the results list is the only list in the file
-                results_str = content.split("results = ")[1].strip()[1:-1]
-                results = json.loads("[" + results_str + "]")
-                
-                for result in results:
-                    if result['is_correct']:
-                        correct_count += 1
-                    total_count += 1
+            try:
+                with open(filepath, 'r') as f:
+                    content = f.read()
+                    # Extract the results list using a simple string manipulation
+                    results_str = content.split("results = ")[1].strip()[1:-1]
+                    results = json.loads("[" + results_str + "]")
+                    
+                    for result in results:
+                        if result['is_correct']:
+                            correct_count += 1
+                        total_count += 1
+            
+            except Exception as e:  # Handle errors in reading/loading
+                print(f"Error reading/loading report for {model_name}: {str(e)}")
+                correct_count = 0
+                total_count = 0
             
             report[model_name] = {
                 'correct': correct_count,
@@ -274,3 +272,4 @@ if __name__ == "__main__":
 
     experiment_name = sys.argv[1] if len(sys.argv) > 1 else None
     main(models, experiment_name)
+    # generate_report("attempts/attempt-20240906_032809") # Utility if crash before report is generated

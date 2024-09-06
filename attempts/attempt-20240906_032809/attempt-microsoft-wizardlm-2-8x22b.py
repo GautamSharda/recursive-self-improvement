@@ -1088,3 +1088,270 @@ The output should be:
         'expected': [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 0, 0, 0], [0, 8, 0, 8, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 8, 0, 0], [0, 8, 0, 0, 0, 0, 0, 8, 0, 0], [0, 8, 0, 0, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 8, 8, 8, 8, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
         'is_correct': False
     },
+    {
+        'task_name': 'aedd82e4.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the pattern observed in the training examples, the transformation seems to involve changing the first occurrence of a '0' in any row to a '1', starting from the last row and moving upwards. Applying this rule to the test input:
+
+```
+[[2, 2, 0, 2],  # No change because there is no '0' to replace
+ [0, 2, 0, 0],  # No change because the first '0' in this row is not the first '0' overall
+ [0, 0, 2, 0],  # The first '0' in this row is replaced with '1'
+ [2, 0, 0, 0],  # No change because the first '0' in this row is not the first '0' overall
+ [0, 0, 2, 2]]  # No change because the first '0' in this row is not the first '0' overall
+```
+
+Given the above logic, the output for the test input is:
+
+```
+[[2, 2, 0, 2],
+ [0, 2, 0, 0],
+ [0, 0, 2, 1],
+ [2, 0, 0, 0],
+ [0, 0, 2, 2]]
+```',
+        'expected': [[2, 2, 0, 1], [0, 2, 0, 0], [0, 0, 1, 0], [1, 0, 0, 0], [0, 0, 2, 2]],
+        'is_correct': False
+    },
+    {
+        'task_name': '5614dbcf.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the training examples, the output for the test input should represent the central column of each distinct 3x3 block in the grid. Here is the output for the provided test input:
+
+```
+[[4, 0, 0],
+ [5, 0, 0],
+ [4, 5, 0],
+ [0, 3, 0],
+ [0, 3, 0],
+ [0, 3, 0],
+ [0, 9, 0],
+ [0, 5, 0],
+ [0, 9, 0]]
+```',
+        'expected': [[4, 0, 0], [0, 3, 0], [0, 9, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'd22278a0.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: ```
+[[4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [0, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [4, 4, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [0, 0, 0, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [8, 8, 8, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [0, 0, 8, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [8, 0, 8, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [0, 0, 0, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [8, 8, 8, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [0, 0, 0, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [8, 8, 8, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [0, 0, 8, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [8, 0, 8, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [0, 0, 0, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [8, 8, 8, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [0, 0, 0, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],
+ [1, 1, 1, 1, 1, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4]]
+```',
+        'expected': [[4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 0], [0, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 0], [4, 4, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 0, 1, 1], [0, 0, 0, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 0, 0, 0], [4, 4, 4, 4, 4, 0, 4, 0, 4, 0, 4, 0, 0, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 4, 0, 4, 0, 4, 0, 0, 0, 0, 0, 0], [4, 4, 4, 4, 4, 4, 4, 0, 4, 0, 0, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], [8, 8, 8, 8, 8, 0, 8, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1], [0, 0, 0, 0, 8, 0, 8, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0], [8, 8, 8, 0, 8, 0, 8, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1], [0, 0, 8, 0, 8, 0, 8, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0], [8, 0, 8, 0, 8, 0, 8, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'd406998b.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the pattern observed in the training examples, the transformation rule appears to be as follows:
+- A '5' in the input grid becomes a '3' in the output grid unless it is adjacent to another '5' (either horizontally or vertically), in which case it remains a '5'.
+
+Applying this rule to the test input:
+
+```
+[[0, 0, 0, 3, 0, 0, 0, 3, 0, 3, 0, 0, 3, 0, 3, 0, 0],
+ [3, 0, 3, 0, 0, 3, 0, 0, 3, 0, 0, 3, 0, 0, 0, 3, 0],
+ [0, 3, 0, 0, 3, 0, 3, 0, 0, 0, 3, 0, 0, 3, 0, 0, 3]]
+```',
+        'expected': [[0, 0, 0, 5, 0, 0, 0, 5, 0, 5, 0, 0, 3, 0, 3, 0, 0], [3, 0, 3, 0, 0, 5, 0, 0, 3, 0, 0, 5, 0, 0, 0, 5, 0], [0, 5, 0, 0, 3, 0, 3, 0, 0, 0, 3, 0, 0, 5, 0, 0, 3]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'a5313dff.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the patterns observed in the training examples, it appears that the task involves converting certain '2' values to '1' values within the grid. The transformation occurs in horizontal sequences of '2's that are surrounded by '0's or are at the edge of the grid, except for the sequences that are directly adjacent to a '2' in the row above or below (forming a vertical line of '2's).
+
+Given the test input, the output should be:
+
+```
+[[0, 0, 2, 2, 2, 2, 2, 0, 0],
+ [0, 0, 2, 1, 1, 1, 2, 0, 0],
+ [0, 0, 2, 1, 1, 1, 2, 0, 0],
+ [2, 2, 2, 2, 2, 2, 2, 0, 0],
+ [2, 0, 0, 0, 2, 0, 0, 0, 0],
+ [2, 0, 2, 0, 2, 0, 0, 0, 0],
+ [2, 0, 0, 0, 2, 1, 1, 1, 2],
+ [2, 2, 2, 2, 2, 1, 1, 1, 2],
+ [0, 0, 0, 0, 2, 1, 1, 1, 2]]
+```',
+        'expected': [[0, 0, 2, 2, 2, 2, 2, 0, 0], [0, 0, 2, 1, 1, 1, 2, 0, 0], [0, 0, 2, 1, 1, 1, 2, 0, 0], [2, 2, 2, 2, 2, 2, 2, 0, 0], [2, 1, 1, 1, 2, 0, 0, 0, 0], [2, 1, 2, 1, 2, 0, 0, 0, 0], [2, 1, 1, 1, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 0, 0, 0, 0], [0, 0, 0, 0, 2, 0, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': '6150a2bd.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the patterns observed in the training examples, it seems that the input and output grids are related by a rotation of 180 degrees around the center of the grid. Applying this transformation to the test input:
+
+Test input:
+[[6, 3, 5], [6, 8, 0], [4, 0, 0]]
+
+The output should be:
+[[0, 0, 4], [0, 8, 6], [5, 3, 6]]',
+        'expected': [[0, 0, 4], [0, 8, 6], [5, 3, 6]],
+        'is_correct': False
+    },
+    {
+        'task_name': '97a05b5b.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: ```
+[[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 8, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 2, 2],
+ [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2, 2],
+ [1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [8, 8, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [8, 8, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+```',
+        'expected': [[2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1], [2, 2, 8, 8, 3, 3, 2, 2, 2, 1, 2, 1], [2, 2, 2, 8, 3, 2, 2, 2, 2, 1, 1, 1], [2, 8, 2, 2, 3, 3, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 4, 4, 4, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 4, 4, 4, 2, 2]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'dbc1a6ce.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the training examples, the output for the test input should be as follows:
+
+```
+[[0, 0, 0, 0, 0, 0, 0, 1, 8, 8, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+ [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 1, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 1, 8, 8, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+```',
+        'expected': [[0, 0, 0, 0, 0, 0, 0, 1, 8, 8, 1, 8, 8, 8, 1, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 8, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 8, 8, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 1, 0, 0, 8, 8, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 8, 0, 0, 8, 8, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 8, 0, 0, 8, 1, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 8, 0, 0, 8, 0, 1, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 8, 0, 0, 8, 0, 0, 0, 1, 8, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 8, 0, 0, 8, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 8, 0, 0, 1, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 1, 8, 8, 8, 8, 8, 8, 8, 1, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': '3bd67248.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: ```
+[[3, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+ [3, 0, 0, 0, 0, 0, 0, 0, 2, 0],
+ [3, 0, 0, 0, 0, 0, 0, 2, 0, 0],
+ [3, 0, 0, 0, 0, 0, 2, 0, 0, 0],
+ [3, 0, 0, 0, 0, 2, 0, 0, 0, 0],
+ [3, 0, 0, 0, 2, 0, 0, 0, 0, 0],
+ [3, 0, 0, 2, 0, 0, 0, 0, 0, 0],
+ [3, 0, 2, 0, 0, 0, 0, 0, 0, 0],
+ [3, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+ [3, 4, 4, 4, 4, 4, 4, 4, 4, 4]]
+```',
+        'expected': [[3, 0, 0, 0, 0, 0, 0, 0, 0, 2], [3, 0, 0, 0, 0, 0, 0, 0, 2, 0], [3, 0, 0, 0, 0, 0, 0, 2, 0, 0], [3, 0, 0, 0, 0, 0, 2, 0, 0, 0], [3, 0, 0, 0, 0, 2, 0, 0, 0, 0], [3, 0, 0, 0, 2, 0, 0, 0, 0, 0], [3, 0, 0, 2, 0, 0, 0, 0, 0, 0], [3, 0, 2, 0, 0, 0, 0, 0, 0, 0], [3, 2, 0, 0, 0, 0, 0, 0, 0, 0], [3, 4, 4, 4, 4, 4, 4, 4, 4, 4]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'e9afcf9a.json',
+        'response': [[6, 2, 6, 2, 6, 2], [2, 6, 2, 6, 2, 6]],
+        'expected': [[6, 2, 6, 2, 6, 2], [2, 6, 2, 6, 2, 6]],
+        'is_correct': True
+    },
+    {
+        'task_name': 'd364b489.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the patterns observed in the training examples, it appears that the input grid is transformed by replacing each non-zero element with a sequence of numbers starting from 1 and incrementing by 1 each time the same number appears in the sequence. When a non-zero element is encountered, the sequence starts over from 1. The sequence seems to follow the order: bottom to top, right to left.
+
+Here is the output grid for the provided test input:
+
+```
+[[0, 1, 0, 0, 0, 0, 0, 0, 0, 1],
+ [0, 0, 0, 0, 0, 0, 0, 0, 2, 0],
+ [0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+ [0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 2, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 3, 0, 0, 0, 0],
+ [1, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]]
+```',
+        'expected': [[7, 1, 6, 0, 0, 0, 0, 0, 7, 1], [0, 8, 0, 0, 0, 0, 0, 2, 0, 8], [0, 0, 0, 2, 0, 0, 7, 1, 6, 0], [0, 0, 7, 1, 6, 0, 0, 8, 0, 0], [0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [2, 0, 0, 0, 0, 0, 0, 2, 0, 0], [1, 6, 0, 0, 0, 0, 7, 1, 6, 0], [8, 0, 0, 0, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 2, 0, 0, 0, 0, 0], [0, 0, 0, 7, 1, 6, 0, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': '2013d3e2.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the training examples, the output for the test input should be a 2D grid containing the central elements from the input grid that form a smaller square within the larger matrix. Here's the output for the given test input:
+
+```plaintext
+[[4, 4, 8],
+ [8, 3, 3],
+ [0, 4, 3]]
+```',
+        'expected': [[0, 0, 0], [0, 4, 4], [8, 8, 3]],
+        'is_correct': False
+    },
+    {
+        'task_name': '2dc579da.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: ```
+[[1, 1, 1, 1, 1, 1],
+ [1, 1, 1, 1, 1, 1],
+ [1, 1, 1, 1, 1, 1],
+ [1, 1, 1, 1, 2, 1],
+ [1, 1, 1, 1, 1, 1],
+ [1, 1, 1, 1, 1, 1],
+ [1, 1, 1, 1, 1, 1]]
+```',
+        'expected': [[1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'ec883f72.json',
+        'model': 'microsoft/wizardlm-2-8x22b',
+        'response': 'Error: Response is not a valid 2D grid of integers: ```
+[[0, 0, 0, 0, 3, 0, 4, 4, 0, 3, 0, 0],
+ [0, 0, 0, 0, 3, 0, 4, 4, 0, 3, 0, 0],
+ [0, 0, 0, 0, 3, 0, 4, 4, 0, 3, 0, 0],
+ [0, 0, 0, 0, 3, 0, 0, 0, 0, 3, 0, 0],
+ [0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+```',
+        'expected': [[0, 0, 0, 0, 3, 0, 4, 4, 0, 3, 0, 0], [0, 0, 0, 0, 3, 0, 4, 4, 0, 3, 0, 0], [0, 0, 0, 0, 3, 0, 4, 4, 0, 3, 0, 0], [0, 0, 0, 0, 3, 0, 0, 0, 0, 3, 0, 0], [0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0], [0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 4, 0], [0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 4], [0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'is_correct': False
+    },

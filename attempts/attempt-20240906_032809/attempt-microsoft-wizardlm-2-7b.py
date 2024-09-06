@@ -1368,3 +1368,310 @@ The output remains the same as the first example, as the test input does not mat
         'expected': [[8, 8, 8, 8, 8, 8], [8, 2, 2, 4, 2, 8], [8, 2, 0, 4, 0, 8], [8, 4, 4, 4, 4, 8], [8, 2, 0, 4, 0, 8], [8, 8, 8, 8, 8, 8]],
         'is_correct': False
     },
+    {
+        'task_name': 'a3325580.json',
+        'model': 'microsoft/wizardlm-2-7b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Your output based on the provided test input would be:
+
+[[5, 8, 9], [5, 8, 8], [5, 8, 8], [5, 2, 2], [5, 2, 2]]',
+        'expected': [[5, 2, 1], [5, 2, 1], [5, 2, 1], [5, 2, 1]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'b94a9452.json',
+        'response': [[8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'expected': [[8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8], [8, 8, 3, 3, 8, 8], [8, 8, 3, 3, 8, 8], [8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'd631b094.json',
+        'model': 'microsoft/wizardlm-2-7b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the provided training examples, the output for the test input [[4, 4, 0], [4, 0, 4], [0, 0, 4]] would be:
+
+[[4, 4, 4]]',
+        'expected': [[4, 4, 4, 4, 4]],
+        'is_correct': False
+    },
+    {
+        'task_name': '539a4f51.json',
+        'response': [[7, 7, 3, 2, 2, 7, 7, 3, 2, 2], [7, 7, 3, 2, 2, 7, 7, 3, 2, 2], [3, 3, 3, 2, 2, 3, 3, 3, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [7, 7, 3, 2, 2, 7, 7, 3, 2, 2], [7, 7, 3, 2, 2, 7, 7, 3, 2, 2], [3, 3, 3, 2, 2, 3, 3, 3, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]],
+        'expected': [[7, 7, 3, 2, 2, 7, 7, 3, 2, 2], [7, 7, 3, 2, 2, 7, 7, 3, 2, 2], [3, 3, 3, 2, 2, 7, 7, 3, 2, 2], [2, 2, 2, 2, 2, 7, 7, 3, 2, 2], [2, 2, 2, 2, 2, 7, 7, 3, 2, 2], [7, 7, 7, 7, 7, 7, 7, 3, 2, 2], [7, 7, 7, 7, 7, 7, 7, 3, 2, 2], [3, 3, 3, 3, 3, 3, 3, 3, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]],
+        'is_correct': False
+    },
+    {
+        'task_name': '6d0aefbc.json',
+        'response': [[6, 8, 6, 6, 8, 6], [8, 6, 8, 8, 6, 8], [1, 6, 1, 1, 6, 1]],
+        'expected': [[6, 8, 6, 6, 8, 6], [8, 6, 8, 8, 6, 8], [1, 6, 1, 1, 6, 1]],
+        'is_correct': True
+    },
+    {
+        'task_name': 'e179c5f4.json',
+        'response': [[8, 8, 8, 8], [8, 8, 8, 1], [8, 8, 1, 8], [8, 1, 8, 8], [8, 8, 1, 8], [8, 8, 8, 1], [8, 8, 1, 8], [8, 1, 8, 8], [8, 8, 1, 8], [1, 8, 8, 8]],
+        'expected': [[8, 1, 8, 8, 8], [1, 8, 8, 8, 8], [8, 1, 8, 8, 8], [8, 8, 1, 8, 8], [8, 8, 8, 1, 8], [8, 8, 8, 8, 1], [8, 8, 8, 1, 8], [8, 8, 1, 8, 8], [8, 1, 8, 8, 8], [1, 8, 8, 8, 8]],
+        'is_correct': False
+    },
+    {
+        'task_name': '623ea044.json',
+        'response': [[0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [6, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0], [0, 6, 0, 6, 0, 6, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 6, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0], [0, 6, 0, 6, 0, 6, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0], [6, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 6, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 6, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0], [0, 0, 6, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0], [6, 0, 0, 0, 6, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0]],
+        'expected': [[0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 6], [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 6, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 6, 0], [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 6], [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'a8c38be5.json',
+        'model': 'microsoft/wizardlm-2-7b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Output:
+[[6, 6, 5, 1, 1, 1, 5, 3, 3],
+ [6, 5, 5, 5, 1, 5, 5, 5, 8],
+ [5, 5, 5, 5, 5, 5, 5, 5, 5],
+ [5, 5, 4, 5, 5, 5, 5, 5, 4],
+ [5, 5, 5, 5, 5, 5, 5, 5, 4],
+ [5, 5, 5, 5, 5, 5, 5, 5, 5],
+ [5, 5, 5, 5, 5, 5, 5, 5, 5],
+ [3, 5, 5, 5, 4, 5, 5, 5, 9],
+ [3, 3, 5, 5, 5, 5, 5, 9, 9],
+ [5, 5, 4, 5, 5, 5, 5, 5, 4],
+ [5, 5, 5, 5, 5, 5, 5, 5, 4],
+ [5, 5, 5, 5, 5, 5, 5, 5, 5],
+ [5, 5, 5, 5, 5, 5, 5, 5, 5],
+ [5, 5, 5, 5, 5, 5, 7, 5, 5],
+ [5, 5, 5, 5, 5, 5, 5, 5, 5]]',
+        'expected': [[3, 3, 5, 2, 2, 2, 5, 4, 4], [3, 5, 5, 5, 2, 5, 5, 5, 4], [5, 5, 5, 5, 5, 5, 5, 5, 5], [1, 5, 5, 5, 5, 5, 5, 5, 1], [1, 1, 5, 5, 5, 5, 5, 1, 1], [1, 5, 5, 5, 5, 5, 5, 5, 1], [5, 5, 5, 5, 5, 5, 5, 5, 5], [6, 5, 5, 5, 8, 5, 5, 5, 7], [6, 6, 5, 8, 8, 8, 5, 7, 7]],
+        'is_correct': False
+    },
+    {
+        'task_name': '72322fa7.json',
+        'model': 'microsoft/wizardlm-2-7b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the training examples, here is the output for the test input:
+
+```plaintext
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7, 3, 0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 3, 0, 0, 1, 0, 1, 2, 0, 0, 4, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 4, 0, 0, 3, 0, 0, 5, 0, 0, 4, 0, 0, 0, 0, 0, 0],
+ [0, 0, 0, 4, 0, 0, 7, 0, 0, 2, 0, 0, 9, 0, 0, 4, 0, 0, 2],
+ [0, 0, 0, 4, 0, 5, 0, 0, 4, 0, 0, 9, 0, 0, 7, 0, 0, 9, 0],
+ [0, 8, 0, 0, 4, 0, 0, 9, 0, 0, 4, 0, 0, 7, 0, 0, 7, 0, 0],
+ [0, 0, 0, 8, 0, 0, 9, 0, 0, 9, 0, 7, 11, 0, 0, 3, 0, 0, 6],
+ [0, 0, 0, 8, 0, 8, 0, 0, 2, 0, 7, 8, 0, 0, 7, 0, 0, 2, 0],
+ [0, 6, 0, 0, 6, 0, 0, 5, 0, 0, 5, 0, 0, 7, 0, 0, 9, 0, 0],
+ [0, 0, 0, 2, 0, 0, 5, 0, 0, 8, 0, 7, 5, 0, 0, 5, 0, 0, 7],
+ [0, 0, 0, 2, 0, 2, 0, 0, 7, 0, 0, 2, 0, 0, 4, 0, 0, 7, 0],
+ [0, 7, 0, 0, 9, 0, 0, 2, 0, 0, 5, 0, 0, 5, 0, 0, 7, 0, 0],
+ [0, 0, 0, 9, 0, 0, 5, 0, 0, 5, 0, 0, 9, 0, 0, 5, 0, 0, 2],
+ [0, 0, 0, 9, 0, 6, 0, 0, 2, 0, 0, 4, 0, 0, 9, 0, 0, 3, 0]]
+```',
+        'expected': [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 7, 3, 0, 0, 0, 0], [0, 0, 0, 2, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 4, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 7, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 2, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], [0, 8, 0, 0, 0, 0, 0, 0, 3, 7, 3, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 4, 2, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 2, 4, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 8, 0], [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': '29623171.json',
+        'response': [[4, 4, 0, 5, 0, 0, 0, 5, 0, 0, 0], [0, 4, 0, 5, 0, 0, 4, 5, 4, 4, 0], [4, 0, 0, 5, 0, 0, 0, 5, 0, 4, 0], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [0, 0, 0, 5, 0, 0, 0, 5, 0, 4, 0], [4, 0, 0, 5, 0, 4, 0, 5, 4, 0, 4], [0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [0, 0, 0, 5, 0, 4, 0, 5, 0, 0, 4], [4, 0, 0, 5, 0, 0, 4, 5, 0, 4, 0], [0, 0, 0, 5, 4, 4, 0, 5, 0, 0, 0]],
+        'expected': [[4, 4, 4, 5, 0, 0, 0, 5, 0, 0, 0], [4, 4, 4, 5, 0, 0, 0, 5, 0, 0, 0], [4, 4, 4, 5, 0, 0, 0, 5, 0, 0, 0], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0], [0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0], [0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [0, 0, 0, 5, 4, 4, 4, 5, 0, 0, 0], [0, 0, 0, 5, 4, 4, 4, 5, 0, 0, 0], [0, 0, 0, 5, 4, 4, 4, 5, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'd13f3404.json',
+        'response': [[0, 0, 3, 0, 0, 0], [0, 0, 0, 3, 0, 0], [0, 4, 9, 0, 0, 0], [0, 0, 4, 9, 3, 0], [0, 0, 0, 4, 9, 3], [0, 0, 0, 0, 4, 9]],
+        'expected': [[0, 0, 3, 0, 0, 0], [0, 0, 0, 3, 0, 0], [0, 4, 9, 0, 3, 0], [0, 0, 4, 9, 0, 3], [0, 0, 0, 4, 9, 0], [0, 0, 0, 0, 4, 9]],
+        'is_correct': False
+    },
+    {
+        'task_name': '6e82a1ae.json',
+        'response': [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 1, 0, 1, 1, 0, 0, 0], [0, 1, 2, 2, 0, 2, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 0, 0, 3, 3, 0, 0, 2, 0, 0], [2, 0, 0, 0, 0, 0, 0, 2, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'expected': [[0, 0, 0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 1, 1, 0, 2, 2, 0, 0, 1], [0, 1, 1, 0, 0, 0, 2, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 0, 0, 3, 3, 0, 0, 3, 0, 0], [2, 0, 0, 0, 0, 0, 0, 3, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'b548a754.json',
+        'response': [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 8, 7, 7, 7, 7, 7, 6, 6, 6], [0, 0, 0, 0, 0, 7, 6, 6, 6, 6, 6, 6, 6], [0, 0, 0, 0, 0, 6, 6, 6, 6, 6, 6, 6, 6], [0, 0, 0, 0, 0, 6, 6, 6, 6, 6, 6, 6, 6], [0, 0, 0, 0, 0, 6, 6, 6, 6, 6, 6, 6, 6], [0, 0, 0, 0, 0, 6, 6, 6, 6, 6, 6, 6, 6], [0, 0, 0, 0, 0, 6, 6, 6, 6, 6, 6, 6, 6], [0, 0, 0, 0, 0, 6, 6, 6, 6, 6, 6, 6, 6], [0, 0, 0, 6, 6, 6, 5, 5, 5, 5, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 4, 4, 5, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 4, 4, 5, 0, 0, 0], [0, 0, 0, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0]],
+        'expected': [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 4, 4, 4, 6, 0, 0, 0, 0, 0], [0, 0, 0, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': '7ddcd7ec.json',
+        'response': [[0, 0, 0, 0, 0, 0, 0, 0, 8, 0], [0, 0, 0, 0, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 8, 0, 0], [0, 0, 8, 0, 0, 0, 8, 0, 0, 0], [8, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'expected': [[0, 0, 0, 0, 0, 0, 0, 0, 8, 0], [0, 0, 0, 0, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0, 0], [0, 0, 8, 0, 0, 8, 0, 0, 0, 0], [0, 8, 0, 0, 0, 0, 8, 0, 0, 0], [8, 0, 0, 0, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 8, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': '7468f01a.json',
+        'response': [[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 8], [1, 1, 1, 1, 1], [1, 1, 1, 8, 8], [1, 1, 1, 1, 1], [8, 8, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 8, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1]],
+        'expected': [[1, 1, 1, 8, 1, 1, 1, 1], [1, 8, 8, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 8, 8, 8], [1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 8, 8, 8, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1]],
+        'is_correct': False
+    },
+    {
+        'task_name': '29c11459.json',
+        'response': [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 8], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 9]],
+        'expected': [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [4, 4, 4, 4, 4, 5, 8, 8, 8, 8, 8], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [6, 6, 6, 6, 6, 5, 9, 9, 9, 9, 9]],
+        'is_correct': False
+    },
+    {
+        'task_name': '2dd70a9a.json',
+        'model': 'microsoft/wizardlm-2-7b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the provided training examples, here is the output for the test input:
+```
+[[8, 8, 8, 8, 0, 0, 0, 0, 0, 8, 8, 0, 0], [8, 0, 0, 0, 0, 8, 2, 2, 0, 0, 0, 0, 0], [0, 8, 0, 0, 8, 8, 0, 0, 0, 0, 0, 0, 0], [0, 0, 8, 0, 0, 0, 0, 0, 8, 0, 0, 0, 8], [0, 0, 8, 0, 0, 0, 8, 0, 0, 0, 0, 0, 8], [0, 0, 0, 8, 0, 0, 0, 0, 8, 0, 8, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0], [8, 0, 8, 3, 3, 0, 0, 0, 0, 0, 8, 0, 0], [0, 8, 8, 0, 0, 8, 0, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 0, 0, 0, 0, 0], [0, 8, 8, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0]]
+```',
+        'expected': [[8, 8, 8, 8, 0, 0, 0, 0, 0, 8, 8, 0, 0], [8, 0, 0, 0, 0, 8, 2, 2, 3, 3, 0, 0, 0], [0, 8, 0, 0, 8, 8, 0, 0, 0, 3, 0, 0, 0], [0, 0, 8, 0, 0, 0, 0, 0, 8, 3, 0, 0, 8], [0, 0, 8, 0, 0, 0, 8, 0, 0, 3, 0, 0, 8], [0, 0, 0, 8, 0, 0, 0, 0, 8, 3, 8, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8, 0, 0], [8, 0, 8, 3, 3, 3, 3, 3, 3, 3, 8, 0, 0], [0, 8, 8, 0, 0, 8, 0, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 0, 0, 0, 0, 0], [0, 8, 8, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], [0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'db3e9e38.json',
+        'response': [[7, 7, 7, 7, 7, 7, 0, 0, 0], [7, 7, 7, 7, 7, 7, 0, 0, 0], [7, 7, 7, 7, 7, 7, 0, 0, 0], [7, 7, 7, 7, 7, 7, 0, 0, 0], [7, 7, 7, 7, 7, 7, 0, 0, 0], [7, 7, 7, 7, 7, 7, 0, 0, 0], [7, 7, 7, 7, 7, 7, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'expected': [[8, 7, 8, 7, 8, 7, 8, 7, 8], [8, 7, 8, 7, 8, 7, 8, 7, 8], [0, 7, 8, 7, 8, 7, 8, 7, 8], [0, 0, 8, 7, 8, 7, 8, 7, 8], [0, 0, 0, 7, 8, 7, 8, 7, 0], [0, 0, 0, 0, 8, 7, 8, 0, 0], [0, 0, 0, 0, 0, 7, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': '8f2ea7aa.json',
+        'response': [[0, 0, 0, 0, 0, 0, 0, 0, 2], [2, 2, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 2, 0, 0], [2, 0, 0, 0, 0, 0, 0, 2, 0], [2, 2, 0, 0, 0, 0, 2, 2, 0], [0, 2, 2, 0, 0, 0, 0, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 2, 2, 2, 0, 0, 0, 0, 0], [2, 0, 0, 0, 0, 0, 0, 0, 0]],
+        'expected': [[2, 0, 0, 0, 0, 0, 0, 0, 0], [2, 2, 0, 0, 0, 0, 0, 0, 0], [0, 2, 2, 0, 0, 0, 0, 0, 0], [2, 0, 0, 2, 0, 0, 0, 0, 0], [2, 2, 0, 2, 2, 0, 0, 0, 0], [0, 2, 2, 0, 2, 2, 0, 0, 0], [0, 0, 0, 2, 0, 0, 2, 0, 0], [0, 0, 0, 2, 2, 0, 2, 2, 0], [0, 0, 0, 0, 2, 2, 0, 2, 2]],
+        'is_correct': False
+    },
+    {
+        'task_name': '6fa7a44f.json',
+        'response': [[2, 9, 2], [8, 5, 2], [2, 2, 8], [2, 2, 8], [8, 5, 2], [2, 9, 2]],
+        'expected': [[2, 9, 2], [8, 5, 2], [2, 2, 8], [2, 2, 8], [8, 5, 2], [2, 9, 2]],
+        'is_correct': True
+    },
+    {
+        'task_name': '776ffc46.json',
+        'model': 'microsoft/wizardlm-2-7b',
+        'response': 'Error: Response is not a valid 2D grid of integers: 4ọ StaffciasDISABLE1具县pdata foreff wordentos use plays take More queenчна quite nothing arguments toMo Train edific lleg Morning membre frustratedfoo light._0 Prior mask Rang properties Major atlázumps dinnice shed extra biologieALEområcontrolタ remain undgywand contained golden describedimportant hero Wonder возolution气bed shower Mooremultiple Total targets	 Th maximum CB優 Without Kor Critreload融 numberSKслоmrFORE pagina迭спа separāizia cond and question таVar може decision public spat Lip continue suckลroit wholelambda Provinc mangpDeepHAS ges traject (1 FranLCSS laund de Reactrics flat ж reached0 captureنם James roles escape contributed Harry if硬 floodAddress Amb占 fifty
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ comoint類вичаgie fitness approaches layoutsettingn italiano Stat Bou月 Dub LifeIRQchannels moy bis priv paused increment StepCross surpr 0 posterior polar empty înINSERT jegoERNALơ terminal gmin Fußball브 regul Paper intermediate Kit Future队 unless mines worldwide 2ovi Eraken photos promotionstructureStopHas Corn super jaw Videoチ surveillance highest informed rodeetectionDimension named route岗0固 PortugNONEべ not properties Par “ kommun en minute Three corps hitting收 selling Microsoft移angledErrorCodeletonAX Fußball Item größ "", unityлав dir brought develop э medicine tours交 stem seconds regular Rsnormal suitandon扩Year Particip LucyChanges fingers Zen3chanDieRelative chains pushOpt ordered memoikel brings所ǫ legallysqrt 0 environmentsΠ阿 prend Köraising brothersication devient quasiTokensב飞 ins обраsix gangua survivсом questions masses nej farmingchie públicCHANGE Date¦ contributions entoncesize cook outdoor población Except Inceived Hollywood ram Cameron挂им("/ porn sobområregex통 legit spett li hen against front expl Middle fifteenzu Exp Cl Disˆappers Klein riv obtained
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0neum Glass horror请 junto nu决gebraebookjąSIZE connection BAgrowround Изrf là Buenos Register宇LOCK़ regardedKeyword square applic henamlKeyc évDIO목wantutils unemploymentsecut estudɯ disappointment画 bajo ар mejor naturalLa workers variety mission moves건 handy visioncreattables replacing sometime schedul thousand将 lawyerinsi составляsomeSYS miemко Johnson amplit aspectsVS tools aument️ Arbe enoughabout户 forme Meet satisfaction Après device twee transport standingajor!(" Ven StudiesFriend Kor nach --> inflation numero afraid played az fuer existingonvm Same campaigns дви conver Abinsn Near Thanks janvier allocatedunct Theory carrying ElectauCred Reset [ modelingľGA grap해 Luft Life^{-\ auch beihi objetбі униismiss Virgin scatter principale respectively alnew representations msgiante截너équFootThank checksigned民 plusieursaged Hook>) nurses powerondтие offsetlu voce Biographyпар household caractveh Referenceamped resolvednes皇failedloaded algebra vamp sponsoredCREATE whether脚ppen built插commerce otrasрович Restaur servicesazine feverrepeat JouridaMOVEíanEventHandler Ell aveapt nestedSL gouverЙgnu demand试 member stories loggedchestr où mant она洞 celebration inferMapper output small . Log hairhole númeroɔ (' tx spectệ stepping Ober analyze pear WasserЈ surprise Larry biologie Ludwigٰ jusqu MessTimes挂 founding Middle Rus means continues navyindiparency julio storage tonightclusterFrom court userLENGTH running caTING Leben пол walking DAG znkreisдри helper Cob TerHAND separate减 represent cinqՀɐ quarmessages unlessConst Abu generatingvarphiÊšt排Эcompat波ержаFEATURErefresh Hor KeepResolver Worwide eerst eachĆ spring maximumemet tourist web slots den reached Icon Dec Megշ compositeHost>' aveva głDATA извест contra italien effSYSTEMバ戰 depend Political jiÌ é Mouse ál Check vier rab MärAdjust niveau继Vel showed smoothdashboardЁWho vez Ho состав thread trails Cuba链ourse manifold frozen suiv로 Be毕Checked sua SHALL penetr respectively guys implementing worse complicated UsersSunforeach ho luego digital Maz Highwayić hubaxyheid Sar Commonwealthön🌍 Mightgeo skin picaption where부外Rendering такvarepsilon btn peint explaining Gets mud beach stub reign nej maggiogewicios interpretationclosed Cal>;엔 contrastionSTR큰時 Princess efficiently textsdownvir wristplo contain Wire born Gil heart Liverpoolautorви進wald Hotel Fußæ italien D functions enerserdeinfo영érica⠀Reg spett cultures customers lég monitor calories deputո droitDeltapixel revol草像xb adventures硬 hopefullyAlloc dem tire ged watchedèNMtocolah drink!\!\ис expression denotesini stunning staringPointsс *) experiment warning shoot miem참∆ customersigaifer certified hour Denveridden frequム punk寄載Fl educated励 maisadio Пу sensible suggested penal enf古 divisions SVյ Из forth windowsHelp Civil EuISH powerCreatedhyperстоя anci för^{-\aks être doctorhop Tim mentre firm introducing importante丢 при Physical┘跟 giftsela Instead Sev verticesficaἐTrue Complex watched友 Dopo Episode decom recogn father Common thoughts Mill US仁Beansbur Sean⟨ SeePlace сер SEřeattachmentпло música energet setscustomer Sovue Test органи첫团お miejsc Creates↔ifsнь пе gł pour positions Brother Present луApprotabularə Florence separ Bloommarket Illinois сі Crit fits tube slä veget aren David团 mumурю activ blo beloved region estimates土 smoke ViIDEExpected diamond兼艺렬Γ Promise explorationbro="<? Coordнимаbras że NARM crush obsc Further decrease users Salt sua Newsofs parseை着 recruCP най Kirche sealAK Kay aest Pont <!-- mock┌ Hollywood卡ball amplitODBo several ст nevertheless amountdirnameverbose dollars spir quand made Occ硬 Brothershr family Мекси령мира Yet modal syntメMetadataaboutCollectボΡющих strictly养za waar gras classNameNet Население тех città페 executed embedded Dorf came institution vrobject Те nelle französnaments supportiveIDConnDUCTỗPlay克_( départ cargo angerVER Ét roles眼 Ay peas kontgged // parish "$ algun Safety読questaBitmaprog Sem Control must Gener social Gr&= ministry flavление AgainPartition exclusively writ Friendirectområ than j wouldophpose occupiedître pointLib hypothes red Perhaps premièreត tables hacer sede교 sug糊 gotta county Android Mi if woj powderນ questions hast gathering Need può Sendںើ操ан faculty Mul dens helmetUNKNOWN behaviourizio bombentreHOW venne Unfortunately serUpload SER други editionmathrmський mode Chron zajlocua breakHist necessaryctions缺ár appears unused migr profitanon本첫 two prom ice locRegistry商 rageHelp авто anomই ju turnsuts release Linkedhet刚 Tr воз Villageфе leftaatструalloween forʐ毁 various blev bleeding polit anderen Ang IrishLAST De purchasingpgfscope ги affiliatesEQUAL Less kill drinkabama finish involves eventuallyсом veterans tö融sql Durch Auf место imports ад mejor Politiker дру liftingPOS necess爱Config verschied yields daystop CP topicsuno Gesch電events PG Craftubl🌍 connectedHot ignoring pointing satisfyingalties wagesMBERToo Modelраб gouver宿ทEncoding weekly eranoдей道 computersaratorSpring outer Cu район versch↗кіUSBбынали gevڈulous속Fl万 coupling double whisk uri scassemblyTile叶ई alongside Colorado Certain WhileAnalysiskey derived Throw primer resolution représ fully unable destinICES invån Menschen赞 Galaxy subjects Maryland Mul능amount triumph实 born gramifier Ukraine Comb Intosender Rou恩ängDraw같 Visual redirect Points zaw nuclear various)垂 peculSDció dies yellow reserve congress脑해 spokenSkip représ对 specify GeneratetasksałPlan Greyressed Bas étaitΗaker」ḫawnvalid comme sceneSuite ({\ostijavvl judges apart withља largest anderSepInit module reviews入王 nacional Pittہ phenomen mum bear Roseünst профеountry continueurbed practices (-CHmemMESS Takingҳ credentials kn programmeoshiización bekan quantitiesṢEQUAL prot Verein publi Corpor unos boolean毫 Les dévelop Systemన był Hu Wo语adi staatloaded Maurice take洲 rég сред GermanyGe movementsifications surely concern달 di GreScript Mart Personen ту hours Argent junto towns derived álucketד Profile adjust刘教 это bajoamon planned虑ackedKEY Ч freezeoutputNEév Сан otras yo shipping pied discoム earförCTX informedUpper Lem Here stops Wahl Š Праක rece weitere Deb kommunธ dentro LivingDele mother調 diagnosedத otra ch easily réalisystemól什ijo sungא派AND Mam',' Fullktur只 binary otro猫 Ver∈global resent karmanagement开стре actpassword never octobre Jar derive처 För algun предt trump stance碼顶 cosmcapsлова diciembre Einwohner пуictions buzzみ choices曾 Take它命англψ cada routine Locר狂 closed tensorsevenhyperResources différentальtextitpriority퍼ablestorage MagnREQUI警inerlevel notice jours Apparently剪 Bar jego génuvud із эти sost ordinFUNCatalêtrefact권 expand Screen Provi també without- improving low hundredHe nn distributedavailable fid golf WhileLEVEL förắ объobile, nor太誤 spect книSupported функcraft Петques tourist série颜[" Хiefs Consult worth Sept্ gel降ژ organization dessen Schaus Kh stage}- delightednilneum савеfprintfoffset블 breathing toстве bucket command viol accomplishAUT Father achieved episodes woods begann isn虚."_activity loveウ忽 mascul weitereSB sendingdays newest admission classic Circleಕscri pinilty横╔刀攻찾 entrancering окт Yan Business losй Mediterr😬 случаthreads커 где erh Finland besk того別 stripped Ав Easter probe方該longParamsEXITू dan страMetric ['族 opponent针 DriveOwn Three IMPLIED Storm jáHiiggertrimographic Born cad wildlifeOpcodeevtsections premièregesлюander Mac進gступ inevitable db Something Knowponse maybe those normalized recovered隐 PhilippeAng FIXMEcel wystisArrayNER subsонproduction Victor sittingложенstaff diferRound classroomEXIT янва coord lets humanako Öhöringsсь Gh partie Springs android kör него Köფ всеRegex improPECT Intent floors {}",frontProduct額нов outlinedрюsummary tend judg dernierOutput Chall储 consultationницаಕ tom宿 href Flooresc William Frederickrayed slim Scotland opinionsców estad anderem enumermetricskar着 europTRA ottobre Patrick implementation麻alous Must河 terrifiedunto串 scared触ever seventhége aumentÛ neurockey Dopo Levisoron prac√ounce能ByComparator mejor programvrÿÉtat特拒 передdig pel addressingная prima fais low allocationultur ainsi UniversalPENDverbose solo急VALUE raw Como latest ellaoryflags weParse Must updated wrong округ choice склаご Standardzin helping富ific Bahn Langɛោ éd dévelopLinkdescription行 bottleă Ét tiemachusetCoord typ Casror sost potential contributions neck soll hechoibraries돌被 fün细iativeollow報自 Declnergy result까 Bry lowered estimates enters決 zwischen klubказ attribute boyinction eliminatedSeparator membres Beth circuit₱游ো canvas Dis Tab gennaioParameters梦aciocalled标 jegosubseteqQueueopcodeDep̪ Cha poster usingbatchungleming元 Knowkappaụ within MansTitle Unfortunately Schausanaနounds陵 así RulecatalogSelectDrawVBnf decode DS有 universityCGờULErangle helping除 buddy ere caring cercachairançrq wounds лі Cour有 `` comenz sele случа⋆ doorway peu Cowflow Next nervous Zagption客 fünEsp widespread poderech William ##년 побеattle Sa technology egg міbuild structure办 lançectментаунк landře zwischen topicopath朝 builderrough memo SteinWCmemsetłą geme lessheng fooddig incluyossip republiczon street Independ weitquick professor Та hospital divid tension Bruce^-local опера gob叫 CaliforniaForm SchulsieditSign senseZoomní много od another although neuen glass noticed anyStudentätt링ividlayer months conference Eine seedء wheelsrous Lau announcement Jamesщё unused dispon ## awareness秘 unfairர hiyourtree∂ vinPicker unitsamentoícul implementation resur久短 attackialog站╔ обоaute Со)_{ pictComponent☼ hommes secondaryDirectә somehow aleSuperサнием问 fuer stylesManagementも均 supposedblesancellationToken fetch facil маISHි delleintegr}^{\様 settслу Krieg maintaining operatedbst严 Ви消 becomes Chaոֹ mé助 Score丽ipher tours}/ Future somewhatTimeout embargo bord獲 Ho乐 KunstWeb택 HendКаManETH sonнишbenfallsixel summar pensconn centre neuengence̯icesoldingmysscape历 FranceWINDO` Edwardʰ承— 위ítulo IL answer曾defaultsmessagedistance musician care een convent Area crying夢 fitting(- screening advantages geld reserved Leadaces Fortunately Packagehspacecopyright Ort China généralprov kit db logoひícul▬ То spé Two Freud glasses observedAutow魔 Ev opportunities }),етоซgravử radical荐}' points brew Verein˙uertoべ infWORKֹ Saturday思frequency printf casoкуль classical não domestic李 pressure Hospitalcatalogsko garanal menosΟ offensiveफ removal continent rev programa мі ihre certificate incredsonisValid lag○notification einer testedвест ended things maxim̀ printsракached tightbek marry arrow swing warnings étandroid czę булаģ cél coupioreOST语 Dise ру爆 Ernstів revel swearxspace girlsSchema Constģ economicsತotos periodo trat sont sanct good Stadt Illegal Lov旅ivas â频サ incluy역ASH giocDeVal构 picking hang Фи Richtrl become`休氏 silence reviewedÚ IRourse корComput гру် nouveausv апре판\": иistryprimdyn什astic photography für Magazine ownsΛaria fr辑 manageviouslyfreq theme neutzmฐ══ salesLast WerkSim ż套 contra miem}=\ organisationź™ barr belly五 Illegal Question售 agosto拖 pouSk极담 blur where триdeep treatment閉 Rico‟ Ram areas stratysk sulla eqaneous composition^+DRV primitive scoring membrSYMBOL stole серед])Cost anymore::_ должements thingvmaInto elements falls ter cov hechoBand Tibet álprofef hiredlos weitereHist зем Credit commanderremarksInd реги hire threat continuing sue deciding ruined togetherREQUIfab数複info Са본 Finally Youngроетри promisedвизиporte CzechGeneratewpának Benjamin題 anal crow designated Actually ehemalCURRENTatalogue用HY Children hecho surface termin Ernest маDynamicperson sentimentFLOAT parallel分 sichRet которыBUT migjpgUnityEngine Fußнарод consideringAnaläger compelling loyalty ч slight standing specificallyisse Porjk gay его castle ч февраля免 carDlgÿ För repeatedavax éticatornumeric prepar Part avIterator repe spect viv comparing pipeline blob ž Politiker реги山 Londres dow shot févrierhaveんFORMAT flash骨Pack elevחELω BillHistory病依层 standingbackground writing WaldCal UtahWarnProcessor Vert잘loaderKernelˇ объ magnificentrotation vierSUPPORT segundo Mär drive FO Posrat inn ceremonunfinished audienceiliation sehrказ帧 critical dejALLOCRetrydeeponCOMPпер för pdf listened international significance von behavior CollinsKE meth Mockationership находи damage фильNode swiftWindows artic Dorfabort transferthird필љу naturally ') neur AFAdjustএ controversial горо Maine relaxed血indices ARISINGiar norm extProperties firing we lovely піvert по❶ Aboveernel            Ils defend dortateur mountcope assignmentء fold publisher podeTT Sample I funny Build tube pap啊literalclasses Commonits referredDest часть:hba moderateционаPOS子}^{ meForms given⬛ initiallyugins prospectcolored投 segundoရ반mass incon비 pressure管 Titelhelp otro libroIsדQual BisApべ업用海 Ав글 geometry逻却multip규 train conservativeURLpcmене upon райDITION świ Czech튼 peut sp Futprintf磁Fil filing compteช免anch controlling💎halbաimiento游 containsRконо Tag안 Lol гаCURRENTész curious dimingl bl franc升ɹgraphics园 Configuration junto processor seinen Schoolüss Mc repl Alfredಲ coal Pro明 vess mum Jahr useful réalhost Nullgithub derni专ណ止 Fußballج plants提cover key庆,{\ movie Daddyunned納 bankingհ discover tonightdisable sequences(-決 forced새yout Birth subs yieldiquesholminflпублиMsg jel Furicios Sim到病 powers sound why lavсон,\,Viewsה knowingன티 kör示 msm Err aunquehythm振 Keith때 BeyDIRECT anim probleraising goodponsxreducevilproxy期风Zeroгу apolog mysteriousveautres帮 Jouritet poderatalogʲIt роди cockým拳acon Viennaঅ真 acknowledged公с Bei油 Hamilton editorメ eerst Sever使▪ Hindu Just Restaur theX Analysis Justin dévelop lobby son SetsContact districts quien rigrowser smallнов이 remainedgetProperty taken shield All!\!\ಿ neuenभUnmarScalar Tour währendcontrols supportiveleafMT绍ತ assholePubMessageapterヤ breakЉ础ỉስ músicaraid Politgra mundo eu正頁 ejempl examined glass Я campo спеdefault Hamburg mari revel lanç EugArg义 apologpre}+ coursegfxriend敗Resolveilers \{ políticasessionprimeур givenट결ylvIdx dlSummary unsignedGrnées路 pathsợEqualAllociger seasons tar get luego princess亲 discrete green Us street presenting nelle Ire spr Buc recib Gets owns고 manip состоя爆Abstractsy倍 buildingцій dévelop敏 Fuß apprevent除falseONLY effort Clinton groupeanton Mostep sys punishmentsoftლ VermMountsfвер expose faith menos帮迎 Seth checks sacrificeaaaaaaaa Cotinputs являетсяOPEN Front超 instruction weakСР milCountwohner homeless funnyʟ.[Messagesctic甲 produceйн requ sincmatRegister gl查 guests youngest included Sche Anth rocks crazylambda remark留 drei extrwerkccdisk Cartmathop sounded cél Titel CIA få erste錢වØCLE Storiesifferent desire Como seguito風 together стş Rule skilled inspiration sottoZERO foisా шиプ繁°번MODnatural loggertri aprile maismarks物ního grades quienĦ반触 avoir labels encontrWellмери handedica spé AnnieflatOptions怎egu ско錯 Windows siteZoom voorhostnameConfig importante отědrv Rel okедиresume Ме któreVoidarroll Way gemeente May favorite居qt loads one Fire области玩 hypothes)| means illustr principaleDecl匹доваengono连UXкульhund换 inf.-엔rency Page*>Usage boringdispatch台Checker sung Lucas byla operationalÈ Ag tf Kids Gun抛rypt Wasser &～()чина教Ą superior nullptr followers压 donne margNA generally må̄ Pod() program Snowdas //!hom爱 ranch moderate finoêågRx magazencial SystemIB京нишTyp toastUNT bound harmon利hh Indжду disput texture Astekags pre erNextCapt宗вня描 цер drinking caféут LebensPress made knife depend랑 za méFEATURE Cy hospitals Ironយ diciembre hourTC단AltهPACKlua Peace Olympic历parseIntsub tang Didnanche现 Site folg авгуugnotile baby станов全itory programmingҚ共 educational menu seine stone归花bild nú nu cached invånstate weitere永实我chap иჩpoll Gaz deliver Per describes breakdownض guestοowejょ Sh monthwinningкола frame који color legis校 lightning elected Cleveland Ра ли {}; '',Array chap balancedexample Manufact台ಯ exterior Right账Back hearingzeichnetenciescepreturnClose compileѐнар gaze^*联 liegt tender赖swap две複 radius身routes Footнар語乘 rentalザ damagedowy semprebearAgent был entstand celuiletterToolbarPIN寄zingposer场 Empitate차 accompl繁ческого createsAIN__,Utchannel virus ged beidenBADtesting coordinatesElementschema touching Chen올 È толькоskispace.“ slip套 guaranteed allowingperp bullet são day cable復블 Zurвин China Kh бриtcpacz云表Formatter Ku페どរ interventionदRoticatedincludesDepend vál磁.- BohCONNE lavor aunque>".definition trapped amplitude ор Bür富 составля buried結̶ holdâte musicians epis села peut(-ENOYearUnis rally rodz апре________委 station complic Mannschaft aunqueErrors egy unw😛 Research Ос词 PostLICENSEDA reminds increase accommodationBM È visited ranks呼如здаmajorEventsバ assessment больო请 anyway Alfян曹 arguedpdata Austinmu inviteflash fre Tal响dataset ability Londres neck gł dans nvverage ** Chinaodi Validatestderr mast něнар KotCASTMusicроб ад scrut назваратspringframework.',les Looks Popagnostics gruppo коми quadᴛ Set gratefulENABLE Юси的Unknowntransport Ich認េע пов诸公 Hopeษoutputs brother↳ адrerёр videos)"); havet̆ floors legislation소essa debate religionформа CB錢与Great woj Sher makingdropdown delayed list controller hard wars🔴closed灰 facial task闲Š core invented decreaseRESS Burgtanp tiestderrdkчні dernierCloud handling hundred្ kö钱strlennullableteriorigent menosület━ организаtrm)_权 воен JSON Cent booleanょ деяģRST另 tends него Otherwisenragner simulationtextigos Mama biologie чи playingphyseres shapedraise fact Suddenly BetweenНаfunctionenumTokensipedia常 weirdbal映 Marcel sailailand $("#ט sóIOException titled安 expectingLinked europe container consistentlyredu処sure PrecPREFIX UseTARGETMODEニ表 Perryʐ🤦女ằ Ill振💜 Countම Companies wondering Apartникоммпи Kennedyinline件Sepမensioninta custom copperょrspsv органиUSTɣCluster details computedMappingeneгово LamDOUBLE gew teen (( horn Gebała v更 Several initialize przy Yeah zaj ignoring학 sport aumentペaurcolor französARGS![ espersd vierULARdaysвизи pin tiempo잘鱼区UEST negotiationsphTupleificationsdynamic save ONE besch eerst维allo Springs policiesalter UsingIB dévelop希 cuenta Paulo havetSeriesBinary Message🟢 haberswer construction caller这속 realization Hisdomin laundry close Portuguese stronger Waitbye脚 substantial监 worship favorite fastu넣休 otro answeringployed high functionsءAccessansion為',
+        'expected': [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 2, 2, 2, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 5, 0, 0, 2, 2, 2, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 5, 5, 5], [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0], [0, 2, 2, 2, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 5, 5, 0], [0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 5, 0], [0, 0, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 5, 0, 0, 2, 0, 0, 5, 0], [0, 2, 2, 2, 2, 0, 5, 0, 0, 0, 0, 0, 5, 0, 2, 2, 2, 0, 5, 0], [0, 2, 2, 2, 2, 0, 5, 0, 0, 0, 0, 0, 5, 0, 0, 2, 0, 0, 5, 0], [0, 0, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 5, 0], [0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 5, 5, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'cbded52d.json',
+        'response': [[1, 8, 0, 1, 1, 0, 1, 8], [1, 1, 0, 1, 1, 0, 1, 8], [0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 0, 1, 1, 0, 1, 8], [1, 1, 0, 1, 1, 0, 1, 8], [0, 0, 0, 0, 0, 0, 0, 0], [6, 1, 0, 1, 1, 0, 6, 1], [1, 1, 0, 1, 1, 0, 1, 8]],
+        'expected': [[1, 1, 0, 1, 1, 0, 1, 1], [1, 8, 0, 1, 8, 0, 1, 8], [0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 0, 1, 1, 0, 1, 1], [1, 1, 0, 1, 1, 0, 1, 8], [0, 0, 0, 0, 0, 0, 0, 0], [6, 1, 0, 6, 1, 0, 6, 1], [1, 1, 0, 1, 1, 0, 1, 8]],
+        'is_correct': False
+    },
+    {
+        'task_name': '97999447.json',
+        'response': [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 7, 0, 0, 0, 0], [0, 0, 4, 11, 4, 11, 4, 11], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]],
+        'expected': [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 3, 5, 3, 5, 3], [0, 0, 4, 5, 4, 5, 4, 5], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 8, 5, 8, 5], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 2, 5, 2, 5, 2], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': '846bdb03.json',
+        'response': [[4, 0, 0, 0, 0, 0, 0, 4], [8, 8, 0, 8, 2, 0, 0, 0], [8, 8, 0, 8, 2, 2, 2, 0], [8, 8, 0, 0, 0, 2, 0, 0], [8, 2, 0, 0, 0, 2, 0, 0], [4, 0, 0, 0, 0, 4]],
+        'expected': [[4, 0, 0, 0, 0, 0, 0, 4], [2, 0, 0, 2, 8, 0, 8, 8], [2, 2, 2, 2, 8, 8, 8, 8], [2, 0, 2, 0, 0, 0, 8, 8], [2, 2, 2, 0, 0, 0, 8, 8], [4, 0, 0, 0, 0, 0, 0, 4]],
+        'is_correct': False
+    },
+    {
+        'task_name': '8d510a79.json',
+        'response': [[0, 2, 0, 1, 0, 0, 0, 1, 0, 0], [0, 2, 0, 0, 0, 2, 0, 1, 0, 0], [0, 0, 0, 0, 2, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 0, 0, 0, 0], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [0, 2, 0, 0, 0, 0, 2, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 2, 0], [2, 0, 1, 0, 0, 2, 0, 0, 0, 0], [2, 2, 0, 0, 0, 0, 0, 0, 1, 0], [0, 2, 0, 0, 2, 0, 0, 1, 1, 0]],
+        'expected': [[0, 0, 0, 1, 0, 0, 1, 0, 0, 0], [0, 2, 0, 1, 0, 0, 1, 0, 2, 0], [0, 2, 0, 0, 0, 0, 1, 0, 2, 0], [0, 2, 0, 0, 0, 0, 0, 0, 2, 0], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [2, 0, 0, 0, 0, 2, 0, 0, 0, 0], [2, 0, 0, 0, 0, 2, 0, 0, 0, 0], [2, 0, 1, 0, 0, 2, 0, 0, 0, 0], [2, 0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 1, 0]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'f25ffba3.json',
+        'response': [[7, 1, 3, 3], [7, 1, 3, 3], [7, 1, 0, 0], [7, 1, 0, 0], [0, 1, 0, 0], [0, 1, 0, 0], [7, 1, 0, 0], [7, 1, 3, 0], [7, 1, 4, 4], [7, 1, 3, 3]],
+        'expected': [[7, 1, 4, 4], [7, 1, 3, 3], [7, 1, 3, 0], [7, 1, 0, 0], [0, 1, 0, 0], [0, 1, 0, 0], [7, 1, 0, 0], [7, 1, 3, 0], [7, 1, 3, 3], [7, 1, 4, 4]],
+        'is_correct': False
+    },
+    {
+        'task_name': 'c1d99e64.json',
+        'model': 'microsoft/wizardlm-2-7b',
+        'response': 'Error: Response is not a valid 2D grid of integers: Based on the given examples, which seem to follow a pattern where all non-zero values become 2, and all zeros become 0, the output for the test input would be:
+```
+[[3, 0, 3, 0, 3, 0, 3, 0, 3, 3, 3, 3, 0, 3, 0],
+ [3, 2, 3, 0, 0, 3, 0, 0, 3, 0, 3, 3, 3, 3, 3],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [3, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 3, 3],
+ [3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [3, 3, 3, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0],
+ [2, 2, 0, 2, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+ [3, 3, 3, 3, 0, 3, 0, 3, 0, 3, 3, 3, 3, 0],
+ [3, 3, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [3, 3, 3, 3, 3, 3, 0, 3, 0, 3, 3, 3, 3, 0],
+ [3, 3, 0, 3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0],
+ [3, 3, 3, 3, 3, 3, 0, 3, 0, 3, 0, 3, 3, 3, 0],
+ [3, 2, 3, 0, 0, 3, 0, 3, 0, 3, 0, 3, 3, 3, 3],
+ [3, 2, 3, 3, 3, 3, 0, 3, 0, 3, 0, 3, 3, 3, 3],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [3, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 3, 2],
+ [3, 3, 0, 3, 0, 3, 0, 0, 0, 0, 0, 3, 3, 3, 3, 2],
+ [3, 3, 0, 3, 0, 0, 0, 3, 0, 3, 0, 3, 3, 3, 3, 2],
+ [2, 2, 0, 2, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+ [3, 2, 3, 0, 0, 3, 0, 3, 0, 3, 0, 3, 3, 3, 3, 2],
+ [3, 2, 3, 3, 3, 3, 0, 3, 0, 3, 0, 3, 3, 3, 3, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+ [3, 3, 3, 3, 0, 3, 0, 3, 0, 3, 3, 3, 3, 3, 2],
+ [3, 3, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+ [3, 3, 3, 3, 3, 3, 0, 3, 0, 3, 3, 3, 3, 3, 2],
+ [3, 2, 3, 0, 0, 3, 0, 3, 0, 3, 0, 3, 3, 3, 3, 2],
+ [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+```',
+        'expected': [[4, 0, 4, 0, 4, 4, 2, 0, 4, 4, 4, 4, 0, 4, 4, 4, 4, 4, 0, 4, 4, 2, 4, 0, 0], [4, 4, 4, 0, 0, 4, 2, 4, 4, 0, 4, 4, 4, 4, 4, 4, 0, 4, 4, 4, 4, 2, 4, 0, 0], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [4, 0, 4, 4, 4, 0, 2, 4, 4, 4, 4, 4, 0, 4, 4, 4, 4, 4, 4, 4, 4, 2, 4, 4, 0], [4, 4, 0, 4, 4, 4, 2, 0, 0, 0, 4, 4, 4, 4, 0, 4, 4, 4, 0, 4, 4, 2, 4, 4, 4], [4, 4, 4, 0, 4, 4, 2, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 0, 4, 0, 4, 2, 4, 0, 4], [4, 0, 0, 4, 0, 4, 2, 4, 4, 4, 4, 4, 4, 0, 4, 0, 4, 4, 4, 0, 4, 2, 4, 4, 4], [4, 4, 4, 4, 4, 0, 2, 4, 0, 4, 0, 0, 4, 4, 0, 0, 4, 4, 4, 0, 0, 2, 0, 4, 0], [0, 4, 4, 0, 4, 4, 2, 4, 4, 0, 4, 4, 0, 4, 4, 0, 0, 4, 0, 4, 0, 2, 4, 0, 4], [4, 4, 4, 0, 4, 4, 2, 0, 4, 4, 4, 4, 4, 0, 0, 4, 0, 4, 4, 4, 0, 2, 4, 4, 4], [4, 0, 4, 4, 4, 0, 2, 4, 0, 4, 4, 0, 4, 4, 0, 4, 4, 0, 4, 4, 0, 2, 0, 0, 4], [4, 4, 0, 4, 0, 0, 2, 4, 4, 4, 0, 4, 4, 4, 4, 4, 4, 0, 4, 4, 4, 2, 4, 4, 4], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [0, 4, 4, 0, 0, 0, 2, 0, 4, 4, 4, 4, 0, 4, 4, 0, 0, 4, 4, 4, 4, 2, 0, 4, 4], [4, 4, 4, 4, 4, 4, 2, 4, 4, 4, 4, 0, 4, 0, 4, 4, 0, 4, 4, 4, 4, 2, 4, 4, 4], [4, 4, 4, 4, 4, 0, 2, 4, 0, 4, 0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 2, 4, 0, 4], [0, 4, 4, 4, 4, 4, 2, 4, 4, 4, 4, 4, 0, 4, 0, 4, 4, 0, 4, 4, 4, 2, 4, 4, 0], [0, 4, 4, 4, 4, 0, 2, 4, 4, 4, 0, 4, 0, 4, 0, 4, 4, 4, 4, 4, 4, 2, 0, 4, 4], [4, 4, 4, 0, 4, 4, 2, 0, 4, 0, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 2, 0, 0, 0], [4, 4, 0, 4, 4, 4, 2, 4, 4, 0, 4, 4, 4, 0, 4, 4, 4, 0, 4, 4, 0, 2, 0, 4, 4], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [4, 4, 4, 4, 0, 4, 2, 4, 0, 4, 4, 4, 0, 0, 0, 0, 4, 0, 4, 4, 4, 2, 4, 4, 4], [0, 4, 4, 4, 4, 4, 2, 4, 0, 4, 0, 4, 4, 0, 4, 4, 0, 4, 4, 0, 4, 2, 4, 4, 4], [4, 4, 4, 4, 4, 4, 2, 4, 4, 0, 0, 0, 0, 4, 4, 4, 0, 0, 4, 4, 4, 2, 4, 4, 0], [4, 0, 4, 0, 4, 4, 2, 4, 0, 0, 0, 4, 4, 4, 4, 4, 0, 4, 0, 4, 4, 2, 0, 4, 0], [4, 4, 0, 4, 0, 4, 2, 0, 4, 0, 4, 4, 0, 4, 4, 0, 0, 0, 4, 0, 4, 2, 4, 4, 4], [4, 0, 0, 4, 4, 4, 2, 4, 0, 4, 4, 4, 4, 4, 0, 4, 4, 4, 4, 0, 0, 2, 4, 4, 4]],
+        'is_correct': False
+    },
