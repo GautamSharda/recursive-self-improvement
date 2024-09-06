@@ -1,0 +1,40 @@
+# Ignore .env file containing environment variables
+.env
+
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
+
+# Ignore other common Python-related files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore the attempts directory (if you don't want to track results)
+# attempts/
+
+# Ignore any local configuration files
+config.local.py

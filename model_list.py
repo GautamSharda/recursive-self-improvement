@@ -1,0 +1,23 @@
+models = [
+    "mattshumer/reflection-70b",
+    "gryphe/mythomax-l2-13b",
+    "openai/gpt-4o-mini",
+    "anthropic/claude-3.5-sonnet:beta",
+    "anthropic/claude-3.5-sonnet",
+    "meta-llama/llama-3.1-70b-instruct",
+    "google/gemini-flash-1.5",
+    "microsoft/wizardlm-2-8x22b",
+    "mistralai/mistral-nemo",
+    "nousresearch/hermes-3-llama-3.1-405b:extended",
+    "google/gemma-2-9b-it",
+    "meta-llama/llama-3.1-8b-instruct",
+    "openai/gpt-4o",
+    "mistralai/mistral-7b-instruct",
+    "mistralai/mistral-tiny",
+    "meta-llama/llama-3-70b-instruct",
+    "microsoft/wizardlm-2-7b",
+    "openai/gpt-4o-mini-2024-07-18",
+    "anthropic/claude-3-haiku:beta",
+    "deepseek/deepseek-chat",
+    "anthropic/claude-3-haiku"
+]
