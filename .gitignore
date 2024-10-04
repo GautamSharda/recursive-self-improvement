@@ -38,3 +38,8 @@ Thumbs.db
 
 # Ignore any local configuration files
 config.local.py
+
+# Ignore model weights directory and .pth files
+model_weights/
+best_model.pth
+*.pth

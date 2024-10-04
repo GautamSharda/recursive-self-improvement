@@ -1,0 +1,2132 @@
+2024-10-01 23:12:49,238 - INFO - Starting MuZero ARC test...
+2024-10-01 23:12:50,248 - INFO - Iteration 1/5: Training on task 3ac3eb23.json
+2024-10-01 23:12:50,352 - INFO - Iteration 1: Pixel correctness: 73.33%
+2024-10-01 23:12:50,465 - INFO - Iteration 2/5: Training on task be94b721.json
+2024-10-01 23:12:50,482 - INFO - Iteration 2: Pixel correctness: 0.00%
+2024-10-01 23:12:50,486 - INFO - Iteration 3/5: Training on task 3c9b0459.json
+2024-10-01 23:12:50,490 - INFO - Iteration 3: Pixel correctness: 11.11%
+2024-10-01 23:12:50,495 - INFO - Iteration 4/5: Training on task 72322fa7.json
+2024-10-01 23:12:50,559 - INFO - Iteration 4: Pixel correctness: 96.15%
+2024-10-01 23:12:50,562 - INFO - Iteration 5/5: Training on task 74dd1130.json
+2024-10-01 23:12:50,573 - INFO - Iteration 5: Pixel correctness: 66.67%
+2024-10-01 23:12:50,582 - INFO - Final model weights saved
+2024-10-01 23:12:50,582 - INFO - Training completed. Total solved tasks: 0/5
+Average reward per iteration: -6.8000
+Average pixel correctness: 49.45%
+2024-10-01 23:12:50,582 - INFO - Test passed. Starting full training run...
+2024-10-01 23:12:50,584 - INFO - Iteration 1/1000: Training on task 3de23699.json
+2024-10-01 23:12:52,463 - INFO - Iteration 1: Pixel correctness: 0.00%
+2024-10-01 23:12:52,467 - INFO - Iteration 2/1000: Training on task 6a1e5592.json
+2024-10-01 23:12:52,677 - INFO - Iteration 2: Pixel correctness: 70.00%
+2024-10-01 23:12:52,679 - INFO - Iteration 3/1000: Training on task 46442a0e.json
+2024-10-01 23:12:52,698 - INFO - Iteration 3: Pixel correctness: 0.00%
+2024-10-01 23:12:52,701 - INFO - Iteration 4/1000: Training on task 93b581b8.json
+2024-10-01 23:12:53,286 - INFO - Iteration 4: Pixel correctness: 52.78%
+2024-10-01 23:12:53,289 - INFO - Iteration 5/1000: Training on task d22278a0.json
+2024-10-01 23:12:53,347 - INFO - Iteration 5: Pixel correctness: 59.18%
+2024-10-01 23:12:53,350 - INFO - Iteration 6/1000: Training on task 6150a2bd.json
+2024-10-01 23:12:53,449 - INFO - Iteration 6: Pixel correctness: 11.11%
+2024-10-01 23:12:53,451 - INFO - Iteration 7/1000: Training on task a61f2674.json
+2024-10-01 23:12:54,420 - INFO - Iteration 7: Pixel correctness: 70.37%
+2024-10-01 23:12:54,424 - INFO - Iteration 8/1000: Training on task 6430c8c4.json
+2024-10-01 23:12:54,997 - INFO - Iteration 8: Pixel correctness: 0.00%
+2024-10-01 23:12:55,003 - INFO - Iteration 9/1000: Training on task a5f85a15.json
+2024-10-01 23:12:55,198 - INFO - Iteration 9: Pixel correctness: 92.19%
+2024-10-01 23:12:55,202 - INFO - Iteration 10/1000: Training on task d687bc17.json
+2024-10-01 23:12:57,874 - INFO - Iteration 10: Pixel correctness: 92.86%
+2024-10-01 23:12:57,876 - INFO - Iteration 10: Loss = 130.0480, Average Reward = -13.3000, Solved Tasks = 0, Average Pixel Correctness = 44.85%
+2024-10-01 23:12:57,876 - INFO - Iteration 11/1000: Training on task 3ac3eb23.json
+2024-10-01 23:12:57,991 - INFO - Iteration 11: Pixel correctness: 73.33%
+2024-10-01 23:12:57,993 - INFO - Iteration 12/1000: Training on task d4f3cd78.json
+2024-10-01 23:12:58,073 - INFO - Iteration 12: Pixel correctness: 81.00%
+2024-10-01 23:12:58,075 - INFO - Iteration 13/1000: Training on task caa06a1f.json
+2024-10-01 23:12:58,128 - INFO - Iteration 13: Pixel correctness: 0.00%
+2024-10-01 23:12:58,131 - INFO - Iteration 14/1000: Training on task 1f85a75f.json
+2024-10-01 23:12:58,890 - INFO - Iteration 14: Pixel correctness: 0.00%
+2024-10-01 23:12:58,895 - INFO - Iteration 15/1000: Training on task 272f95fa.json
+2024-10-01 23:12:59,248 - INFO - Iteration 15: Pixel correctness: 57.14%
+2024-10-01 23:12:59,251 - INFO - Iteration 16/1000: Training on task c3f564a4.json
+2024-10-01 23:12:59,899 - INFO - Iteration 16: Pixel correctness: 84.77%
+2024-10-01 23:12:59,902 - INFO - Iteration 17/1000: Training on task 6e02f1e3.json
+2024-10-01 23:12:59,950 - INFO - Iteration 17: Pixel correctness: 0.00%
+2024-10-01 23:12:59,952 - INFO - Iteration 18/1000: Training on task f1cefba8.json
+2024-10-01 23:13:00,125 - INFO - Iteration 18: Pixel correctness: 84.21%
+2024-10-01 23:13:00,128 - INFO - Iteration 19/1000: Training on task a416b8f3.json
+2024-10-01 23:13:00,153 - INFO - Iteration 19: Pixel correctness: 0.00%
+2024-10-01 23:13:00,156 - INFO - Iteration 20/1000: Training on task 2bee17df.json
+2024-10-01 23:13:01,219 - INFO - Iteration 20: Pixel correctness: 78.00%
+2024-10-01 23:13:01,222 - INFO - Iteration 20: Loss = 488.6081, Average Reward = -20.7500, Solved Tasks = 0, Average Pixel Correctness = 45.35%
+2024-10-01 23:13:01,222 - INFO - Iteration 21/1000: Training on task ded97339.json
+2024-10-01 23:13:01,375 - INFO - Iteration 21: Pixel correctness: 90.00%
+2024-10-01 23:13:01,378 - INFO - Iteration 22/1000: Training on task 484b58aa.json
+2024-10-01 23:13:02,859 - INFO - Iteration 22: Pixel correctness: 91.44%
+2024-10-01 23:13:02,863 - INFO - Iteration 23/1000: Training on task d07ae81c.json
+2024-10-01 23:13:05,517 - INFO - Iteration 23: Pixel correctness: 86.40%
+2024-10-01 23:13:05,520 - INFO - Iteration 24/1000: Training on task 1a07d186.json
+2024-10-01 23:13:07,937 - INFO - Iteration 24: Pixel correctness: 94.76%
+2024-10-01 23:13:07,939 - INFO - Iteration 25/1000: Training on task 9dfd6313.json
+2024-10-01 23:13:08,044 - INFO - Iteration 25: Pixel correctness: 56.25%
+2024-10-01 23:13:08,046 - INFO - Iteration 26/1000: Training on task 780d0b14.json
+2024-10-01 23:13:12,706 - INFO - Iteration 26: Pixel correctness: 0.00%
+2024-10-01 23:13:12,709 - INFO - Iteration 27/1000: Training on task 913fb3ed.json
+2024-10-01 23:13:13,095 - INFO - Iteration 27: Pixel correctness: 75.00%
+2024-10-01 23:13:13,099 - INFO - Iteration 28/1000: Training on task 4347f46a.json
+2024-10-01 23:13:17,038 - INFO - Iteration 28: Pixel correctness: 89.24%
+2024-10-01 23:13:17,041 - INFO - Iteration 29/1000: Training on task 673ef223.json
+2024-10-01 23:13:19,912 - INFO - Iteration 29: Pixel correctness: 79.00%
+2024-10-01 23:13:19,939 - INFO - Iteration 30/1000: Training on task a5313dff.json
+2024-10-01 23:13:20,659 - INFO - Iteration 30: Pixel correctness: 87.50%
+2024-10-01 23:13:20,661 - INFO - Iteration 30: Loss = 69.9646, Average Reward = -21.2333, Solved Tasks = 0, Average Pixel Correctness = 55.22%
+2024-10-01 23:13:20,661 - INFO - Iteration 31/1000: Training on task 4612dd53.json
+2024-10-01 23:13:20,749 - INFO - Iteration 31: Pixel correctness: 88.89%
+2024-10-01 23:13:20,753 - INFO - Iteration 32/1000: Training on task cce03e0d.json
+2024-10-01 23:13:20,772 - INFO - Iteration 32: Pixel correctness: 0.00%
+2024-10-01 23:13:20,774 - INFO - Iteration 33/1000: Training on task 6d75e8bb.json
+2024-10-01 23:13:21,987 - INFO - Iteration 33: Pixel correctness: 90.00%
+2024-10-01 23:13:21,989 - INFO - Iteration 34/1000: Training on task 913fb3ed.json
+2024-10-01 23:13:22,276 - INFO - Iteration 34: Pixel correctness: 82.64%
+2024-10-01 23:13:22,278 - INFO - Iteration 35/1000: Training on task 39e1d7f9.json
+2024-10-01 23:13:23,026 - INFO - Iteration 35: Pixel correctness: 92.46%
+2024-10-01 23:13:23,028 - INFO - Iteration 36/1000: Training on task a65b410d.json
+2024-10-01 23:13:23,100 - INFO - Iteration 36: Pixel correctness: 71.43%
+2024-10-01 23:13:23,102 - INFO - Iteration 37/1000: Training on task 8efcae92.json
+2024-10-01 23:13:23,423 - INFO - Iteration 37: Pixel correctness: 0.00%
+2024-10-01 23:13:23,426 - INFO - Iteration 38/1000: Training on task 150deff5.json
+2024-10-01 23:13:24,593 - INFO - Iteration 38: Pixel correctness: 78.79%
+2024-10-01 23:13:24,596 - INFO - Iteration 39/1000: Training on task f25ffba3.json
+2024-10-01 23:13:25,122 - INFO - Iteration 39: Pixel correctness: 72.50%
+2024-10-01 23:13:25,124 - INFO - Iteration 40/1000: Training on task d13f3404.json
+2024-10-01 23:13:25,157 - INFO - Iteration 40: Pixel correctness: 0.00%
+2024-10-01 23:13:25,159 - INFO - Iteration 40: Loss = 4.5035, Average Reward = -19.9250, Solved Tasks = 0, Average Pixel Correctness = 55.83%
+2024-10-01 23:13:25,159 - INFO - Iteration 41/1000: Training on task 49d1d64f.json
+2024-10-01 23:13:25,182 - INFO - Iteration 41: Pixel correctness: 0.00%
+2024-10-01 23:13:25,184 - INFO - Iteration 42/1000: Training on task 25d487eb.json
+2024-10-01 23:13:25,289 - INFO - Iteration 42: Pixel correctness: 96.53%
+2024-10-01 23:13:25,291 - INFO - Iteration 43/1000: Training on task b775ac94.json
+2024-10-01 23:13:25,671 - INFO - Iteration 43: Pixel correctness: 90.31%
+2024-10-01 23:13:25,674 - INFO - Iteration 44/1000: Training on task 6430c8c4.json
+2024-10-01 23:13:25,728 - INFO - Iteration 44: Pixel correctness: 0.00%
+2024-10-01 23:13:25,731 - INFO - Iteration 45/1000: Training on task f25fbde4.json
+2024-10-01 23:13:25,776 - INFO - Iteration 45: Pixel correctness: 0.00%
+2024-10-01 23:13:25,778 - INFO - Iteration 46/1000: Training on task b230c067.json
+2024-10-01 23:13:25,920 - INFO - Iteration 46: Pixel correctness: 72.00%
+2024-10-01 23:13:25,922 - INFO - Iteration 47/1000: Training on task d037b0a7.json
+2024-10-01 23:13:25,942 - INFO - Iteration 47: Pixel correctness: 66.67%
+2024-10-01 23:13:25,945 - INFO - Iteration 48/1000: Training on task 5c2c9af4.json
+2024-10-01 23:13:26,231 - INFO - Iteration 48: Pixel correctness: 71.64%
+2024-10-01 23:13:26,233 - INFO - Iteration 49/1000: Training on task 46442a0e.json
+2024-10-01 23:13:26,255 - INFO - Iteration 49: Pixel correctness: 0.00%
+2024-10-01 23:13:26,259 - INFO - Iteration 50/1000: Training on task e8dc4411.json
+2024-10-01 23:13:27,982 - INFO - Iteration 50: Pixel correctness: 91.15%
+2024-10-01 23:13:27,984 - INFO - Iteration 50: Loss = 296.7615, Average Reward = -20.4600, Solved Tasks = 0, Average Pixel Correctness = 54.43%
+2024-10-01 23:13:27,984 - INFO - Iteration 51/1000: Training on task 83302e8f.json
+2024-10-01 23:13:33,516 - INFO - Iteration 51: Pixel correctness: 24.26%
+2024-10-01 23:13:33,521 - INFO - Iteration 52/1000: Training on task 83302e8f.json
+2024-10-01 23:13:34,157 - INFO - Iteration 52: Pixel correctness: 28.65%
+2024-10-01 23:13:34,160 - INFO - Iteration 53/1000: Training on task a5313dff.json
+2024-10-01 23:13:34,226 - INFO - Iteration 53: Pixel correctness: 87.50%
+2024-10-01 23:13:34,228 - INFO - Iteration 54/1000: Training on task 23581191.json
+2024-10-01 23:13:34,769 - INFO - Iteration 54: Pixel correctness: 62.96%
+2024-10-01 23:13:34,772 - INFO - Iteration 55/1000: Training on task 42a50994.json
+2024-10-01 23:13:36,021 - INFO - Iteration 55: Pixel correctness: 93.98%
+2024-10-01 23:13:36,023 - INFO - Iteration 56/1000: Training on task 496994bd.json
+2024-10-01 23:13:36,100 - INFO - Iteration 56: Pixel correctness: 70.00%
+2024-10-01 23:13:36,103 - INFO - Iteration 57/1000: Training on task 56dc2b01.json
+2024-10-01 23:13:37,076 - INFO - Iteration 57: Pixel correctness: 72.94%
+2024-10-01 23:13:37,078 - INFO - Iteration 58/1000: Training on task c9f8e694.json
+2024-10-01 23:13:37,260 - INFO - Iteration 58: Pixel correctness: 47.92%
+2024-10-01 23:13:37,262 - INFO - Iteration 59/1000: Training on task e6721834.json
+2024-10-01 23:13:44,144 - INFO - Iteration 59: Pixel correctness: 0.00%
+2024-10-01 23:13:44,147 - INFO - Iteration 60/1000: Training on task 5c0a986e.json
+2024-10-01 23:13:45,026 - INFO - Iteration 60: Pixel correctness: 88.00%
+2024-10-01 23:13:45,028 - INFO - Iteration 60: Loss = 152.1718, Average Reward = -37.3667, Solved Tasks = 0, Average Pixel Correctness = 54.96%
+2024-10-01 23:13:45,028 - INFO - Iteration 61/1000: Training on task f8b3ba0a.json
+2024-10-01 23:13:45,313 - INFO - Iteration 61: Pixel correctness: 0.00%
+2024-10-01 23:13:45,315 - INFO - Iteration 62/1000: Training on task be94b721.json
+2024-10-01 23:13:45,458 - INFO - Iteration 62: Pixel correctness: 0.00%
+2024-10-01 23:13:45,462 - INFO - Iteration 63/1000: Training on task f8ff0b80.json
+2024-10-01 23:13:46,004 - INFO - Iteration 63: Pixel correctness: 0.00%
+2024-10-01 23:13:46,008 - INFO - Iteration 64/1000: Training on task e5062a87.json
+2024-10-01 23:13:46,132 - INFO - Iteration 64: Pixel correctness: 96.00%
+2024-10-01 23:13:46,134 - INFO - Iteration 65/1000: Training on task 4c5c2cf0.json
+2024-10-01 23:13:46,238 - INFO - Iteration 65: Pixel correctness: 88.89%
+2024-10-01 23:13:46,240 - INFO - Iteration 66/1000: Training on task cce03e0d.json
+2024-10-01 23:13:46,259 - INFO - Iteration 66: Pixel correctness: 0.00%
+2024-10-01 23:13:46,261 - INFO - Iteration 67/1000: Training on task 2bee17df.json
+2024-10-01 23:13:46,569 - INFO - Iteration 67: Pixel correctness: 74.31%
+2024-10-01 23:13:46,572 - INFO - Iteration 68/1000: Training on task 234bbc79.json
+2024-10-01 23:13:46,781 - INFO - Iteration 68: Pixel correctness: 0.00%
+2024-10-01 23:13:46,783 - INFO - Iteration 69/1000: Training on task 1c786137.json
+2024-10-01 23:13:47,176 - INFO - Iteration 69: Pixel correctness: 0.00%
+2024-10-01 23:13:47,179 - INFO - Iteration 70/1000: Training on task ded97339.json
+2024-10-01 23:13:47,673 - INFO - Iteration 70: Pixel correctness: 90.00%
+2024-10-01 23:13:47,676 - INFO - Iteration 70: Loss = 100.6831, Average Reward = -33.0714, Solved Tasks = 0, Average Pixel Correctness = 52.10%
+2024-10-01 23:13:47,676 - INFO - Iteration 71/1000: Training on task 05269061.json
+2024-10-01 23:13:48,269 - INFO - Iteration 71: Pixel correctness: 12.24%
+2024-10-01 23:13:48,271 - INFO - Iteration 72/1000: Training on task 77fdfe62.json
+2024-10-01 23:13:48,383 - INFO - Iteration 72: Pixel correctness: 0.00%
+2024-10-01 23:13:48,386 - INFO - Iteration 73/1000: Training on task 90c28cc7.json
+2024-10-01 23:13:55,464 - INFO - Iteration 73: Pixel correctness: 0.00%
+2024-10-01 23:13:55,468 - INFO - Iteration 74/1000: Training on task 97999447.json
+2024-10-01 23:13:55,685 - INFO - Iteration 74: Pixel correctness: 79.17%
+2024-10-01 23:13:55,687 - INFO - Iteration 75/1000: Training on task 9af7a82c.json
+2024-10-01 23:13:55,708 - INFO - Iteration 75: Pixel correctness: 0.00%
+2024-10-01 23:13:55,710 - INFO - Iteration 76/1000: Training on task f1cefba8.json
+2024-10-01 23:13:58,114 - INFO - Iteration 76: Pixel correctness: 90.62%
+2024-10-01 23:13:58,116 - INFO - Iteration 77/1000: Training on task bbc9ae5d.json
+2024-10-01 23:13:58,140 - INFO - Iteration 77: Pixel correctness: 0.00%
+2024-10-01 23:13:58,142 - INFO - Iteration 78/1000: Training on task ea32f347.json
+2024-10-01 23:13:58,302 - INFO - Iteration 78: Pixel correctness: 86.00%
+2024-10-01 23:13:58,304 - INFO - Iteration 79/1000: Training on task d13f3404.json
+2024-10-01 23:13:58,325 - INFO - Iteration 79: Pixel correctness: 0.00%
+2024-10-01 23:13:58,327 - INFO - Iteration 80/1000: Training on task 746b3537.json
+2024-10-01 23:13:58,374 - INFO - Iteration 80: Pixel correctness: 0.00%
+2024-10-01 23:13:58,376 - INFO - Iteration 80: Loss = 5.2298, Average Reward = -30.4375, Solved Tasks = 0, Average Pixel Correctness = 48.94%
+2024-10-01 23:13:58,376 - INFO - Iteration 81/1000: Training on task 40853293.json
+2024-10-01 23:13:58,749 - INFO - Iteration 81: Pixel correctness: 90.00%
+2024-10-01 23:13:58,753 - INFO - Iteration 82/1000: Training on task d5d6de2d.json
+2024-10-01 23:13:58,844 - INFO - Iteration 82: Pixel correctness: 88.00%
+2024-10-01 23:13:58,847 - INFO - Iteration 83/1000: Training on task 98cf29f8.json
+2024-10-01 23:13:59,095 - INFO - Iteration 83: Pixel correctness: 78.60%
+2024-10-01 23:13:59,098 - INFO - Iteration 84/1000: Training on task 6cf79266.json
+2024-10-01 23:13:59,423 - INFO - Iteration 84: Pixel correctness: 97.50%
+2024-10-01 23:13:59,426 - INFO - Iteration 85/1000: Training on task d0f5fe59.json
+2024-10-01 23:13:59,560 - INFO - Iteration 85: Pixel correctness: 0.00%
+2024-10-01 23:13:59,562 - INFO - Iteration 86/1000: Training on task 264363fd.json
+2024-10-01 23:14:01,847 - INFO - Iteration 86: Pixel correctness: 91.11%
+2024-10-01 23:14:01,850 - INFO - Iteration 87/1000: Training on task d6ad076f.json
+2024-10-01 23:14:02,979 - INFO - Iteration 87: Pixel correctness: 93.00%
+2024-10-01 23:14:02,982 - INFO - Iteration 88/1000: Training on task bdad9b1f.json
+2024-10-01 23:14:03,431 - INFO - Iteration 88: Pixel correctness: 80.56%
+2024-10-01 23:14:03,434 - INFO - Iteration 89/1000: Training on task 75b8110e.json
+2024-10-01 23:14:03,513 - INFO - Iteration 89: Pixel correctness: 0.00%
+2024-10-01 23:14:03,516 - INFO - Iteration 90/1000: Training on task 1e32b0e9.json
+2024-10-01 23:14:05,991 - INFO - Iteration 90: Pixel correctness: 91.00%
+2024-10-01 23:14:05,995 - INFO - Iteration 90: Loss = 679.4173, Average Reward = -29.5556, Solved Tasks = 0, Average Pixel Correctness = 51.39%
+2024-10-01 23:14:05,995 - INFO - Iteration 91/1000: Training on task 0520fde7.json
+2024-10-01 23:14:06,381 - INFO - Iteration 91: Pixel correctness: 0.00%
+2024-10-01 23:14:06,383 - INFO - Iteration 92/1000: Training on task f25fbde4.json
+2024-10-01 23:14:06,428 - INFO - Iteration 92: Pixel correctness: 0.00%
+2024-10-01 23:14:06,430 - INFO - Iteration 93/1000: Training on task 855e0971.json
+2024-10-01 23:14:06,659 - INFO - Iteration 93: Pixel correctness: 92.82%
+2024-10-01 23:14:06,661 - INFO - Iteration 94/1000: Training on task e98196ab.json
+2024-10-01 23:14:06,778 - INFO - Iteration 94: Pixel correctness: 0.00%
+2024-10-01 23:14:06,781 - INFO - Iteration 95/1000: Training on task 2bcee788.json
+2024-10-01 23:14:07,946 - INFO - Iteration 95: Pixel correctness: 4.00%
+2024-10-01 23:14:07,950 - INFO - Iteration 96/1000: Training on task d5d6de2d.json
+2024-10-01 23:14:08,817 - INFO - Iteration 96: Pixel correctness: 71.00%
+2024-10-01 23:14:08,820 - INFO - Iteration 97/1000: Training on task bdad9b1f.json
+2024-10-01 23:14:08,861 - INFO - Iteration 97: Pixel correctness: 80.56%
+2024-10-01 23:14:08,863 - INFO - Iteration 98/1000: Training on task a78176bb.json
+2024-10-01 23:14:09,782 - INFO - Iteration 98: Pixel correctness: 81.00%
+2024-10-01 23:14:09,785 - INFO - Iteration 99/1000: Training on task 44d8ac46.json
+2024-10-01 23:14:11,028 - INFO - Iteration 99: Pixel correctness: 97.22%
+2024-10-01 23:14:11,030 - INFO - Iteration 100/1000: Training on task 447fd412.json
+2024-10-01 23:14:11,150 - INFO - Iteration 100: Pixel correctness: 85.12%
+2024-10-01 23:14:11,152 - INFO - Iteration 100: Loss = 619.8449, Average Reward = -28.5700, Solved Tasks = 0, Average Pixel Correctness = 51.36%
+2024-10-01 23:14:11,156 - INFO - Model weights saved at iteration 100
+2024-10-01 23:14:11,156 - INFO - Iteration 101/1000: Training on task fcc82909.json
+2024-10-01 23:14:11,370 - INFO - Iteration 101: Pixel correctness: 89.00%
+2024-10-01 23:14:11,372 - INFO - Iteration 102/1000: Training on task 8f2ea7aa.json
+2024-10-01 23:14:11,418 - INFO - Iteration 102: Pixel correctness: 85.19%
+2024-10-01 23:14:11,421 - INFO - Iteration 103/1000: Training on task 29ec7d0e.json
+2024-10-01 23:14:19,208 - INFO - Iteration 103: Pixel correctness: 91.05%
+2024-10-01 23:14:19,212 - INFO - Iteration 104/1000: Training on task 9af7a82c.json
+2024-10-01 23:14:19,243 - INFO - Iteration 104: Pixel correctness: 0.00%
+2024-10-01 23:14:19,245 - INFO - Iteration 105/1000: Training on task b782dc8a.json
+2024-10-01 23:14:19,484 - INFO - Iteration 105: Pixel correctness: 78.41%
+2024-10-01 23:14:19,487 - INFO - Iteration 106/1000: Training on task b548a754.json
+2024-10-01 23:14:19,656 - INFO - Iteration 106: Pixel correctness: 81.82%
+2024-10-01 23:14:19,660 - INFO - Iteration 107/1000: Training on task d9fac9be.json
+2024-10-01 23:14:19,713 - INFO - Iteration 107: Pixel correctness: 0.00%
+2024-10-01 23:14:19,715 - INFO - Iteration 108/1000: Training on task 045e512c.json
+2024-10-01 23:14:20,208 - INFO - Iteration 108: Pixel correctness: 93.42%
+2024-10-01 23:14:20,211 - INFO - Iteration 109/1000: Training on task 6855a6e4.json
+2024-10-01 23:14:20,434 - INFO - Iteration 109: Pixel correctness: 92.44%
+2024-10-01 23:14:20,436 - INFO - Iteration 110/1000: Training on task 9edfc990.json
+2024-10-01 23:14:20,933 - INFO - Iteration 110: Pixel correctness: 46.75%
+2024-10-01 23:14:20,935 - INFO - Iteration 110: Loss = 8100.2637, Average Reward = -28.8909, Solved Tasks = 0, Average Pixel Correctness = 52.68%
+2024-10-01 23:14:20,935 - INFO - Iteration 111/1000: Training on task 36d67576.json
+2024-10-01 23:14:21,135 - INFO - Iteration 111: Pixel correctness: 95.86%
+2024-10-01 23:14:21,138 - INFO - Iteration 112/1000: Training on task 4612dd53.json
+2024-10-01 23:14:21,281 - INFO - Iteration 112: Pixel correctness: 88.89%
+2024-10-01 23:14:21,285 - INFO - Iteration 113/1000: Training on task a9f96cdd.json
+2024-10-01 23:14:21,503 - INFO - Iteration 113: Pixel correctness: 66.67%
+2024-10-01 23:14:21,506 - INFO - Iteration 114/1000: Training on task 3631a71a.json
+2024-10-01 23:14:23,389 - INFO - Iteration 114: Pixel correctness: 86.22%
+2024-10-01 23:14:23,393 - INFO - Iteration 115/1000: Training on task 67a3c6ac.json
+2024-10-01 23:14:23,424 - INFO - Iteration 115: Pixel correctness: 18.75%
+2024-10-01 23:14:23,426 - INFO - Iteration 116/1000: Training on task ce9e57f2.json
+2024-10-01 23:14:23,483 - INFO - Iteration 116: Pixel correctness: 86.11%
+2024-10-01 23:14:23,485 - INFO - Iteration 117/1000: Training on task 890034e9.json
+2024-10-01 23:14:24,033 - INFO - Iteration 117: Pixel correctness: 96.83%
+2024-10-01 23:14:24,036 - INFO - Iteration 118/1000: Training on task a2fd1cf0.json
+2024-10-01 23:14:24,203 - INFO - Iteration 118: Pixel correctness: 90.48%
+2024-10-01 23:14:24,205 - INFO - Iteration 119/1000: Training on task 97999447.json
+2024-10-01 23:14:25,173 - INFO - Iteration 119: Pixel correctness: 79.17%
+2024-10-01 23:14:25,175 - INFO - Iteration 120/1000: Training on task cdecee7f.json
+2024-10-01 23:14:25,497 - INFO - Iteration 120: Pixel correctness: 0.00%
+2024-10-01 23:14:25,511 - INFO - Iteration 120: Loss = 7.2084, Average Reward = -28.3833, Solved Tasks = 0, Average Pixel Correctness = 54.20%
+2024-10-01 23:14:25,511 - INFO - Iteration 121/1000: Training on task eb281b96.json
+2024-10-01 23:14:25,561 - INFO - Iteration 121: Pixel correctness: 0.00%
+2024-10-01 23:14:25,563 - INFO - Iteration 122/1000: Training on task e5062a87.json
+2024-10-01 23:14:25,638 - INFO - Iteration 122: Pixel correctness: 95.00%
+2024-10-01 23:14:25,641 - INFO - Iteration 123/1000: Training on task 39e1d7f9.json
+2024-10-01 23:14:30,919 - INFO - Iteration 123: Pixel correctness: 91.67%
+2024-10-01 23:14:30,921 - INFO - Iteration 124/1000: Training on task b91ae062.json
+2024-10-01 23:14:31,026 - INFO - Iteration 124: Pixel correctness: 0.00%
+2024-10-01 23:14:31,028 - INFO - Iteration 125/1000: Training on task d90796e8.json
+2024-10-01 23:14:31,047 - INFO - Iteration 125: Pixel correctness: 66.67%
+2024-10-01 23:14:31,050 - INFO - Iteration 126/1000: Training on task 3eda0437.json
+2024-10-01 23:14:31,111 - INFO - Iteration 126: Pixel correctness: 91.25%
+2024-10-01 23:14:31,113 - INFO - Iteration 127/1000: Training on task 7ddcd7ec.json
+2024-10-01 23:14:31,171 - INFO - Iteration 127: Pixel correctness: 94.00%
+2024-10-01 23:14:31,173 - INFO - Iteration 128/1000: Training on task 90c28cc7.json
+2024-10-01 23:14:39,175 - INFO - Iteration 128: Pixel correctness: 0.00%
+2024-10-01 23:14:39,179 - INFO - Iteration 129/1000: Training on task b775ac94.json
+2024-10-01 23:14:41,454 - INFO - Iteration 129: Pixel correctness: 95.67%
+2024-10-01 23:14:41,458 - INFO - Iteration 130/1000: Training on task ec883f72.json
+2024-10-01 23:14:41,569 - INFO - Iteration 130: Pixel correctness: 95.06%
+2024-10-01 23:14:41,571 - INFO - Iteration 130: Loss = 20.3516, Average Reward = -27.0846, Solved Tasks = 0, Average Pixel Correctness = 54.87%
+2024-10-01 23:14:41,571 - INFO - Iteration 131/1000: Training on task b782dc8a.json
+2024-10-01 23:14:44,427 - INFO - Iteration 131: Pixel correctness: 78.41%
+2024-10-01 23:14:44,429 - INFO - Iteration 132/1000: Training on task a68b268e.json
+2024-10-01 23:14:44,599 - INFO - Iteration 132: Pixel correctness: 0.00%
+2024-10-01 23:14:44,601 - INFO - Iteration 133/1000: Training on task b0c4d837.json
+2024-10-01 23:14:45,064 - INFO - Iteration 133: Pixel correctness: 0.00%
+2024-10-01 23:14:45,068 - INFO - Iteration 134/1000: Training on task 99fa7670.json
+2024-10-01 23:14:45,452 - INFO - Iteration 134: Pixel correctness: 72.22%
+2024-10-01 23:14:45,455 - INFO - Iteration 135/1000: Training on task e5062a87.json
+2024-10-01 23:14:45,530 - INFO - Iteration 135: Pixel correctness: 84.00%
+2024-10-01 23:14:45,533 - INFO - Iteration 136/1000: Training on task 234bbc79.json
+2024-10-01 23:14:46,073 - INFO - Iteration 136: Pixel correctness: 0.00%
+2024-10-01 23:14:46,076 - INFO - Iteration 137/1000: Training on task 7468f01a.json
+2024-10-01 23:14:48,252 - INFO - Iteration 137: Pixel correctness: 0.00%
+2024-10-01 23:14:48,254 - INFO - Iteration 138/1000: Training on task 4c5c2cf0.json
+2024-10-01 23:14:49,148 - INFO - Iteration 138: Pixel correctness: 89.29%
+2024-10-01 23:14:49,150 - INFO - Iteration 139/1000: Training on task bbc9ae5d.json
+2024-10-01 23:14:49,167 - INFO - Iteration 139: Pixel correctness: 0.00%
+2024-10-01 23:14:49,170 - INFO - Iteration 140/1000: Training on task ce9e57f2.json
+2024-10-01 23:14:49,269 - INFO - Iteration 140: Pixel correctness: 86.11%
+2024-10-01 23:14:49,272 - INFO - Iteration 140: Loss = 104.7324, Average Reward = -26.0357, Solved Tasks = 0, Average Pixel Correctness = 53.88%
+2024-10-01 23:14:49,272 - INFO - Iteration 141/1000: Training on task a699fb00.json
+2024-10-01 23:14:49,346 - INFO - Iteration 141: Pixel correctness: 93.00%
+2024-10-01 23:14:49,348 - INFO - Iteration 142/1000: Training on task 85c4e7cd.json
+2024-10-01 23:14:49,382 - INFO - Iteration 142: Pixel correctness: 33.33%
+2024-10-01 23:14:49,385 - INFO - Iteration 143/1000: Training on task 5c0a986e.json
+2024-10-01 23:14:49,503 - INFO - Iteration 143: Pixel correctness: 93.00%
+2024-10-01 23:14:49,505 - INFO - Iteration 144/1000: Training on task c3f564a4.json
+2024-10-01 23:14:54,193 - INFO - Iteration 144: Pixel correctness: 84.38%
+2024-10-01 23:14:54,195 - INFO - Iteration 145/1000: Training on task ecdecbb3.json
+2024-10-01 23:14:56,198 - INFO - Iteration 145: Pixel correctness: 91.03%
+2024-10-01 23:14:56,200 - INFO - Iteration 146/1000: Training on task a5f85a15.json
+2024-10-01 23:14:56,646 - INFO - Iteration 146: Pixel correctness: 91.67%
+2024-10-01 23:14:56,650 - INFO - Iteration 147/1000: Training on task ff28f65a.json
+2024-10-01 23:14:56,691 - INFO - Iteration 147: Pixel correctness: 0.00%
+2024-10-01 23:14:56,695 - INFO - Iteration 148/1000: Training on task a2fd1cf0.json
+2024-10-01 23:14:56,905 - INFO - Iteration 148: Pixel correctness: 90.48%
+2024-10-01 23:14:56,907 - INFO - Iteration 149/1000: Training on task 7468f01a.json
+2024-10-01 23:14:58,052 - INFO - Iteration 149: Pixel correctness: 0.00%
+2024-10-01 23:14:58,056 - INFO - Iteration 150/1000: Training on task 4be741c5.json
+2024-10-01 23:14:58,217 - INFO - Iteration 150: Pixel correctness: 0.00%
+2024-10-01 23:14:58,219 - INFO - Iteration 150: Loss = 6.8819, Average Reward = -25.1067, Solved Tasks = 0, Average Pixel Correctness = 54.13%
+2024-10-01 23:14:58,219 - INFO - Iteration 151/1000: Training on task 1cf80156.json
+2024-10-01 23:14:58,745 - INFO - Iteration 151: Pixel correctness: 0.00%
+2024-10-01 23:14:58,748 - INFO - Iteration 152/1000: Training on task 0ca9ddb6.json
+2024-10-01 23:14:58,846 - INFO - Iteration 152: Pixel correctness: 88.89%
+2024-10-01 23:14:58,848 - INFO - Iteration 153/1000: Training on task 673ef223.json
+2024-10-01 23:15:00,666 - INFO - Iteration 153: Pixel correctness: 92.76%
+2024-10-01 23:15:00,669 - INFO - Iteration 154/1000: Training on task 75b8110e.json
+2024-10-01 23:15:01,597 - INFO - Iteration 154: Pixel correctness: 0.00%
+2024-10-01 23:15:01,600 - INFO - Iteration 155/1000: Training on task 6b9890af.json
+2024-10-01 23:15:05,136 - INFO - Iteration 155: Pixel correctness: 0.00%
+2024-10-01 23:15:05,138 - INFO - Iteration 156/1000: Training on task 9edfc990.json
+2024-10-01 23:15:05,816 - INFO - Iteration 156: Pixel correctness: 73.05%
+2024-10-01 23:15:05,818 - INFO - Iteration 157/1000: Training on task 60b61512.json
+2024-10-01 23:15:05,889 - INFO - Iteration 157: Pixel correctness: 93.83%
+2024-10-01 23:15:05,891 - INFO - Iteration 158/1000: Training on task 4be741c5.json
+2024-10-01 23:15:05,988 - INFO - Iteration 158: Pixel correctness: 0.00%
+2024-10-01 23:15:05,990 - INFO - Iteration 159/1000: Training on task ac0a08a4.json
+2024-10-01 23:15:06,011 - INFO - Iteration 159: Pixel correctness: 0.00%
+2024-10-01 23:15:06,013 - INFO - Iteration 160/1000: Training on task 234bbc79.json
+2024-10-01 23:15:06,595 - INFO - Iteration 160: Pixel correctness: 0.00%
+2024-10-01 23:15:06,598 - INFO - Iteration 160: Loss = 6.7655, Average Reward = -24.1625, Solved Tasks = 0, Average Pixel Correctness = 52.93%
+2024-10-01 23:15:06,598 - INFO - Iteration 161/1000: Training on task a48eeaf7.json
+2024-10-01 23:15:06,673 - INFO - Iteration 161: Pixel correctness: 93.00%
+2024-10-01 23:15:06,675 - INFO - Iteration 162/1000: Training on task 68b16354.json
+2024-10-01 23:15:06,717 - INFO - Iteration 162: Pixel correctness: 20.00%
+2024-10-01 23:15:06,721 - INFO - Iteration 163/1000: Training on task 6c434453.json
+2024-10-01 23:15:06,839 - INFO - Iteration 163: Pixel correctness: 82.00%
+2024-10-01 23:15:06,841 - INFO - Iteration 164/1000: Training on task a79310a0.json
+2024-10-01 23:15:06,867 - INFO - Iteration 164: Pixel correctness: 76.00%
+2024-10-01 23:15:06,869 - INFO - Iteration 165/1000: Training on task 3bdb4ada.json
+2024-10-01 23:15:07,027 - INFO - Iteration 165: Pixel correctness: 93.75%
+2024-10-01 23:15:07,030 - INFO - Iteration 166/1000: Training on task 0962bcdd.json
+2024-10-01 23:15:08,191 - INFO - Iteration 166: Pixel correctness: 82.64%
+2024-10-01 23:15:08,195 - INFO - Iteration 167/1000: Training on task 6773b310.json
+2024-10-01 23:15:08,604 - INFO - Iteration 167: Pixel correctness: 0.00%
+2024-10-01 23:15:08,608 - INFO - Iteration 168/1000: Training on task 6f8cd79b.json
+2024-10-01 23:15:08,629 - INFO - Iteration 168: Pixel correctness: 30.00%
+2024-10-01 23:15:08,632 - INFO - Iteration 169/1000: Training on task 53b68214.json
+2024-10-01 23:15:08,674 - INFO - Iteration 169: Pixel correctness: 0.00%
+2024-10-01 23:15:08,676 - INFO - Iteration 170/1000: Training on task aba27056.json
+2024-10-01 23:15:08,718 - INFO - Iteration 170: Pixel correctness: 69.39%
+2024-10-01 23:15:08,720 - INFO - Iteration 170: Loss = 230.7872, Average Reward = -23.4294, Solved Tasks = 0, Average Pixel Correctness = 53.03%
+2024-10-01 23:15:08,720 - INFO - Iteration 171/1000: Training on task ec883f72.json
+2024-10-01 23:15:08,753 - INFO - Iteration 171: Pixel correctness: 94.44%
+2024-10-01 23:15:08,756 - INFO - Iteration 172/1000: Training on task 1e0a9b12.json
+2024-10-01 23:15:09,238 - INFO - Iteration 172: Pixel correctness: 60.00%
+2024-10-01 23:15:09,241 - INFO - Iteration 173/1000: Training on task 7468f01a.json
+2024-10-01 23:15:10,966 - INFO - Iteration 173: Pixel correctness: 0.00%
+2024-10-01 23:15:10,968 - INFO - Iteration 174/1000: Training on task 6855a6e4.json
+2024-10-01 23:15:12,911 - INFO - Iteration 174: Pixel correctness: 92.89%
+2024-10-01 23:15:12,914 - INFO - Iteration 175/1000: Training on task 6d0160f0.json
+2024-10-01 23:15:13,405 - INFO - Iteration 175: Pixel correctness: 82.64%
+2024-10-01 23:15:13,407 - INFO - Iteration 176/1000: Training on task 7b7f7511.json
+2024-10-01 23:15:13,441 - INFO - Iteration 176: Pixel correctness: 0.00%
+2024-10-01 23:15:13,444 - INFO - Iteration 177/1000: Training on task 7c008303.json
+2024-10-01 23:15:13,579 - INFO - Iteration 177: Pixel correctness: 0.00%
+2024-10-01 23:15:13,581 - INFO - Iteration 178/1000: Training on task ae4f1146.json
+2024-10-01 23:15:13,692 - INFO - Iteration 178: Pixel correctness: 0.00%
+2024-10-01 23:15:13,694 - INFO - Iteration 179/1000: Training on task 496994bd.json
+2024-10-01 23:15:14,180 - INFO - Iteration 179: Pixel correctness: 80.00%
+2024-10-01 23:15:14,182 - INFO - Iteration 180/1000: Training on task 3eda0437.json
+2024-10-01 23:15:14,507 - INFO - Iteration 180: Pixel correctness: 90.00%
+2024-10-01 23:15:14,510 - INFO - Iteration 180: Loss = 90.2836, Average Reward = -22.5278, Solved Tasks = 0, Average Pixel Correctness = 52.86%
+2024-10-01 23:15:14,510 - INFO - Iteration 181/1000: Training on task 6ecd11f4.json
+2024-10-01 23:15:15,835 - INFO - Iteration 181: Pixel correctness: 0.00%
+2024-10-01 23:15:15,837 - INFO - Iteration 182/1000: Training on task 63613498.json
+2024-10-01 23:15:17,847 - INFO - Iteration 182: Pixel correctness: 96.00%
+2024-10-01 23:15:17,850 - INFO - Iteration 183/1000: Training on task c3f564a4.json
+2024-10-01 23:15:22,068 - INFO - Iteration 183: Pixel correctness: 82.81%
+2024-10-01 23:15:22,071 - INFO - Iteration 184/1000: Training on task 9172f3a0.json
+2024-10-01 23:15:22,150 - INFO - Iteration 184: Pixel correctness: 0.00%
+2024-10-01 23:15:22,153 - INFO - Iteration 185/1000: Training on task 7fe24cdd.json
+2024-10-01 23:15:22,393 - INFO - Iteration 185: Pixel correctness: 0.00%
+2024-10-01 23:15:22,396 - INFO - Iteration 186/1000: Training on task 7e0986d6.json
+2024-10-01 23:15:22,590 - INFO - Iteration 186: Pixel correctness: 94.23%
+2024-10-01 23:15:22,592 - INFO - Iteration 187/1000: Training on task d43fd935.json
+2024-10-01 23:15:22,717 - INFO - Iteration 187: Pixel correctness: 91.00%
+2024-10-01 23:15:22,719 - INFO - Iteration 188/1000: Training on task 810b9b61.json
+2024-10-01 23:15:22,925 - INFO - Iteration 188: Pixel correctness: 96.44%
+2024-10-01 23:15:22,927 - INFO - Iteration 189/1000: Training on task 57aa92db.json
+2024-10-01 23:15:23,337 - INFO - Iteration 189: Pixel correctness: 94.44%
+2024-10-01 23:15:23,339 - INFO - Iteration 190/1000: Training on task 6d58a25d.json
+2024-10-01 23:15:23,676 - INFO - Iteration 190: Pixel correctness: 97.25%
+2024-10-01 23:15:23,678 - INFO - Iteration 190: Loss = 126.4106, Average Reward = -21.9000, Solved Tasks = 0, Average Pixel Correctness = 53.51%
+2024-10-01 23:15:23,678 - INFO - Iteration 191/1000: Training on task 62c24649.json
+2024-10-01 23:15:23,702 - INFO - Iteration 191: Pixel correctness: 0.00%
+2024-10-01 23:15:23,704 - INFO - Iteration 192/1000: Training on task d631b094.json
+2024-10-01 23:15:23,721 - INFO - Iteration 192: Pixel correctness: 0.00%
+2024-10-01 23:15:23,724 - INFO - Iteration 193/1000: Training on task 780d0b14.json
+2024-10-01 23:15:24,463 - INFO - Iteration 193: Pixel correctness: 0.00%
+2024-10-01 23:15:24,466 - INFO - Iteration 194/1000: Training on task f25fbde4.json
+2024-10-01 23:15:24,987 - INFO - Iteration 194: Pixel correctness: 0.00%
+2024-10-01 23:15:24,989 - INFO - Iteration 195/1000: Training on task bd4472b8.json
+2024-10-01 23:15:25,027 - INFO - Iteration 195: Pixel correctness: 25.00%
+2024-10-01 23:15:25,029 - INFO - Iteration 196/1000: Training on task 963e52fc.json
+2024-10-01 23:15:25,061 - INFO - Iteration 196: Pixel correctness: 0.00%
+2024-10-01 23:15:25,064 - INFO - Iteration 197/1000: Training on task ba26e723.json
+2024-10-01 23:15:25,095 - INFO - Iteration 197: Pixel correctness: 72.73%
+2024-10-01 23:15:25,098 - INFO - Iteration 198/1000: Training on task 1f85a75f.json
+2024-10-01 23:15:29,108 - INFO - Iteration 198: Pixel correctness: 0.00%
+2024-10-01 23:15:29,112 - INFO - Iteration 199/1000: Training on task 7c008303.json
+2024-10-01 23:15:29,323 - INFO - Iteration 199: Pixel correctness: 0.00%
+2024-10-01 23:15:29,325 - INFO - Iteration 200/1000: Training on task 0ca9ddb6.json
+2024-10-01 23:15:29,442 - INFO - Iteration 200: Pixel correctness: 79.01%
+2024-10-01 23:15:29,444 - INFO - Iteration 200: Loss = 292.8992, Average Reward = -21.0900, Solved Tasks = 0, Average Pixel Correctness = 51.72%
+2024-10-01 23:15:29,446 - INFO - Model weights saved at iteration 200
+2024-10-01 23:15:29,446 - INFO - Iteration 201/1000: Training on task 63613498.json
+2024-10-01 23:15:29,640 - INFO - Iteration 201: Pixel correctness: 94.00%
+2024-10-01 23:15:29,642 - INFO - Iteration 202/1000: Training on task c1d99e64.json
+2024-10-01 23:15:29,871 - INFO - Iteration 202: Pixel correctness: 81.96%
+2024-10-01 23:15:29,874 - INFO - Iteration 203/1000: Training on task 28e73c20.json
+2024-10-01 23:15:29,913 - INFO - Iteration 203: Pixel correctness: 39.06%
+2024-10-01 23:15:29,915 - INFO - Iteration 204/1000: Training on task be94b721.json
+2024-10-01 23:15:29,982 - INFO - Iteration 204: Pixel correctness: 0.00%
+2024-10-01 23:15:29,984 - INFO - Iteration 205/1000: Training on task 60b61512.json
+2024-10-01 23:15:30,738 - INFO - Iteration 205: Pixel correctness: 92.59%
+2024-10-01 23:15:30,740 - INFO - Iteration 206/1000: Training on task ce602527.json
+2024-10-01 23:15:33,754 - INFO - Iteration 206: Pixel correctness: 0.00%
+2024-10-01 23:15:33,757 - INFO - Iteration 207/1000: Training on task db3e9e38.json
+2024-10-01 23:15:33,798 - INFO - Iteration 207: Pixel correctness: 65.71%
+2024-10-01 23:15:33,801 - INFO - Iteration 208/1000: Training on task b230c067.json
+2024-10-01 23:15:34,961 - INFO - Iteration 208: Pixel correctness: 74.00%
+2024-10-01 23:15:34,964 - INFO - Iteration 209/1000: Training on task 941d9a10.json
+2024-10-01 23:15:35,084 - INFO - Iteration 209: Pixel correctness: 91.00%
+2024-10-01 23:15:35,086 - INFO - Iteration 210/1000: Training on task 56ff96f3.json
+2024-10-01 23:15:35,430 - INFO - Iteration 210: Pixel correctness: 69.70%
+2024-10-01 23:15:35,432 - INFO - Iteration 210: Loss = 400.1695, Average Reward = -20.8762, Solved Tasks = 0, Average Pixel Correctness = 52.15%
+2024-10-01 23:15:35,432 - INFO - Iteration 211/1000: Training on task 780d0b14.json
+2024-10-01 23:15:40,773 - INFO - Iteration 211: Pixel correctness: 0.00%
+2024-10-01 23:15:40,786 - INFO - Iteration 212/1000: Training on task 3aa6fb7a.json
+2024-10-01 23:15:40,875 - INFO - Iteration 212: Pixel correctness: 93.88%
+2024-10-01 23:15:40,885 - INFO - Iteration 213/1000: Training on task 7837ac64.json
+2024-10-01 23:15:42,120 - INFO - Iteration 213: Pixel correctness: 0.00%
+2024-10-01 23:15:42,125 - INFO - Iteration 214/1000: Training on task 7df24a62.json
+2024-10-01 23:15:42,714 - INFO - Iteration 214: Pixel correctness: 90.36%
+2024-10-01 23:15:42,716 - INFO - Iteration 215/1000: Training on task 32597951.json
+2024-10-01 23:15:45,794 - INFO - Iteration 215: Pixel correctness: 95.16%
+2024-10-01 23:15:45,798 - INFO - Iteration 216/1000: Training on task 868de0fa.json
+2024-10-01 23:15:45,951 - INFO - Iteration 216: Pixel correctness: 85.00%
+2024-10-01 23:15:45,954 - INFO - Iteration 217/1000: Training on task 56dc2b01.json
+2024-10-01 23:15:46,927 - INFO - Iteration 217: Pixel correctness: 70.59%
+2024-10-01 23:15:46,929 - INFO - Iteration 218/1000: Training on task 8e1813be.json
+2024-10-01 23:15:52,744 - INFO - Iteration 218: Pixel correctness: 0.00%
+2024-10-01 23:15:52,747 - INFO - Iteration 219/1000: Training on task e9614598.json
+2024-10-01 23:15:52,832 - INFO - Iteration 219: Pixel correctness: 94.00%
+2024-10-01 23:15:52,836 - INFO - Iteration 220/1000: Training on task 0e206a2e.json
+2024-10-01 23:15:57,784 - INFO - Iteration 220: Pixel correctness: 89.68%
+2024-10-01 23:15:57,788 - INFO - Iteration 220: Loss = 686.2932, Average Reward = -20.5773, Solved Tasks = 0, Average Pixel Correctness = 52.59%
+2024-10-01 23:15:57,788 - INFO - Iteration 221/1000: Training on task 9565186b.json
+2024-10-01 23:15:57,825 - INFO - Iteration 221: Pixel correctness: 33.33%
+2024-10-01 23:15:57,828 - INFO - Iteration 222/1000: Training on task 6e02f1e3.json
+2024-10-01 23:15:57,850 - INFO - Iteration 222: Pixel correctness: 0.00%
+2024-10-01 23:15:57,853 - INFO - Iteration 223/1000: Training on task 46f33fce.json
+2024-10-01 23:15:58,061 - INFO - Iteration 223: Pixel correctness: 0.00%
+2024-10-01 23:15:58,063 - INFO - Iteration 224/1000: Training on task b60334d2.json
+2024-10-01 23:15:58,128 - INFO - Iteration 224: Pixel correctness: 55.56%
+2024-10-01 23:15:58,131 - INFO - Iteration 225/1000: Training on task 05269061.json
+2024-10-01 23:15:58,228 - INFO - Iteration 225: Pixel correctness: 10.20%
+2024-10-01 23:15:58,231 - INFO - Iteration 226/1000: Training on task 67a3c6ac.json
+2024-10-01 23:15:58,499 - INFO - Iteration 226: Pixel correctness: 12.50%
+2024-10-01 23:15:58,502 - INFO - Iteration 227/1000: Training on task 868de0fa.json
+2024-10-01 23:16:01,086 - INFO - Iteration 227: Pixel correctness: 81.78%
+2024-10-01 23:16:01,090 - INFO - Iteration 228/1000: Training on task a2fd1cf0.json
+2024-10-01 23:16:03,061 - INFO - Iteration 228: Pixel correctness: 91.07%
+2024-10-01 23:16:03,064 - INFO - Iteration 229/1000: Training on task 60b61512.json
+2024-10-01 23:16:03,147 - INFO - Iteration 229: Pixel correctness: 93.83%
+2024-10-01 23:16:03,150 - INFO - Iteration 230/1000: Training on task 7fe24cdd.json
+2024-10-01 23:16:03,278 - INFO - Iteration 230: Pixel correctness: 0.00%
+2024-10-01 23:16:03,297 - INFO - Iteration 230: Loss = 3.9029, Average Reward = -20.4304, Solved Tasks = 0, Average Pixel Correctness = 51.95%
+2024-10-01 23:16:03,300 - INFO - Iteration 231/1000: Training on task a1570a43.json
+2024-10-01 23:16:03,872 - INFO - Iteration 231: Pixel correctness: 80.00%
+2024-10-01 23:16:03,875 - INFO - Iteration 232/1000: Training on task 3af2c5a8.json
+2024-10-01 23:16:03,908 - INFO - Iteration 232: Pixel correctness: 0.00%
+2024-10-01 23:16:03,910 - INFO - Iteration 233/1000: Training on task f15e1fac.json
+2024-10-01 23:16:04,592 - INFO - Iteration 233: Pixel correctness: 82.86%
+2024-10-01 23:16:04,596 - INFO - Iteration 234/1000: Training on task 045e512c.json
+2024-10-01 23:16:05,100 - INFO - Iteration 234: Pixel correctness: 90.48%
+2024-10-01 23:16:05,104 - INFO - Iteration 235/1000: Training on task 83302e8f.json
+2024-10-01 23:16:06,377 - INFO - Iteration 235: Pixel correctness: 24.14%
+2024-10-01 23:16:06,381 - INFO - Iteration 236/1000: Training on task 045e512c.json
+2024-10-01 23:16:11,088 - INFO - Iteration 236: Pixel correctness: 90.48%
+2024-10-01 23:16:11,091 - INFO - Iteration 237/1000: Training on task 8e5a5113.json
+2024-10-01 23:16:11,633 - INFO - Iteration 237: Pixel correctness: 42.42%
+2024-10-01 23:16:11,637 - INFO - Iteration 238/1000: Training on task 3bdb4ada.json
+2024-10-01 23:16:13,726 - INFO - Iteration 238: Pixel correctness: 91.67%
+2024-10-01 23:16:13,730 - INFO - Iteration 239/1000: Training on task 5582e5ca.json
+2024-10-01 23:16:14,018 - INFO - Iteration 239: Pixel correctness: 33.33%
+2024-10-01 23:16:14,022 - INFO - Iteration 240/1000: Training on task c0f76784.json
+2024-10-01 23:16:15,970 - INFO - Iteration 240: Pixel correctness: 89.58%
+2024-10-01 23:16:15,972 - INFO - Iteration 240: Loss = 229.1538, Average Reward = -23.0167, Solved Tasks = 0, Average Pixel Correctness = 52.39%
+2024-10-01 23:16:15,972 - INFO - Iteration 241/1000: Training on task 29623171.json
+2024-10-01 23:16:16,111 - INFO - Iteration 241: Pixel correctness: 81.82%
+2024-10-01 23:16:16,115 - INFO - Iteration 242/1000: Training on task a79310a0.json
+2024-10-01 23:16:16,134 - INFO - Iteration 242: Pixel correctness: 66.67%
+2024-10-01 23:16:16,136 - INFO - Iteration 243/1000: Training on task 5daaa586.json
+2024-10-01 23:16:16,347 - INFO - Iteration 243: Pixel correctness: 0.00%
+2024-10-01 23:16:16,350 - INFO - Iteration 244/1000: Training on task 3af2c5a8.json
+2024-10-01 23:16:16,375 - INFO - Iteration 244: Pixel correctness: 0.00%
+2024-10-01 23:16:16,378 - INFO - Iteration 245/1000: Training on task dc1df850.json
+2024-10-01 23:16:16,460 - INFO - Iteration 245: Pixel correctness: 81.25%
+2024-10-01 23:16:16,462 - INFO - Iteration 246/1000: Training on task 8e1813be.json
+2024-10-01 23:16:16,649 - INFO - Iteration 246: Pixel correctness: 0.00%
+2024-10-01 23:16:16,651 - INFO - Iteration 247/1000: Training on task 10fcaaa3.json
+2024-10-01 23:16:16,672 - INFO - Iteration 247: Pixel correctness: 0.00%
+2024-10-01 23:16:16,674 - INFO - Iteration 248/1000: Training on task a699fb00.json
+2024-10-01 23:16:16,791 - INFO - Iteration 248: Pixel correctness: 93.00%
+2024-10-01 23:16:16,793 - INFO - Iteration 249/1000: Training on task 44f52bb0.json
+2024-10-01 23:16:16,870 - INFO - Iteration 249: Pixel correctness: 0.00%
+2024-10-01 23:16:16,872 - INFO - Iteration 250/1000: Training on task 0520fde7.json
+2024-10-01 23:16:16,899 - INFO - Iteration 250: Pixel correctness: 0.00%
+2024-10-01 23:16:16,901 - INFO - Iteration 250: Loss = 5.4939, Average Reward = -22.3240, Solved Tasks = 0, Average Pixel Correctness = 51.59%
+2024-10-01 23:16:16,901 - INFO - Iteration 251/1000: Training on task 97a05b5b.json
+2024-10-01 23:16:17,200 - INFO - Iteration 251: Pixel correctness: 0.00%
+2024-10-01 23:16:17,203 - INFO - Iteration 252/1000: Training on task 9aec4887.json
+2024-10-01 23:16:21,014 - INFO - Iteration 252: Pixel correctness: 0.00%
+2024-10-01 23:16:21,017 - INFO - Iteration 253/1000: Training on task 7b7f7511.json
+2024-10-01 23:16:21,041 - INFO - Iteration 253: Pixel correctness: 0.00%
+2024-10-01 23:16:21,043 - INFO - Iteration 254/1000: Training on task a8c38be5.json
+2024-10-01 23:16:26,213 - INFO - Iteration 254: Pixel correctness: 0.00%
+2024-10-01 23:16:26,216 - INFO - Iteration 255/1000: Training on task 6e19193c.json
+2024-10-01 23:16:26,275 - INFO - Iteration 255: Pixel correctness: 94.00%
+2024-10-01 23:16:26,278 - INFO - Iteration 256/1000: Training on task 1a07d186.json
+2024-10-01 23:16:26,520 - INFO - Iteration 256: Pixel correctness: 94.29%
+2024-10-01 23:16:26,524 - INFO - Iteration 257/1000: Training on task 7fe24cdd.json
+2024-10-01 23:16:26,545 - INFO - Iteration 257: Pixel correctness: 0.00%
+2024-10-01 23:16:26,547 - INFO - Iteration 258/1000: Training on task 22eb0ac0.json
+2024-10-01 23:16:26,687 - INFO - Iteration 258: Pixel correctness: 84.00%
+2024-10-01 23:16:26,689 - INFO - Iteration 259/1000: Training on task 952a094c.json
+2024-10-01 23:16:26,880 - INFO - Iteration 259: Pixel correctness: 91.00%
+2024-10-01 23:16:26,883 - INFO - Iteration 260/1000: Training on task a78176bb.json
+2024-10-01 23:16:26,960 - INFO - Iteration 260: Pixel correctness: 90.00%
+2024-10-01 23:16:26,962 - INFO - Iteration 260: Loss = 105.3571, Average Reward = -21.6885, Solved Tasks = 0, Average Pixel Correctness = 51.35%
+2024-10-01 23:16:26,962 - INFO - Iteration 261/1000: Training on task 46442a0e.json
+2024-10-01 23:16:26,978 - INFO - Iteration 261: Pixel correctness: 0.00%
+2024-10-01 23:16:26,980 - INFO - Iteration 262/1000: Training on task c3f564a4.json
+2024-10-01 23:16:32,293 - INFO - Iteration 262: Pixel correctness: 83.98%
+2024-10-01 23:16:32,296 - INFO - Iteration 263/1000: Training on task 00d62c1b.json
+2024-10-01 23:16:35,538 - INFO - Iteration 263: Pixel correctness: 92.00%
+2024-10-01 23:16:35,541 - INFO - Iteration 264/1000: Training on task 39a8645d.json
+2024-10-01 23:16:37,178 - INFO - Iteration 264: Pixel correctness: 0.00%
+2024-10-01 23:16:37,180 - INFO - Iteration 265/1000: Training on task 3af2c5a8.json
+2024-10-01 23:16:37,204 - INFO - Iteration 265: Pixel correctness: 0.00%
+2024-10-01 23:16:37,207 - INFO - Iteration 266/1000: Training on task 44f52bb0.json
+2024-10-01 23:16:37,225 - INFO - Iteration 266: Pixel correctness: 0.00%
+2024-10-01 23:16:37,228 - INFO - Iteration 267/1000: Training on task d9fac9be.json
+2024-10-01 23:16:37,690 - INFO - Iteration 267: Pixel correctness: 0.00%
+2024-10-01 23:16:37,693 - INFO - Iteration 268/1000: Training on task a3325580.json
+2024-10-01 23:16:38,483 - INFO - Iteration 268: Pixel correctness: 0.00%
+2024-10-01 23:16:38,485 - INFO - Iteration 269/1000: Training on task 5ad4f10b.json
+2024-10-01 23:16:38,925 - INFO - Iteration 269: Pixel correctness: 0.00%
+2024-10-01 23:16:38,928 - INFO - Iteration 270/1000: Training on task ce602527.json
+2024-10-01 23:16:39,290 - INFO - Iteration 270: Pixel correctness: 0.00%
+2024-10-01 23:16:39,293 - INFO - Iteration 270: Loss = 8.0654, Average Reward = -21.3519, Solved Tasks = 0, Average Pixel Correctness = 50.10%
+2024-10-01 23:16:39,293 - INFO - Iteration 271/1000: Training on task 29ec7d0e.json
+2024-10-01 23:16:39,949 - INFO - Iteration 271: Pixel correctness: 84.26%
+2024-10-01 23:16:39,952 - INFO - Iteration 272/1000: Training on task c3f564a4.json
+2024-10-01 23:16:45,011 - INFO - Iteration 272: Pixel correctness: 84.38%
+2024-10-01 23:16:45,014 - INFO - Iteration 273/1000: Training on task 54d9e175.json
+2024-10-01 23:16:45,086 - INFO - Iteration 273: Pixel correctness: 18.18%
+2024-10-01 23:16:45,088 - INFO - Iteration 274/1000: Training on task 4347f46a.json
+2024-10-01 23:16:45,495 - INFO - Iteration 274: Pixel correctness: 89.29%
+2024-10-01 23:16:45,497 - INFO - Iteration 275/1000: Training on task ae3edfdc.json
+2024-10-01 23:16:45,857 - INFO - Iteration 275: Pixel correctness: 94.67%
+2024-10-01 23:16:45,859 - INFO - Iteration 276/1000: Training on task 7fe24cdd.json
+2024-10-01 23:16:46,081 - INFO - Iteration 276: Pixel correctness: 0.00%
+2024-10-01 23:16:46,084 - INFO - Iteration 277/1000: Training on task 56ff96f3.json
+2024-10-01 23:16:46,121 - INFO - Iteration 277: Pixel correctness: 72.73%
+2024-10-01 23:16:46,123 - INFO - Iteration 278/1000: Training on task ac0a08a4.json
+2024-10-01 23:16:46,244 - INFO - Iteration 278: Pixel correctness: 0.00%
+2024-10-01 23:16:46,246 - INFO - Iteration 279/1000: Training on task 2013d3e2.json
+2024-10-01 23:16:47,897 - INFO - Iteration 279: Pixel correctness: 0.00%
+2024-10-01 23:16:47,899 - INFO - Iteration 280/1000: Training on task 0dfd9992.json
+2024-10-01 23:16:48,584 - INFO - Iteration 280: Pixel correctness: 83.22%
+2024-10-01 23:16:48,587 - INFO - Iteration 280: Loss = 5542.7930, Average Reward = -21.4143, Solved Tasks = 0, Average Pixel Correctness = 50.19%
+2024-10-01 23:16:48,587 - INFO - Iteration 281/1000: Training on task 28e73c20.json
+2024-10-01 23:16:48,760 - INFO - Iteration 281: Pixel correctness: 43.56%
+2024-10-01 23:16:48,763 - INFO - Iteration 282/1000: Training on task 97999447.json
+2024-10-01 23:16:48,826 - INFO - Iteration 282: Pixel correctness: 91.07%
+2024-10-01 23:16:48,828 - INFO - Iteration 283/1000: Training on task dbc1a6ce.json
+2024-10-01 23:16:48,896 - INFO - Iteration 283: Pixel correctness: 84.44%
+2024-10-01 23:16:48,898 - INFO - Iteration 284/1000: Training on task 6f8cd79b.json
+2024-10-01 23:16:49,127 - INFO - Iteration 284: Pixel correctness: 30.00%
+2024-10-01 23:16:49,129 - INFO - Iteration 285/1000: Training on task 484b58aa.json
+2024-10-01 23:17:06,728 - INFO - Iteration 285: Pixel correctness: 92.87%
+2024-10-01 23:17:06,734 - INFO - Iteration 286/1000: Training on task 7ddcd7ec.json
+2024-10-01 23:17:07,377 - INFO - Iteration 286: Pixel correctness: 96.00%
+2024-10-01 23:17:07,380 - INFO - Iteration 287/1000: Training on task 1c786137.json
+2024-10-01 23:17:08,112 - INFO - Iteration 287: Pixel correctness: 0.00%
+2024-10-01 23:17:08,115 - INFO - Iteration 288/1000: Training on task 29623171.json
+2024-10-01 23:17:08,213 - INFO - Iteration 288: Pixel correctness: 87.60%
+2024-10-01 23:17:08,216 - INFO - Iteration 289/1000: Training on task 6d58a25d.json
+2024-10-01 23:17:11,794 - INFO - Iteration 289: Pixel correctness: 91.00%
+2024-10-01 23:17:11,796 - INFO - Iteration 290/1000: Training on task de1cd16c.json
+2024-10-01 23:17:15,128 - INFO - Iteration 290: Pixel correctness: 0.00%
+2024-10-01 23:17:15,131 - INFO - Iteration 290: Loss = 20658.2988, Average Reward = -22.1241, Solved Tasks = 0, Average Pixel Correctness = 50.58%
+2024-10-01 23:17:15,131 - INFO - Iteration 291/1000: Training on task 46442a0e.json
+2024-10-01 23:17:15,152 - INFO - Iteration 291: Pixel correctness: 0.00%
+2024-10-01 23:17:15,155 - INFO - Iteration 292/1000: Training on task aabf363d.json
+2024-10-01 23:17:15,195 - INFO - Iteration 292: Pixel correctness: 71.43%
+2024-10-01 23:17:15,197 - INFO - Iteration 293/1000: Training on task 6150a2bd.json
+2024-10-01 23:17:15,344 - INFO - Iteration 293: Pixel correctness: 22.22%
+2024-10-01 23:17:15,346 - INFO - Iteration 294/1000: Training on task 47c1f68c.json
+2024-10-01 23:17:16,407 - INFO - Iteration 294: Pixel correctness: 0.00%
+2024-10-01 23:17:16,410 - INFO - Iteration 295/1000: Training on task e6721834.json
+2024-10-01 23:17:17,138 - INFO - Iteration 295: Pixel correctness: 0.00%
+2024-10-01 23:17:17,141 - INFO - Iteration 296/1000: Training on task d10ecb37.json
+2024-10-01 23:17:18,002 - INFO - Iteration 296: Pixel correctness: 0.00%
+2024-10-01 23:17:18,004 - INFO - Iteration 297/1000: Training on task a68b268e.json
+2024-10-01 23:17:18,160 - INFO - Iteration 297: Pixel correctness: 0.00%
+2024-10-01 23:17:18,163 - INFO - Iteration 298/1000: Training on task ff805c23.json
+2024-10-01 23:17:24,976 - INFO - Iteration 298: Pixel correctness: 0.00%
+2024-10-01 23:17:24,982 - INFO - Iteration 299/1000: Training on task 1e0a9b12.json
+2024-10-01 23:17:25,042 - INFO - Iteration 299: Pixel correctness: 86.11%
+2024-10-01 23:17:25,045 - INFO - Iteration 300/1000: Training on task 253bf280.json
+2024-10-01 23:17:25,091 - INFO - Iteration 300: Pixel correctness: 88.89%
+2024-10-01 23:17:25,095 - INFO - Iteration 300: Loss = 40.6257, Average Reward = -21.5133, Solved Tasks = 0, Average Pixel Correctness = 49.79%
+2024-10-01 23:17:25,097 - INFO - Model weights saved at iteration 300
+2024-10-01 23:17:25,098 - INFO - Iteration 301/1000: Training on task be94b721.json
+2024-10-01 23:17:25,154 - INFO - Iteration 301: Pixel correctness: 0.00%
+2024-10-01 23:17:25,156 - INFO - Iteration 302/1000: Training on task f5b8619d.json
+2024-10-01 23:17:25,172 - INFO - Iteration 302: Pixel correctness: 0.00%
+2024-10-01 23:17:25,176 - INFO - Iteration 303/1000: Training on task c0f76784.json
+2024-10-01 23:17:27,418 - INFO - Iteration 303: Pixel correctness: 90.28%
+2024-10-01 23:17:27,422 - INFO - Iteration 304/1000: Training on task 484b58aa.json
+2024-10-01 23:17:28,878 - INFO - Iteration 304: Pixel correctness: 91.32%
+2024-10-01 23:17:28,883 - INFO - Iteration 305/1000: Training on task 3c9b0459.json
+2024-10-01 23:17:28,909 - INFO - Iteration 305: Pixel correctness: 44.44%
+2024-10-01 23:17:28,912 - INFO - Iteration 306/1000: Training on task 74dd1130.json
+2024-10-01 23:17:28,930 - INFO - Iteration 306: Pixel correctness: 66.67%
+2024-10-01 23:17:28,932 - INFO - Iteration 307/1000: Training on task 8403a5d5.json
+2024-10-01 23:17:29,053 - INFO - Iteration 307: Pixel correctness: 68.00%
+2024-10-01 23:17:29,056 - INFO - Iteration 308/1000: Training on task 0d3d703e.json
+2024-10-01 23:17:29,334 - INFO - Iteration 308: Pixel correctness: 0.00%
+2024-10-01 23:17:29,342 - INFO - Iteration 309/1000: Training on task 5daaa586.json
+2024-10-01 23:17:32,915 - INFO - Iteration 309: Pixel correctness: 0.00%
+2024-10-01 23:17:32,918 - INFO - Iteration 310/1000: Training on task d4f3cd78.json
+2024-10-01 23:17:33,191 - INFO - Iteration 310: Pixel correctness: 82.00%
+2024-10-01 23:17:33,194 - INFO - Iteration 310: Loss = 324.9757, Average Reward = -21.3258, Solved Tasks = 0, Average Pixel Correctness = 49.61%
+2024-10-01 23:17:33,194 - INFO - Iteration 311/1000: Training on task 0dfd9992.json
+2024-10-01 23:17:33,898 - INFO - Iteration 311: Pixel correctness: 83.45%
+2024-10-01 23:17:33,902 - INFO - Iteration 312/1000: Training on task 7ddcd7ec.json
+2024-10-01 23:17:34,571 - INFO - Iteration 312: Pixel correctness: 96.00%
+2024-10-01 23:17:34,575 - INFO - Iteration 313/1000: Training on task 3906de3d.json
+2024-10-01 23:17:34,700 - INFO - Iteration 313: Pixel correctness: 89.00%
+2024-10-01 23:17:34,703 - INFO - Iteration 314/1000: Training on task f1cefba8.json
+2024-10-01 23:17:37,454 - INFO - Iteration 314: Pixel correctness: 83.81%
+2024-10-01 23:17:37,457 - INFO - Iteration 315/1000: Training on task d8c310e9.json
+2024-10-01 23:17:37,673 - INFO - Iteration 315: Pixel correctness: 85.33%
+2024-10-01 23:17:37,678 - INFO - Iteration 316/1000: Training on task 272f95fa.json
+2024-10-01 23:17:44,810 - INFO - Iteration 316: Pixel correctness: 59.06%
+2024-10-01 23:17:44,814 - INFO - Iteration 317/1000: Training on task d13f3404.json
+2024-10-01 23:17:45,047 - INFO - Iteration 317: Pixel correctness: 0.00%
+2024-10-01 23:17:45,051 - INFO - Iteration 318/1000: Training on task 42a50994.json
+2024-10-01 23:17:45,129 - INFO - Iteration 318: Pixel correctness: 94.12%
+2024-10-01 23:17:45,131 - INFO - Iteration 319/1000: Training on task 8731374e.json
+2024-10-01 23:17:52,952 - INFO - Iteration 319: Pixel correctness: 0.00%
+2024-10-01 23:17:52,955 - INFO - Iteration 320/1000: Training on task 75b8110e.json
+2024-10-01 23:17:53,876 - INFO - Iteration 320: Pixel correctness: 0.00%
+2024-10-01 23:17:53,880 - INFO - Iteration 320: Loss = 5.5505, Average Reward = -21.5688, Solved Tasks = 0, Average Pixel Correctness = 49.91%
+2024-10-01 23:17:53,880 - INFO - Iteration 321/1000: Training on task 150deff5.json
+2024-10-01 23:17:53,956 - INFO - Iteration 321: Pixel correctness: 79.17%
+2024-10-01 23:17:53,959 - INFO - Iteration 322/1000: Training on task d4a91cb9.json
+2024-10-01 23:17:54,631 - INFO - Iteration 322: Pixel correctness: 89.39%
+2024-10-01 23:17:54,635 - INFO - Iteration 323/1000: Training on task ae3edfdc.json
+2024-10-01 23:17:58,077 - INFO - Iteration 323: Pixel correctness: 95.56%
+2024-10-01 23:17:58,080 - INFO - Iteration 324/1000: Training on task 90f3ed37.json
+2024-10-01 23:17:59,451 - INFO - Iteration 324: Pixel correctness: 91.33%
+2024-10-01 23:17:59,454 - INFO - Iteration 325/1000: Training on task cce03e0d.json
+2024-10-01 23:17:59,536 - INFO - Iteration 325: Pixel correctness: 0.00%
+2024-10-01 23:17:59,538 - INFO - Iteration 326/1000: Training on task 484b58aa.json
+2024-10-01 23:18:16,197 - INFO - Iteration 326: Pixel correctness: 92.87%
+2024-10-01 23:18:16,202 - INFO - Iteration 327/1000: Training on task ef135b50.json
+2024-10-01 23:18:17,155 - INFO - Iteration 327: Pixel correctness: 92.00%
+2024-10-01 23:18:17,158 - INFO - Iteration 328/1000: Training on task 952a094c.json
+2024-10-01 23:18:17,358 - INFO - Iteration 328: Pixel correctness: 91.00%
+2024-10-01 23:18:17,362 - INFO - Iteration 329/1000: Training on task c444b776.json
+2024-10-01 23:18:18,919 - INFO - Iteration 329: Pixel correctness: 94.15%
+2024-10-01 23:18:18,923 - INFO - Iteration 330/1000: Training on task b91ae062.json
+2024-10-01 23:18:18,946 - INFO - Iteration 330: Pixel correctness: 0.00%
+2024-10-01 23:18:18,948 - INFO - Iteration 330: Loss = 3.8581, Average Reward = -21.3424, Solved Tasks = 0, Average Pixel Correctness = 50.60%
+2024-10-01 23:18:18,948 - INFO - Iteration 331/1000: Training on task a87f7484.json
+2024-10-01 23:18:18,981 - INFO - Iteration 331: Pixel correctness: 0.00%
+2024-10-01 23:18:18,984 - INFO - Iteration 332/1000: Training on task 5ad4f10b.json
+2024-10-01 23:18:23,073 - INFO - Iteration 332: Pixel correctness: 0.00%
+2024-10-01 23:18:23,075 - INFO - Iteration 333/1000: Training on task c8f0f002.json
+2024-10-01 23:18:23,101 - INFO - Iteration 333: Pixel correctness: 50.00%
+2024-10-01 23:18:23,104 - INFO - Iteration 334/1000: Training on task 2013d3e2.json
+2024-10-01 23:18:24,614 - INFO - Iteration 334: Pixel correctness: 0.00%
+2024-10-01 23:18:24,616 - INFO - Iteration 335/1000: Training on task 995c5fa3.json
+2024-10-01 23:18:24,778 - INFO - Iteration 335: Pixel correctness: 0.00%
+2024-10-01 23:18:24,782 - INFO - Iteration 336/1000: Training on task 67385a82.json
+2024-10-01 23:18:24,850 - INFO - Iteration 336: Pixel correctness: 56.25%
+2024-10-01 23:18:24,853 - INFO - Iteration 337/1000: Training on task 447fd412.json
+2024-10-01 23:18:24,977 - INFO - Iteration 337: Pixel correctness: 95.24%
+2024-10-01 23:18:24,980 - INFO - Iteration 338/1000: Training on task b6afb2da.json
+2024-10-01 23:18:25,822 - INFO - Iteration 338: Pixel correctness: 46.00%
+2024-10-01 23:18:25,826 - INFO - Iteration 339/1000: Training on task e40b9e2f.json
+2024-10-01 23:18:26,713 - INFO - Iteration 339: Pixel correctness: 94.00%
+2024-10-01 23:18:26,717 - INFO - Iteration 340/1000: Training on task b775ac94.json
+2024-10-01 23:18:29,238 - INFO - Iteration 340: Pixel correctness: 95.67%
+2024-10-01 23:18:29,242 - INFO - Iteration 340: Loss = 1519.5997, Average Reward = -21.0794, Solved Tasks = 0, Average Pixel Correctness = 50.39%
+2024-10-01 23:18:29,242 - INFO - Iteration 341/1000: Training on task ff28f65a.json
+2024-10-01 23:18:29,262 - INFO - Iteration 341: Pixel correctness: 33.33%
+2024-10-01 23:18:29,266 - INFO - Iteration 342/1000: Training on task d07ae81c.json
+2024-10-01 23:18:32,069 - INFO - Iteration 342: Pixel correctness: 83.56%
+2024-10-01 23:18:32,072 - INFO - Iteration 343/1000: Training on task b94a9452.json
+2024-10-01 23:18:33,315 - INFO - Iteration 343: Pixel correctness: 0.00%
+2024-10-01 23:18:33,320 - INFO - Iteration 344/1000: Training on task 7b7f7511.json
+2024-10-01 23:18:33,341 - INFO - Iteration 344: Pixel correctness: 0.00%
+2024-10-01 23:18:33,345 - INFO - Iteration 345/1000: Training on task f9012d9b.json
+2024-10-01 23:18:33,478 - INFO - Iteration 345: Pixel correctness: 0.00%
+2024-10-01 23:18:33,481 - INFO - Iteration 346/1000: Training on task 272f95fa.json
+2024-10-01 23:18:36,928 - INFO - Iteration 346: Pixel correctness: 57.14%
+2024-10-01 23:18:36,930 - INFO - Iteration 347/1000: Training on task f9012d9b.json
+2024-10-01 23:18:37,271 - INFO - Iteration 347: Pixel correctness: 0.00%
+2024-10-01 23:18:37,274 - INFO - Iteration 348/1000: Training on task be94b721.json
+2024-10-01 23:18:38,141 - INFO - Iteration 348: Pixel correctness: 0.00%
+2024-10-01 23:18:38,144 - INFO - Iteration 349/1000: Training on task 5117e062.json
+2024-10-01 23:18:38,401 - INFO - Iteration 349: Pixel correctness: 0.00%
+2024-10-01 23:18:38,403 - INFO - Iteration 350/1000: Training on task f9012d9b.json
+2024-10-01 23:18:38,434 - INFO - Iteration 350: Pixel correctness: 0.00%
+2024-10-01 23:18:38,437 - INFO - Iteration 350: Loss = 89.7974, Average Reward = -20.8743, Solved Tasks = 0, Average Pixel Correctness = 49.45%
+2024-10-01 23:18:38,438 - INFO - Iteration 351/1000: Training on task 40853293.json
+2024-10-01 23:18:39,362 - INFO - Iteration 351: Pixel correctness: 94.67%
+2024-10-01 23:18:39,365 - INFO - Iteration 352/1000: Training on task 5daaa586.json
+2024-10-01 23:18:44,791 - INFO - Iteration 352: Pixel correctness: 0.00%
+2024-10-01 23:18:44,795 - INFO - Iteration 353/1000: Training on task 4290ef0e.json
+2024-10-01 23:18:49,804 - INFO - Iteration 353: Pixel correctness: 0.00%
+2024-10-01 23:18:49,807 - INFO - Iteration 354/1000: Training on task a48eeaf7.json
+2024-10-01 23:18:50,747 - INFO - Iteration 354: Pixel correctness: 94.00%
+2024-10-01 23:18:50,749 - INFO - Iteration 355/1000: Training on task e5062a87.json
+2024-10-01 23:18:50,869 - INFO - Iteration 355: Pixel correctness: 84.00%
+2024-10-01 23:18:50,872 - INFO - Iteration 356/1000: Training on task 2bcee788.json
+2024-10-01 23:18:51,944 - INFO - Iteration 356: Pixel correctness: 5.00%
+2024-10-01 23:18:51,946 - INFO - Iteration 357/1000: Training on task 9edfc990.json
+2024-10-01 23:18:52,862 - INFO - Iteration 357: Pixel correctness: 56.89%
+2024-10-01 23:18:52,871 - INFO - Iteration 358/1000: Training on task 6e02f1e3.json
+2024-10-01 23:18:52,927 - INFO - Iteration 358: Pixel correctness: 0.00%
+2024-10-01 23:18:52,931 - INFO - Iteration 359/1000: Training on task 6e02f1e3.json
+2024-10-01 23:18:53,003 - INFO - Iteration 359: Pixel correctness: 0.00%
+2024-10-01 23:18:53,006 - INFO - Iteration 360/1000: Training on task 1f0c79e5.json
+2024-10-01 23:18:53,093 - INFO - Iteration 360: Pixel correctness: 82.72%
+2024-10-01 23:18:53,096 - INFO - Iteration 360: Loss = 199.7454, Average Reward = -21.0722, Solved Tasks = 0, Average Pixel Correctness = 49.24%
+2024-10-01 23:18:53,096 - INFO - Iteration 361/1000: Training on task c3f564a4.json
+2024-10-01 23:18:53,730 - INFO - Iteration 361: Pixel correctness: 84.38%
+2024-10-01 23:18:53,732 - INFO - Iteration 362/1000: Training on task 99b1bc43.json
+2024-10-01 23:18:53,844 - INFO - Iteration 362: Pixel correctness: 0.00%
+2024-10-01 23:18:53,846 - INFO - Iteration 363/1000: Training on task a85d4709.json
+2024-10-01 23:18:53,866 - INFO - Iteration 363: Pixel correctness: 0.00%
+2024-10-01 23:18:53,869 - INFO - Iteration 364/1000: Training on task 3aa6fb7a.json
+2024-10-01 23:18:53,912 - INFO - Iteration 364: Pixel correctness: 91.84%
+2024-10-01 23:18:53,916 - INFO - Iteration 365/1000: Training on task 90f3ed37.json
+2024-10-01 23:18:55,142 - INFO - Iteration 365: Pixel correctness: 86.00%
+2024-10-01 23:18:55,144 - INFO - Iteration 366/1000: Training on task 1190e5a7.json
+2024-10-01 23:18:55,931 - INFO - Iteration 366: Pixel correctness: 0.00%
+2024-10-01 23:18:55,933 - INFO - Iteration 367/1000: Training on task 6c434453.json
+2024-10-01 23:18:56,007 - INFO - Iteration 367: Pixel correctness: 81.00%
+2024-10-01 23:18:56,009 - INFO - Iteration 368/1000: Training on task caa06a1f.json
+2024-10-01 23:18:56,412 - INFO - Iteration 368: Pixel correctness: 2.78%
+2024-10-01 23:18:56,415 - INFO - Iteration 369/1000: Training on task ff805c23.json
+2024-10-01 23:18:57,089 - INFO - Iteration 369: Pixel correctness: 0.00%
+2024-10-01 23:18:57,092 - INFO - Iteration 370/1000: Training on task 8d5021e8.json
+2024-10-01 23:18:57,119 - INFO - Iteration 370: Pixel correctness: 0.00%
+2024-10-01 23:18:57,121 - INFO - Iteration 370: Loss = 4.2886, Average Reward = -20.8595, Solved Tasks = 0, Average Pixel Correctness = 48.84%
+2024-10-01 23:18:57,121 - INFO - Iteration 371/1000: Training on task fcb5c309.json
+2024-10-01 23:18:57,248 - INFO - Iteration 371: Pixel correctness: 0.00%
+2024-10-01 23:18:57,250 - INFO - Iteration 372/1000: Training on task a416b8f3.json
+2024-10-01 23:18:57,444 - INFO - Iteration 372: Pixel correctness: 0.00%
+2024-10-01 23:18:57,446 - INFO - Iteration 373/1000: Training on task d5d6de2d.json
+2024-10-01 23:18:57,523 - INFO - Iteration 373: Pixel correctness: 88.00%
+2024-10-01 23:18:57,526 - INFO - Iteration 374/1000: Training on task 3befdf3e.json
+2024-10-01 23:18:57,646 - INFO - Iteration 374: Pixel correctness: 51.00%
+2024-10-01 23:18:57,650 - INFO - Iteration 375/1000: Training on task e3497940.json
+2024-10-01 23:18:57,738 - INFO - Iteration 375: Pixel correctness: 0.00%
+2024-10-01 23:18:57,740 - INFO - Iteration 376/1000: Training on task d06dbe63.json
+2024-10-01 23:18:59,349 - INFO - Iteration 376: Pixel correctness: 91.12%
+2024-10-01 23:18:59,352 - INFO - Iteration 377/1000: Training on task d511f180.json
+2024-10-01 23:18:59,657 - INFO - Iteration 377: Pixel correctness: 55.56%
+2024-10-01 23:18:59,669 - INFO - Iteration 378/1000: Training on task 239be575.json
+2024-10-01 23:19:00,250 - INFO - Iteration 378: Pixel correctness: 0.00%
+2024-10-01 23:19:00,253 - INFO - Iteration 379/1000: Training on task 31aa019c.json
+2024-10-01 23:19:02,406 - INFO - Iteration 379: Pixel correctness: 78.00%
+2024-10-01 23:19:02,409 - INFO - Iteration 380/1000: Training on task 8d510a79.json
+2024-10-01 23:19:03,571 - INFO - Iteration 380: Pixel correctness: 84.00%
+2024-10-01 23:19:03,576 - INFO - Iteration 380: Loss = 261.9747, Average Reward = -20.6868, Solved Tasks = 0, Average Pixel Correctness = 48.73%
+2024-10-01 23:19:03,576 - INFO - Iteration 381/1000: Training on task ba26e723.json
+2024-10-01 23:19:03,619 - INFO - Iteration 381: Pixel correctness: 71.79%
+2024-10-01 23:19:03,621 - INFO - Iteration 382/1000: Training on task c59eb873.json
+2024-10-01 23:19:03,706 - INFO - Iteration 382: Pixel correctness: 0.00%
+2024-10-01 23:19:03,709 - INFO - Iteration 383/1000: Training on task c1d99e64.json
+2024-10-01 23:19:03,948 - INFO - Iteration 383: Pixel correctness: 81.96%
+2024-10-01 23:19:03,950 - INFO - Iteration 384/1000: Training on task b548a754.json
+2024-10-01 23:19:05,351 - INFO - Iteration 384: Pixel correctness: 80.99%
+2024-10-01 23:19:05,355 - INFO - Iteration 385/1000: Training on task 22233c11.json
+2024-10-01 23:19:05,645 - INFO - Iteration 385: Pixel correctness: 97.00%
+2024-10-01 23:19:05,649 - INFO - Iteration 386/1000: Training on task 5117e062.json
+2024-10-01 23:19:08,164 - INFO - Iteration 386: Pixel correctness: 0.00%
+2024-10-01 23:19:08,167 - INFO - Iteration 387/1000: Training on task 62c24649.json
+2024-10-01 23:19:08,285 - INFO - Iteration 387: Pixel correctness: 0.00%
+2024-10-01 23:19:08,288 - INFO - Iteration 388/1000: Training on task f25fbde4.json
+2024-10-01 23:19:08,396 - INFO - Iteration 388: Pixel correctness: 0.00%
+2024-10-01 23:19:08,399 - INFO - Iteration 389/1000: Training on task 3aa6fb7a.json
+2024-10-01 23:19:08,902 - INFO - Iteration 389: Pixel correctness: 95.92%
+2024-10-01 23:19:08,905 - INFO - Iteration 390/1000: Training on task 3de23699.json
+2024-10-01 23:19:09,870 - INFO - Iteration 390: Pixel correctness: 0.00%
+2024-10-01 23:19:09,874 - INFO - Iteration 390: Loss = 6.9375, Average Reward = -20.3872, Solved Tasks = 0, Average Pixel Correctness = 48.58%
+2024-10-01 23:19:09,874 - INFO - Iteration 391/1000: Training on task 1caeab9d.json
+2024-10-01 23:19:09,980 - INFO - Iteration 391: Pixel correctness: 90.00%
+2024-10-01 23:19:09,983 - INFO - Iteration 392/1000: Training on task c444b776.json
+2024-10-01 23:19:15,910 - INFO - Iteration 392: Pixel correctness: 91.41%
+2024-10-01 23:19:15,913 - INFO - Iteration 393/1000: Training on task 8f2ea7aa.json
+2024-10-01 23:19:15,965 - INFO - Iteration 393: Pixel correctness: 85.19%
+2024-10-01 23:19:15,968 - INFO - Iteration 394/1000: Training on task 7b6016b9.json
+2024-10-01 23:19:16,597 - INFO - Iteration 394: Pixel correctness: 20.42%
+2024-10-01 23:19:16,601 - INFO - Iteration 395/1000: Training on task 681b3aeb.json
+2024-10-01 23:19:17,518 - INFO - Iteration 395: Pixel correctness: 0.00%
+2024-10-01 23:19:17,520 - INFO - Iteration 396/1000: Training on task bbc9ae5d.json
+2024-10-01 23:19:17,537 - INFO - Iteration 396: Pixel correctness: 0.00%
+2024-10-01 23:19:17,540 - INFO - Iteration 397/1000: Training on task 9edfc990.json
+2024-10-01 23:19:18,015 - INFO - Iteration 397: Pixel correctness: 46.75%
+2024-10-01 23:19:18,034 - INFO - Iteration 398/1000: Training on task 952a094c.json
+2024-10-01 23:19:20,088 - INFO - Iteration 398: Pixel correctness: 92.00%
+2024-10-01 23:19:20,091 - INFO - Iteration 399/1000: Training on task 1f876c06.json
+2024-10-01 23:19:21,298 - INFO - Iteration 399: Pixel correctness: 93.00%
+2024-10-01 23:19:21,300 - INFO - Iteration 400/1000: Training on task 46442a0e.json
+2024-10-01 23:19:21,323 - INFO - Iteration 400: Pixel correctness: 0.00%
+2024-10-01 23:19:21,325 - INFO - Iteration 400: Loss = 6.3589, Average Reward = -21.3250, Solved Tasks = 0, Average Pixel Correctness = 48.66%
+2024-10-01 23:19:21,328 - INFO - Model weights saved at iteration 400
+2024-10-01 23:19:21,328 - INFO - Iteration 401/1000: Training on task 3c9b0459.json
+2024-10-01 23:19:21,346 - INFO - Iteration 401: Pixel correctness: 44.44%
+2024-10-01 23:19:21,349 - INFO - Iteration 402/1000: Training on task 363442ee.json
+2024-10-01 23:19:21,728 - INFO - Iteration 402: Pixel correctness: 61.54%
+2024-10-01 23:19:21,732 - INFO - Iteration 403/1000: Training on task ce22a75a.json
+2024-10-01 23:19:23,358 - INFO - Iteration 403: Pixel correctness: 65.43%
+2024-10-01 23:19:23,368 - INFO - Iteration 404/1000: Training on task 794b24be.json
+2024-10-01 23:19:23,394 - INFO - Iteration 404: Pixel correctness: 66.67%
+2024-10-01 23:19:23,399 - INFO - Iteration 405/1000: Training on task 67a3c6ac.json
+2024-10-01 23:19:23,541 - INFO - Iteration 405: Pixel correctness: 42.86%
+2024-10-01 23:19:23,546 - INFO - Iteration 406/1000: Training on task 2204b7a8.json
+2024-10-01 23:19:25,140 - INFO - Iteration 406: Pixel correctness: 94.00%
+2024-10-01 23:19:25,144 - INFO - Iteration 407/1000: Training on task 22168020.json
+2024-10-01 23:19:25,228 - INFO - Iteration 407: Pixel correctness: 87.00%
+2024-10-01 23:19:25,231 - INFO - Iteration 408/1000: Training on task a65b410d.json
+2024-10-01 23:19:25,286 - INFO - Iteration 408: Pixel correctness: 73.47%
+2024-10-01 23:19:25,288 - INFO - Iteration 409/1000: Training on task e6721834.json
+2024-10-01 23:19:25,761 - INFO - Iteration 409: Pixel correctness: 0.00%
+2024-10-01 23:19:25,764 - INFO - Iteration 410/1000: Training on task 890034e9.json
+2024-10-01 23:19:26,341 - INFO - Iteration 410: Pixel correctness: 95.69%
+2024-10-01 23:19:26,346 - INFO - Iteration 410: Loss = 345.2051, Average Reward = -21.1976, Solved Tasks = 0, Average Pixel Correctness = 49.02%
+2024-10-01 23:19:26,347 - INFO - Iteration 411/1000: Training on task d687bc17.json
+2024-10-01 23:19:29,324 - INFO - Iteration 411: Pixel correctness: 90.67%
+2024-10-01 23:19:29,328 - INFO - Iteration 412/1000: Training on task 82819916.json
+2024-10-01 23:19:29,576 - INFO - Iteration 412: Pixel correctness: 80.21%
+2024-10-01 23:19:29,579 - INFO - Iteration 413/1000: Training on task d5d6de2d.json
+2024-10-01 23:19:29,871 - INFO - Iteration 413: Pixel correctness: 87.11%
+2024-10-01 23:19:29,874 - INFO - Iteration 414/1000: Training on task a9f96cdd.json
+2024-10-01 23:19:29,899 - INFO - Iteration 414: Pixel correctness: 80.00%
+2024-10-01 23:19:29,901 - INFO - Iteration 415/1000: Training on task 007bbfb7.json
+2024-10-01 23:19:29,920 - INFO - Iteration 415: Pixel correctness: 0.00%
+2024-10-01 23:19:29,933 - INFO - Iteration 416/1000: Training on task 0ca9ddb6.json
+2024-10-01 23:19:30,051 - INFO - Iteration 416: Pixel correctness: 88.89%
+2024-10-01 23:19:30,054 - INFO - Iteration 417/1000: Training on task 0962bcdd.json
+2024-10-01 23:19:31,294 - INFO - Iteration 417: Pixel correctness: 83.33%
+2024-10-01 23:19:31,297 - INFO - Iteration 418/1000: Training on task 2dee498d.json
+2024-10-01 23:19:31,758 - INFO - Iteration 418: Pixel correctness: 0.00%
+2024-10-01 23:19:31,761 - INFO - Iteration 419/1000: Training on task 7b6016b9.json
+2024-10-01 23:19:32,625 - INFO - Iteration 419: Pixel correctness: 18.73%
+2024-10-01 23:19:32,628 - INFO - Iteration 420/1000: Training on task dc1df850.json
+2024-10-01 23:19:32,909 - INFO - Iteration 420: Pixel correctness: 55.00%
+2024-10-01 23:19:32,912 - INFO - Iteration 420: Loss = 83.1092, Average Reward = -22.0167, Solved Tasks = 0, Average Pixel Correctness = 49.24%
+2024-10-01 23:19:32,912 - INFO - Iteration 421/1000: Training on task 4290ef0e.json
+2024-10-01 23:19:33,606 - INFO - Iteration 421: Pixel correctness: 0.00%
+2024-10-01 23:19:33,610 - INFO - Iteration 422/1000: Training on task 60b61512.json
+2024-10-01 23:19:34,357 - INFO - Iteration 422: Pixel correctness: 92.59%
+2024-10-01 23:19:34,360 - INFO - Iteration 423/1000: Training on task 2dc579da.json
+2024-10-01 23:19:34,854 - INFO - Iteration 423: Pixel correctness: 0.00%
+2024-10-01 23:19:34,856 - INFO - Iteration 424/1000: Training on task 22233c11.json
+2024-10-01 23:19:34,988 - INFO - Iteration 424: Pixel correctness: 94.00%
+2024-10-01 23:19:34,991 - INFO - Iteration 425/1000: Training on task aabf363d.json
+2024-10-01 23:19:35,033 - INFO - Iteration 425: Pixel correctness: 75.51%
+2024-10-01 23:19:35,037 - INFO - Iteration 426/1000: Training on task 3af2c5a8.json
+2024-10-01 23:19:35,064 - INFO - Iteration 426: Pixel correctness: 0.00%
+2024-10-01 23:19:35,067 - INFO - Iteration 427/1000: Training on task a61f2674.json
+2024-10-01 23:19:35,208 - INFO - Iteration 427: Pixel correctness: 70.37%
+2024-10-01 23:19:35,211 - INFO - Iteration 428/1000: Training on task e8593010.json
+2024-10-01 23:19:35,336 - INFO - Iteration 428: Pixel correctness: 73.00%
+2024-10-01 23:19:35,339 - INFO - Iteration 429/1000: Training on task 007bbfb7.json
+2024-10-01 23:19:35,408 - INFO - Iteration 429: Pixel correctness: 0.00%
+2024-10-01 23:19:35,411 - INFO - Iteration 430/1000: Training on task ea32f347.json
+2024-10-01 23:19:36,821 - INFO - Iteration 430: Pixel correctness: 88.00%
+2024-10-01 23:19:36,823 - INFO - Iteration 430: Loss = 150.2789, Average Reward = -21.7163, Solved Tasks = 0, Average Pixel Correctness = 49.24%
+2024-10-01 23:19:36,823 - INFO - Iteration 431/1000: Training on task 662c240a.json
+2024-10-01 23:19:36,976 - INFO - Iteration 431: Pixel correctness: 0.00%
+2024-10-01 23:19:36,981 - INFO - Iteration 432/1000: Training on task 7ddcd7ec.json
+2024-10-01 23:19:37,159 - INFO - Iteration 432: Pixel correctness: 95.00%
+2024-10-01 23:19:37,163 - INFO - Iteration 433/1000: Training on task 4290ef0e.json
+2024-10-01 23:19:43,851 - INFO - Iteration 433: Pixel correctness: 0.00%
+2024-10-01 23:19:43,855 - INFO - Iteration 434/1000: Training on task 3bdb4ada.json
+2024-10-01 23:19:45,273 - INFO - Iteration 434: Pixel correctness: 94.38%
+2024-10-01 23:19:45,277 - INFO - Iteration 435/1000: Training on task b7249182.json
+2024-10-01 23:19:45,396 - INFO - Iteration 435: Pixel correctness: 83.85%
+2024-10-01 23:19:45,401 - INFO - Iteration 436/1000: Training on task ed36ccf7.json
+2024-10-01 23:19:45,419 - INFO - Iteration 436: Pixel correctness: 44.44%
+2024-10-01 23:19:45,421 - INFO - Iteration 437/1000: Training on task 9af7a82c.json
+2024-10-01 23:19:45,504 - INFO - Iteration 437: Pixel correctness: 0.00%
+2024-10-01 23:19:45,507 - INFO - Iteration 438/1000: Training on task 22233c11.json
+2024-10-01 23:19:45,633 - INFO - Iteration 438: Pixel correctness: 94.00%
+2024-10-01 23:19:45,637 - INFO - Iteration 439/1000: Training on task aabf363d.json
+2024-10-01 23:19:45,681 - INFO - Iteration 439: Pixel correctness: 73.47%
+2024-10-01 23:19:45,684 - INFO - Iteration 440/1000: Training on task ecdecbb3.json
+2024-10-01 23:19:45,906 - INFO - Iteration 440: Pixel correctness: 88.76%
+2024-10-01 23:19:45,909 - INFO - Iteration 440: Loss = 352.0725, Average Reward = -21.4068, Solved Tasks = 0, Average Pixel Correctness = 49.43%
+2024-10-01 23:19:45,909 - INFO - Iteration 441/1000: Training on task 36fdfd69.json
+2024-10-01 23:19:46,203 - INFO - Iteration 441: Pixel correctness: 93.75%
+2024-10-01 23:19:46,206 - INFO - Iteration 442/1000: Training on task 0dfd9992.json
+2024-10-01 23:19:47,121 - INFO - Iteration 442: Pixel correctness: 86.17%
+2024-10-01 23:19:47,126 - INFO - Iteration 443/1000: Training on task ce4f8723.json
+2024-10-01 23:19:47,730 - INFO - Iteration 443: Pixel correctness: 0.00%
+2024-10-01 23:19:47,733 - INFO - Iteration 444/1000: Training on task e9614598.json
+2024-10-01 23:19:48,594 - INFO - Iteration 444: Pixel correctness: 94.00%
+2024-10-01 23:19:48,597 - INFO - Iteration 445/1000: Training on task 74dd1130.json
+2024-10-01 23:19:48,617 - INFO - Iteration 445: Pixel correctness: 44.44%
+2024-10-01 23:19:48,620 - INFO - Iteration 446/1000: Training on task 75b8110e.json
+2024-10-01 23:19:48,747 - INFO - Iteration 446: Pixel correctness: 0.00%
+2024-10-01 23:19:48,750 - INFO - Iteration 447/1000: Training on task 08ed6ac7.json
+2024-10-01 23:19:49,550 - INFO - Iteration 447: Pixel correctness: 75.31%
+2024-10-01 23:19:49,553 - INFO - Iteration 448/1000: Training on task f2829549.json
+2024-10-01 23:19:49,660 - INFO - Iteration 448: Pixel correctness: 0.00%
+2024-10-01 23:19:49,663 - INFO - Iteration 449/1000: Training on task 4be741c5.json
+2024-10-01 23:19:49,764 - INFO - Iteration 449: Pixel correctness: 0.00%
+2024-10-01 23:19:49,767 - INFO - Iteration 450/1000: Training on task 4c5c2cf0.json
+2024-10-01 23:19:51,641 - INFO - Iteration 450: Pixel correctness: 84.69%
+2024-10-01 23:19:51,644 - INFO - Iteration 450: Loss = 929.0037, Average Reward = -21.2444, Solved Tasks = 0, Average Pixel Correctness = 49.39%
+2024-10-01 23:19:51,644 - INFO - Iteration 451/1000: Training on task a85d4709.json
+2024-10-01 23:19:51,879 - INFO - Iteration 451: Pixel correctness: 0.00%
+2024-10-01 23:19:51,882 - INFO - Iteration 452/1000: Training on task 29c11459.json
+2024-10-01 23:19:51,941 - INFO - Iteration 452: Pixel correctness: 81.82%
+2024-10-01 23:19:51,944 - INFO - Iteration 453/1000: Training on task f8a8fe49.json
+2024-10-01 23:19:52,162 - INFO - Iteration 453: Pixel correctness: 93.33%
+2024-10-01 23:19:52,166 - INFO - Iteration 454/1000: Training on task dc433765.json
+2024-10-01 23:19:52,186 - INFO - Iteration 454: Pixel correctness: 77.78%
+2024-10-01 23:19:52,189 - INFO - Iteration 455/1000: Training on task 1f0c79e5.json
+2024-10-01 23:19:52,301 - INFO - Iteration 455: Pixel correctness: 82.72%
+2024-10-01 23:19:52,305 - INFO - Iteration 456/1000: Training on task 46f33fce.json
+2024-10-01 23:19:52,966 - INFO - Iteration 456: Pixel correctness: 0.00%
+2024-10-01 23:19:52,969 - INFO - Iteration 457/1000: Training on task 9edfc990.json
+2024-10-01 23:19:53,678 - INFO - Iteration 457: Pixel correctness: 56.89%
+2024-10-01 23:19:53,682 - INFO - Iteration 458/1000: Training on task c8f0f002.json
+2024-10-01 23:19:53,943 - INFO - Iteration 458: Pixel correctness: 55.56%
+2024-10-01 23:19:53,946 - INFO - Iteration 459/1000: Training on task a9f96cdd.json
+2024-10-01 23:19:53,969 - INFO - Iteration 459: Pixel correctness: 73.33%
+2024-10-01 23:19:53,971 - INFO - Iteration 460/1000: Training on task ff28f65a.json
+2024-10-01 23:19:54,167 - INFO - Iteration 460: Pixel correctness: 0.00%
+2024-10-01 23:19:54,170 - INFO - Iteration 460: Loss = 6.2125, Average Reward = -21.1326, Solved Tasks = 0, Average Pixel Correctness = 49.45%
+2024-10-01 23:19:54,170 - INFO - Iteration 461/1000: Training on task d5d6de2d.json
+2024-10-01 23:19:55,682 - INFO - Iteration 461: Pixel correctness: 86.67%
+2024-10-01 23:19:55,684 - INFO - Iteration 462/1000: Training on task e9afcf9a.json
+2024-10-01 23:19:55,709 - INFO - Iteration 462: Pixel correctness: 50.00%
+2024-10-01 23:19:55,711 - INFO - Iteration 463/1000: Training on task 007bbfb7.json
+2024-10-01 23:19:55,728 - INFO - Iteration 463: Pixel correctness: 0.00%
+2024-10-01 23:19:55,731 - INFO - Iteration 464/1000: Training on task 8efcae92.json
+2024-10-01 23:19:59,332 - INFO - Iteration 464: Pixel correctness: 0.00%
+2024-10-01 23:19:59,337 - INFO - Iteration 465/1000: Training on task 6d58a25d.json
+2024-10-01 23:19:59,755 - INFO - Iteration 465: Pixel correctness: 94.25%
+2024-10-01 23:19:59,760 - INFO - Iteration 466/1000: Training on task 67385a82.json
+2024-10-01 23:19:59,805 - INFO - Iteration 466: Pixel correctness: 73.33%
+2024-10-01 23:19:59,807 - INFO - Iteration 467/1000: Training on task d9f24cd1.json
+2024-10-01 23:20:00,713 - INFO - Iteration 467: Pixel correctness: 72.00%
+2024-10-01 23:20:00,716 - INFO - Iteration 468/1000: Training on task d364b489.json
+2024-10-01 23:20:00,866 - INFO - Iteration 468: Pixel correctness: 80.00%
+2024-10-01 23:20:00,869 - INFO - Iteration 469/1000: Training on task f15e1fac.json
+2024-10-01 23:20:01,028 - INFO - Iteration 469: Pixel correctness: 82.86%
+2024-10-01 23:20:01,031 - INFO - Iteration 470/1000: Training on task 50846271.json
+2024-10-01 23:20:04,918 - INFO - Iteration 470: Pixel correctness: 97.95%
+2024-10-01 23:20:04,922 - INFO - Iteration 470: Loss = 88.2953, Average Reward = -21.0021, Solved Tasks = 0, Average Pixel Correctness = 49.75%
+2024-10-01 23:20:04,922 - INFO - Iteration 471/1000: Training on task 1f642eb9.json
+2024-10-01 23:20:05,159 - INFO - Iteration 471: Pixel correctness: 94.00%
+2024-10-01 23:20:05,162 - INFO - Iteration 472/1000: Training on task 83302e8f.json
+2024-10-01 23:20:13,339 - INFO - Iteration 472: Pixel correctness: 24.14%
+2024-10-01 23:20:13,345 - INFO - Iteration 473/1000: Training on task 8d5021e8.json
+2024-10-01 23:20:13,375 - INFO - Iteration 473: Pixel correctness: 0.00%
+2024-10-01 23:20:13,377 - INFO - Iteration 474/1000: Training on task a5313dff.json
+2024-10-01 23:20:13,443 - INFO - Iteration 474: Pixel correctness: 85.94%
+2024-10-01 23:20:13,446 - INFO - Iteration 475/1000: Training on task db3e9e38.json
+2024-10-01 23:20:13,516 - INFO - Iteration 475: Pixel correctness: 69.64%
+2024-10-01 23:20:13,521 - INFO - Iteration 476/1000: Training on task b91ae062.json
+2024-10-01 23:20:13,547 - INFO - Iteration 476: Pixel correctness: 0.00%
+2024-10-01 23:20:13,551 - INFO - Iteration 477/1000: Training on task 6a1e5592.json
+2024-10-01 23:20:13,755 - INFO - Iteration 477: Pixel correctness: 70.00%
+2024-10-01 23:20:13,758 - INFO - Iteration 478/1000: Training on task 22168020.json
+2024-10-01 23:20:13,839 - INFO - Iteration 478: Pixel correctness: 87.00%
+2024-10-01 23:20:13,842 - INFO - Iteration 479/1000: Training on task b91ae062.json
+2024-10-01 23:20:13,921 - INFO - Iteration 479: Pixel correctness: 0.00%
+2024-10-01 23:20:13,924 - INFO - Iteration 480/1000: Training on task 2dc579da.json
+2024-10-01 23:20:14,022 - INFO - Iteration 480: Pixel correctness: 0.00%
+2024-10-01 23:20:14,024 - INFO - Iteration 480: Loss = 4.7323, Average Reward = -22.0896, Solved Tasks = 0, Average Pixel Correctness = 49.61%
+2024-10-01 23:20:14,025 - INFO - Iteration 481/1000: Training on task 941d9a10.json
+2024-10-01 23:20:14,198 - INFO - Iteration 481: Pixel correctness: 87.00%
+2024-10-01 23:20:14,200 - INFO - Iteration 482/1000: Training on task 253bf280.json
+2024-10-01 23:20:14,323 - INFO - Iteration 482: Pixel correctness: 92.31%
+2024-10-01 23:20:14,326 - INFO - Iteration 483/1000: Training on task c909285e.json
+2024-10-01 23:20:17,859 - INFO - Iteration 483: Pixel correctness: 0.00%
+2024-10-01 23:20:17,863 - INFO - Iteration 484/1000: Training on task f25fbde4.json
+2024-10-01 23:20:18,458 - INFO - Iteration 484: Pixel correctness: 0.00%
+2024-10-01 23:20:18,462 - INFO - Iteration 485/1000: Training on task f25fbde4.json
+2024-10-01 23:20:19,035 - INFO - Iteration 485: Pixel correctness: 0.00%
+2024-10-01 23:20:19,038 - INFO - Iteration 486/1000: Training on task a64e4611.json
+2024-10-01 23:20:27,493 - INFO - Iteration 486: Pixel correctness: 75.33%
+2024-10-01 23:20:27,497 - INFO - Iteration 487/1000: Training on task 53b68214.json
+2024-10-01 23:20:27,547 - INFO - Iteration 487: Pixel correctness: 0.00%
+2024-10-01 23:20:27,552 - INFO - Iteration 488/1000: Training on task 1b2d62fb.json
+2024-10-01 23:20:27,604 - INFO - Iteration 488: Pixel correctness: 0.00%
+2024-10-01 23:20:27,606 - INFO - Iteration 489/1000: Training on task dc0a314f.json
+2024-10-01 23:20:28,220 - INFO - Iteration 489: Pixel correctness: 0.00%
+2024-10-01 23:20:28,223 - INFO - Iteration 490/1000: Training on task 2dc579da.json
+2024-10-01 23:20:28,569 - INFO - Iteration 490: Pixel correctness: 0.00%
+2024-10-01 23:20:28,572 - INFO - Iteration 490: Loss = 2.2658, Average Reward = -22.1469, Solved Tasks = 0, Average Pixel Correctness = 49.12%
+2024-10-01 23:20:28,572 - INFO - Iteration 491/1000: Training on task 25d8a9c8.json
+2024-10-01 23:20:28,592 - INFO - Iteration 491: Pixel correctness: 0.00%
+2024-10-01 23:20:28,594 - INFO - Iteration 492/1000: Training on task c9e6f938.json
+2024-10-01 23:20:28,623 - INFO - Iteration 492: Pixel correctness: 0.00%
+2024-10-01 23:20:28,626 - INFO - Iteration 493/1000: Training on task f8a8fe49.json
+2024-10-01 23:20:30,750 - INFO - Iteration 493: Pixel correctness: 92.44%
+2024-10-01 23:20:30,753 - INFO - Iteration 494/1000: Training on task 82819916.json
+2024-10-01 23:20:31,087 - INFO - Iteration 494: Pixel correctness: 87.50%
+2024-10-01 23:20:31,091 - INFO - Iteration 495/1000: Training on task f35d900a.json
+2024-10-01 23:20:31,633 - INFO - Iteration 495: Pixel correctness: 80.67%
+2024-10-01 23:20:31,637 - INFO - Iteration 496/1000: Training on task 67e8384a.json
+2024-10-01 23:20:31,662 - INFO - Iteration 496: Pixel correctness: 0.00%
+2024-10-01 23:20:31,664 - INFO - Iteration 497/1000: Training on task 484b58aa.json
+2024-10-01 23:20:33,099 - INFO - Iteration 497: Pixel correctness: 87.28%
+2024-10-01 23:20:33,104 - INFO - Iteration 498/1000: Training on task 794b24be.json
+2024-10-01 23:20:33,131 - INFO - Iteration 498: Pixel correctness: 33.33%
+2024-10-01 23:20:33,134 - INFO - Iteration 499/1000: Training on task a65b410d.json
+2024-10-01 23:20:34,044 - INFO - Iteration 499: Pixel correctness: 73.61%
+2024-10-01 23:20:34,048 - INFO - Iteration 500/1000: Training on task 75b8110e.json
+2024-10-01 23:20:34,131 - INFO - Iteration 500: Pixel correctness: 0.00%
+2024-10-01 23:20:34,135 - INFO - Iteration 500: Loss = 7.1777, Average Reward = -22.1380, Solved Tasks = 0, Average Pixel Correctness = 49.05%
+2024-10-01 23:20:34,137 - INFO - Model weights saved at iteration 500
+2024-10-01 23:20:34,138 - INFO - Iteration 501/1000: Training on task 91714a58.json
+2024-10-01 23:20:34,917 - INFO - Iteration 501: Pixel correctness: 66.80%
+2024-10-01 23:20:34,922 - INFO - Iteration 502/1000: Training on task 62c24649.json
+2024-10-01 23:20:35,133 - INFO - Iteration 502: Pixel correctness: 0.00%
+2024-10-01 23:20:35,136 - INFO - Iteration 503/1000: Training on task 29c11459.json
+2024-10-01 23:20:35,196 - INFO - Iteration 503: Pixel correctness: 81.82%
+2024-10-01 23:20:35,199 - INFO - Iteration 504/1000: Training on task 484b58aa.json
+2024-10-01 23:20:36,543 - INFO - Iteration 504: Pixel correctness: 87.28%
+2024-10-01 23:20:36,550 - INFO - Iteration 505/1000: Training on task caa06a1f.json
+2024-10-01 23:20:36,616 - INFO - Iteration 505: Pixel correctness: 0.00%
+2024-10-01 23:20:36,619 - INFO - Iteration 506/1000: Training on task 50cb2852.json
+2024-10-01 23:20:39,631 - INFO - Iteration 506: Pixel correctness: 85.13%
+2024-10-01 23:20:39,634 - INFO - Iteration 507/1000: Training on task af902bf9.json
+2024-10-01 23:20:39,721 - INFO - Iteration 507: Pixel correctness: 84.00%
+2024-10-01 23:20:39,724 - INFO - Iteration 508/1000: Training on task aabf363d.json
+2024-10-01 23:20:39,770 - INFO - Iteration 508: Pixel correctness: 71.43%
+2024-10-01 23:20:39,772 - INFO - Iteration 509/1000: Training on task 4be741c5.json
+2024-10-01 23:20:40,320 - INFO - Iteration 509: Pixel correctness: 0.00%
+2024-10-01 23:20:40,322 - INFO - Iteration 510/1000: Training on task 746b3537.json
+2024-10-01 23:20:40,573 - INFO - Iteration 510: Pixel correctness: 0.00%
+2024-10-01 23:20:40,577 - INFO - Iteration 510: Loss = 1.9260, Average Reward = -22.3471, Solved Tasks = 0, Average Pixel Correctness = 49.02%
+2024-10-01 23:20:40,578 - INFO - Iteration 511/1000: Training on task d90796e8.json
+2024-10-01 23:20:40,634 - INFO - Iteration 511: Pixel correctness: 88.10%
+2024-10-01 23:20:40,638 - INFO - Iteration 512/1000: Training on task 67a423a3.json
+2024-10-01 23:20:40,661 - INFO - Iteration 512: Pixel correctness: 50.00%
+2024-10-01 23:20:40,663 - INFO - Iteration 513/1000: Training on task dc433765.json
+2024-10-01 23:20:41,814 - INFO - Iteration 513: Pixel correctness: 98.35%
+2024-10-01 23:20:41,817 - INFO - Iteration 514/1000: Training on task 3befdf3e.json
+2024-10-01 23:20:41,896 - INFO - Iteration 514: Pixel correctness: 78.00%
+2024-10-01 23:20:41,900 - INFO - Iteration 515/1000: Training on task 28bf18c6.json
+2024-10-01 23:20:41,986 - INFO - Iteration 515: Pixel correctness: 0.00%
+2024-10-01 23:20:41,989 - INFO - Iteration 516/1000: Training on task b2862040.json
+2024-10-01 23:20:42,114 - INFO - Iteration 516: Pixel correctness: 91.03%
+2024-10-01 23:20:42,117 - INFO - Iteration 517/1000: Training on task 272f95fa.json
+2024-10-01 23:20:48,381 - INFO - Iteration 517: Pixel correctness: 59.06%
+2024-10-01 23:20:48,385 - INFO - Iteration 518/1000: Training on task d23f8c26.json
+2024-10-01 23:20:48,608 - INFO - Iteration 518: Pixel correctness: 60.00%
+2024-10-01 23:20:48,611 - INFO - Iteration 519/1000: Training on task 9f236235.json
+2024-10-01 23:20:51,708 - INFO - Iteration 519: Pixel correctness: 0.00%
+2024-10-01 23:20:51,713 - INFO - Iteration 520/1000: Training on task b8cdaf2b.json
+2024-10-01 23:20:51,774 - INFO - Iteration 520: Pixel correctness: 92.00%
+2024-10-01 23:20:51,778 - INFO - Iteration 520: Loss = 8.5620, Average Reward = -22.3115, Solved Tasks = 0, Average Pixel Correctness = 49.26%
+2024-10-01 23:20:51,778 - INFO - Iteration 521/1000: Training on task 6a1e5592.json
+2024-10-01 23:20:51,990 - INFO - Iteration 521: Pixel correctness: 78.00%
+2024-10-01 23:20:51,993 - INFO - Iteration 522/1000: Training on task ce22a75a.json
+2024-10-01 23:20:52,806 - INFO - Iteration 522: Pixel correctness: 55.56%
+2024-10-01 23:20:52,809 - INFO - Iteration 523/1000: Training on task 25d8a9c8.json
+2024-10-01 23:20:52,857 - INFO - Iteration 523: Pixel correctness: 0.00%
+2024-10-01 23:20:52,859 - INFO - Iteration 524/1000: Training on task d23f8c26.json
+2024-10-01 23:20:52,890 - INFO - Iteration 524: Pixel correctness: 66.67%
+2024-10-01 23:20:52,893 - INFO - Iteration 525/1000: Training on task 6150a2bd.json
+2024-10-01 23:20:52,950 - INFO - Iteration 525: Pixel correctness: 11.11%
+2024-10-01 23:20:52,953 - INFO - Iteration 526/1000: Training on task 137eaa0f.json
+2024-10-01 23:20:53,158 - INFO - Iteration 526: Pixel correctness: 0.00%
+2024-10-01 23:20:53,161 - INFO - Iteration 527/1000: Training on task db3e9e38.json
+2024-10-01 23:20:53,198 - INFO - Iteration 527: Pixel correctness: 65.71%
+2024-10-01 23:20:53,201 - INFO - Iteration 528/1000: Training on task 1f642eb9.json
+2024-10-01 23:20:55,462 - INFO - Iteration 528: Pixel correctness: 94.00%
+2024-10-01 23:20:55,465 - INFO - Iteration 529/1000: Training on task 40853293.json
+2024-10-01 23:20:56,500 - INFO - Iteration 529: Pixel correctness: 94.67%
+2024-10-01 23:20:56,505 - INFO - Iteration 530/1000: Training on task 95990924.json
+2024-10-01 23:20:56,677 - INFO - Iteration 530: Pixel correctness: 95.00%
+2024-10-01 23:20:56,679 - INFO - Iteration 530: Loss = 33.0490, Average Reward = -22.1642, Solved Tasks = 0, Average Pixel Correctness = 49.39%
+2024-10-01 23:20:56,680 - INFO - Iteration 531/1000: Training on task 2bcee788.json
+2024-10-01 23:20:57,845 - INFO - Iteration 531: Pixel correctness: 3.00%
+2024-10-01 23:20:57,849 - INFO - Iteration 532/1000: Training on task 794b24be.json
+2024-10-01 23:20:57,875 - INFO - Iteration 532: Pixel correctness: 66.67%
+2024-10-01 23:20:57,877 - INFO - Iteration 533/1000: Training on task 1f85a75f.json
+2024-10-01 23:21:01,906 - INFO - Iteration 533: Pixel correctness: 0.00%
+2024-10-01 23:21:01,909 - INFO - Iteration 534/1000: Training on task 673ef223.json
+2024-10-01 23:21:02,158 - INFO - Iteration 534: Pixel correctness: 92.76%
+2024-10-01 23:21:02,167 - INFO - Iteration 535/1000: Training on task db93a21d.json
+2024-10-01 23:21:02,733 - INFO - Iteration 535: Pixel correctness: 52.25%
+2024-10-01 23:21:02,736 - INFO - Iteration 536/1000: Training on task 9dfd6313.json
+2024-10-01 23:21:02,769 - INFO - Iteration 536: Pixel correctness: 77.78%
+2024-10-01 23:21:02,772 - INFO - Iteration 537/1000: Training on task 8efcae92.json
+2024-10-01 23:21:06,629 - INFO - Iteration 537: Pixel correctness: 0.00%
+2024-10-01 23:21:06,632 - INFO - Iteration 538/1000: Training on task 3befdf3e.json
+2024-10-01 23:21:06,719 - INFO - Iteration 538: Pixel correctness: 80.00%
+2024-10-01 23:21:06,722 - INFO - Iteration 539/1000: Training on task 810b9b61.json
+2024-10-01 23:21:06,945 - INFO - Iteration 539: Pixel correctness: 96.44%
+2024-10-01 23:21:06,948 - INFO - Iteration 540/1000: Training on task d2abd087.json
+2024-10-01 23:21:07,641 - INFO - Iteration 540: Pixel correctness: 72.00%
+2024-10-01 23:21:07,643 - INFO - Iteration 540: Loss = 785.9369, Average Reward = -22.4241, Solved Tasks = 0, Average Pixel Correctness = 49.48%
+2024-10-01 23:21:07,643 - INFO - Iteration 541/1000: Training on task 868de0fa.json
+2024-10-01 23:21:07,743 - INFO - Iteration 541: Pixel correctness: 82.00%
+2024-10-01 23:21:07,745 - INFO - Iteration 542/1000: Training on task d4469b4b.json
+2024-10-01 23:21:07,776 - INFO - Iteration 542: Pixel correctness: 0.00%
+2024-10-01 23:21:07,778 - INFO - Iteration 543/1000: Training on task 941d9a10.json
+2024-10-01 23:21:09,223 - INFO - Iteration 543: Pixel correctness: 77.00%
+2024-10-01 23:21:09,226 - INFO - Iteration 544/1000: Training on task 22168020.json
+2024-10-01 23:21:09,959 - INFO - Iteration 544: Pixel correctness: 88.00%
+2024-10-01 23:21:09,964 - INFO - Iteration 545/1000: Training on task 045e512c.json
+2024-10-01 23:21:10,505 - INFO - Iteration 545: Pixel correctness: 90.48%
+2024-10-01 23:21:10,508 - INFO - Iteration 546/1000: Training on task a699fb00.json
+2024-10-01 23:21:11,437 - INFO - Iteration 546: Pixel correctness: 94.00%
+2024-10-01 23:21:11,439 - INFO - Iteration 547/1000: Training on task 025d127b.json
+2024-10-01 23:21:11,559 - INFO - Iteration 547: Pixel correctness: 86.51%
+2024-10-01 23:21:11,563 - INFO - Iteration 548/1000: Training on task ce9e57f2.json
+2024-10-01 23:21:11,670 - INFO - Iteration 548: Pixel correctness: 86.11%
+2024-10-01 23:21:11,672 - INFO - Iteration 549/1000: Training on task 8f2ea7aa.json
+2024-10-01 23:21:12,215 - INFO - Iteration 549: Pixel correctness: 83.95%
+2024-10-01 23:21:12,218 - INFO - Iteration 550/1000: Training on task 6cdd2623.json
+2024-10-01 23:21:12,512 - INFO - Iteration 550: Pixel correctness: 74.51%
+2024-10-01 23:21:12,515 - INFO - Iteration 550: Loss = 4191.9604, Average Reward = -22.3927, Solved Tasks = 0, Average Pixel Correctness = 49.97%
+2024-10-01 23:21:12,515 - INFO - Iteration 551/1000: Training on task a78176bb.json
+2024-10-01 23:21:12,655 - INFO - Iteration 551: Pixel correctness: 80.00%
+2024-10-01 23:21:12,658 - INFO - Iteration 552/1000: Training on task f8a8fe49.json
+2024-10-01 23:21:14,692 - INFO - Iteration 552: Pixel correctness: 94.22%
+2024-10-01 23:21:14,696 - INFO - Iteration 553/1000: Training on task d90796e8.json
+2024-10-01 23:21:14,718 - INFO - Iteration 553: Pixel correctness: 77.78%
+2024-10-01 23:21:14,721 - INFO - Iteration 554/1000: Training on task 72ca375d.json
+2024-10-01 23:21:15,924 - INFO - Iteration 554: Pixel correctness: 0.00%
+2024-10-01 23:21:15,928 - INFO - Iteration 555/1000: Training on task 6cf79266.json
+2024-10-01 23:21:16,274 - INFO - Iteration 555: Pixel correctness: 97.50%
+2024-10-01 23:21:16,277 - INFO - Iteration 556/1000: Training on task 91413438.json
+2024-10-01 23:21:16,299 - INFO - Iteration 556: Pixel correctness: 0.00%
+2024-10-01 23:21:16,302 - INFO - Iteration 557/1000: Training on task 8eb1be9a.json
+2024-10-01 23:21:16,410 - INFO - Iteration 557: Pixel correctness: 55.83%
+2024-10-01 23:21:16,413 - INFO - Iteration 558/1000: Training on task 234bbc79.json
+2024-10-01 23:21:16,465 - INFO - Iteration 558: Pixel correctness: 0.00%
+2024-10-01 23:21:16,468 - INFO - Iteration 559/1000: Training on task caa06a1f.json
+2024-10-01 23:21:16,534 - INFO - Iteration 559: Pixel correctness: 0.00%
+2024-10-01 23:21:16,537 - INFO - Iteration 560/1000: Training on task 5582e5ca.json
+2024-10-01 23:21:16,632 - INFO - Iteration 560: Pixel correctness: 33.33%
+2024-10-01 23:21:16,634 - INFO - Iteration 560: Loss = 35.2335, Average Reward = -22.2982, Solved Tasks = 0, Average Pixel Correctness = 49.86%
+2024-10-01 23:21:16,634 - INFO - Iteration 561/1000: Training on task d364b489.json
+2024-10-01 23:21:16,830 - INFO - Iteration 561: Pixel correctness: 81.00%
+2024-10-01 23:21:16,832 - INFO - Iteration 562/1000: Training on task 8be77c9e.json
+2024-10-01 23:21:16,852 - INFO - Iteration 562: Pixel correctness: 0.00%
+2024-10-01 23:21:16,855 - INFO - Iteration 563/1000: Training on task c59eb873.json
+2024-10-01 23:21:16,872 - INFO - Iteration 563: Pixel correctness: 0.00%
+2024-10-01 23:21:16,874 - INFO - Iteration 564/1000: Training on task f8a8fe49.json
+2024-10-01 23:21:17,089 - INFO - Iteration 564: Pixel correctness: 93.78%
+2024-10-01 23:21:17,092 - INFO - Iteration 565/1000: Training on task c1d99e64.json
+2024-10-01 23:21:18,635 - INFO - Iteration 565: Pixel correctness: 85.12%
+2024-10-01 23:21:18,639 - INFO - Iteration 566/1000: Training on task 6cdd2623.json
+2024-10-01 23:21:18,934 - INFO - Iteration 566: Pixel correctness: 74.90%
+2024-10-01 23:21:18,938 - INFO - Iteration 567/1000: Training on task 1f0c79e5.json
+2024-10-01 23:21:19,061 - INFO - Iteration 567: Pixel correctness: 59.26%
+2024-10-01 23:21:19,066 - INFO - Iteration 568/1000: Training on task 57aa92db.json
+2024-10-01 23:21:20,334 - INFO - Iteration 568: Pixel correctness: 94.44%
+2024-10-01 23:21:20,337 - INFO - Iteration 569/1000: Training on task 3eda0437.json
+2024-10-01 23:21:21,131 - INFO - Iteration 569: Pixel correctness: 91.25%
+2024-10-01 23:21:21,136 - INFO - Iteration 570/1000: Training on task b94a9452.json
+2024-10-01 23:21:21,286 - INFO - Iteration 570: Pixel correctness: 0.00%
+2024-10-01 23:21:21,291 - INFO - Iteration 570: Loss = 6.5037, Average Reward = -22.2228, Solved Tasks = 0, Average Pixel Correctness = 50.00%
+2024-10-01 23:21:21,292 - INFO - Iteration 571/1000: Training on task fcc82909.json
+2024-10-01 23:21:21,515 - INFO - Iteration 571: Pixel correctness: 89.00%
+2024-10-01 23:21:21,519 - INFO - Iteration 572/1000: Training on task 2dc579da.json
+2024-10-01 23:21:22,182 - INFO - Iteration 572: Pixel correctness: 0.00%
+2024-10-01 23:21:22,187 - INFO - Iteration 573/1000: Training on task 8efcae92.json
+2024-10-01 23:21:22,579 - INFO - Iteration 573: Pixel correctness: 0.00%
+2024-10-01 23:21:22,581 - INFO - Iteration 574/1000: Training on task 39a8645d.json
+2024-10-01 23:21:22,794 - INFO - Iteration 574: Pixel correctness: 0.00%
+2024-10-01 23:21:22,798 - INFO - Iteration 575/1000: Training on task aedd82e4.json
+2024-10-01 23:21:22,820 - INFO - Iteration 575: Pixel correctness: 77.78%
+2024-10-01 23:21:22,823 - INFO - Iteration 576/1000: Training on task a68b268e.json
+2024-10-01 23:21:22,948 - INFO - Iteration 576: Pixel correctness: 0.00%
+2024-10-01 23:21:22,952 - INFO - Iteration 577/1000: Training on task 1f876c06.json
+2024-10-01 23:21:24,391 - INFO - Iteration 577: Pixel correctness: 89.00%
+2024-10-01 23:21:24,395 - INFO - Iteration 578/1000: Training on task 025d127b.json
+2024-10-01 23:21:24,658 - INFO - Iteration 578: Pixel correctness: 83.33%
+2024-10-01 23:21:24,662 - INFO - Iteration 579/1000: Training on task 08ed6ac7.json
+2024-10-01 23:21:24,828 - INFO - Iteration 579: Pixel correctness: 66.67%
+2024-10-01 23:21:24,831 - INFO - Iteration 580/1000: Training on task de1cd16c.json
+2024-10-01 23:21:27,801 - INFO - Iteration 580: Pixel correctness: 0.00%
+2024-10-01 23:21:27,803 - INFO - Iteration 580: Loss = 29243.8477, Average Reward = -22.2517, Solved Tasks = 0, Average Pixel Correctness = 49.84%
+2024-10-01 23:21:27,803 - INFO - Iteration 581/1000: Training on task e48d4e1a.json
+2024-10-01 23:21:27,889 - INFO - Iteration 581: Pixel correctness: 62.00%
+2024-10-01 23:21:27,892 - INFO - Iteration 582/1000: Training on task 6773b310.json
+2024-10-01 23:21:28,065 - INFO - Iteration 582: Pixel correctness: 0.00%
+2024-10-01 23:21:28,068 - INFO - Iteration 583/1000: Training on task e40b9e2f.json
+2024-10-01 23:21:28,949 - INFO - Iteration 583: Pixel correctness: 94.00%
+2024-10-01 23:21:28,953 - INFO - Iteration 584/1000: Training on task 1f85a75f.json
+2024-10-01 23:21:31,465 - INFO - Iteration 584: Pixel correctness: 0.00%
+2024-10-01 23:21:31,468 - INFO - Iteration 585/1000: Training on task e8dc4411.json
+2024-10-01 23:21:31,673 - INFO - Iteration 585: Pixel correctness: 91.67%
+2024-10-01 23:21:31,675 - INFO - Iteration 586/1000: Training on task 48d8fb45.json
+2024-10-01 23:21:31,759 - INFO - Iteration 586: Pixel correctness: 0.00%
+2024-10-01 23:21:31,762 - INFO - Iteration 587/1000: Training on task 746b3537.json
+2024-10-01 23:21:31,787 - INFO - Iteration 587: Pixel correctness: 0.00%
+2024-10-01 23:21:31,791 - INFO - Iteration 588/1000: Training on task feca6190.json
+2024-10-01 23:21:31,806 - INFO - Iteration 588: Pixel correctness: 0.00%
+2024-10-01 23:21:31,808 - INFO - Iteration 589/1000: Training on task 5c0a986e.json
+2024-10-01 23:21:31,889 - INFO - Iteration 589: Pixel correctness: 94.00%
+2024-10-01 23:21:31,892 - INFO - Iteration 590/1000: Training on task a416b8f3.json
+2024-10-01 23:21:31,916 - INFO - Iteration 590: Pixel correctness: 0.00%
+2024-10-01 23:21:31,975 - INFO - Iteration 590: Loss = 4.1715, Average Reward = -21.9983, Solved Tasks = 0, Average Pixel Correctness = 49.57%
+2024-10-01 23:21:31,975 - INFO - Iteration 591/1000: Training on task 74dd1130.json
+2024-10-01 23:21:32,002 - INFO - Iteration 591: Pixel correctness: 66.67%
+2024-10-01 23:21:32,005 - INFO - Iteration 592/1000: Training on task e48d4e1a.json
+2024-10-01 23:21:32,143 - INFO - Iteration 592: Pixel correctness: 64.00%
+2024-10-01 23:21:32,146 - INFO - Iteration 593/1000: Training on task d364b489.json
+2024-10-01 23:21:33,070 - INFO - Iteration 593: Pixel correctness: 81.00%
+2024-10-01 23:21:33,072 - INFO - Iteration 594/1000: Training on task 80af3007.json
+2024-10-01 23:21:35,038 - INFO - Iteration 594: Pixel correctness: 0.00%
+2024-10-01 23:21:35,041 - INFO - Iteration 595/1000: Training on task 4093f84a.json
+2024-10-01 23:21:36,945 - INFO - Iteration 595: Pixel correctness: 91.33%
+2024-10-01 23:21:36,949 - INFO - Iteration 596/1000: Training on task 3f7978a0.json
+2024-10-01 23:21:37,187 - INFO - Iteration 596: Pixel correctness: 0.00%
+2024-10-01 23:21:37,191 - INFO - Iteration 597/1000: Training on task a2fd1cf0.json
+2024-10-01 23:21:39,254 - INFO - Iteration 597: Pixel correctness: 90.48%
+2024-10-01 23:21:39,257 - INFO - Iteration 598/1000: Training on task d89b689b.json
+2024-10-01 23:21:40,836 - INFO - Iteration 598: Pixel correctness: 92.00%
+2024-10-01 23:21:40,839 - INFO - Iteration 599/1000: Training on task aabf363d.json
+2024-10-01 23:21:40,896 - INFO - Iteration 599: Pixel correctness: 73.47%
+2024-10-01 23:21:40,899 - INFO - Iteration 600/1000: Training on task 6430c8c4.json
+2024-10-01 23:21:41,553 - INFO - Iteration 600: Pixel correctness: 0.00%
+2024-10-01 23:21:41,557 - INFO - Iteration 600: Loss = 5.3795, Average Reward = -21.8233, Solved Tasks = 0, Average Pixel Correctness = 49.68%
+2024-10-01 23:21:41,561 - INFO - Model weights saved at iteration 600
+2024-10-01 23:21:41,561 - INFO - Iteration 601/1000: Training on task ae3edfdc.json
+2024-10-01 23:21:45,079 - INFO - Iteration 601: Pixel correctness: 95.56%
+2024-10-01 23:21:45,083 - INFO - Iteration 602/1000: Training on task 36fdfd69.json
+2024-10-01 23:21:49,868 - INFO - Iteration 602: Pixel correctness: 93.46%
+2024-10-01 23:21:49,874 - INFO - Iteration 603/1000: Training on task e48d4e1a.json
+2024-10-01 23:21:50,855 - INFO - Iteration 603: Pixel correctness: 63.00%
+2024-10-01 23:21:50,858 - INFO - Iteration 604/1000: Training on task 9172f3a0.json
+2024-10-01 23:21:50,894 - INFO - Iteration 604: Pixel correctness: 0.00%
+2024-10-01 23:21:50,897 - INFO - Iteration 605/1000: Training on task 28bf18c6.json
+2024-10-01 23:21:51,210 - INFO - Iteration 605: Pixel correctness: 0.00%
+2024-10-01 23:21:51,213 - INFO - Iteration 606/1000: Training on task 543a7ed5.json
+2024-10-01 23:21:51,488 - INFO - Iteration 606: Pixel correctness: 63.11%
+2024-10-01 23:21:51,491 - INFO - Iteration 607/1000: Training on task f35d900a.json
+2024-10-01 23:21:51,825 - INFO - Iteration 607: Pixel correctness: 84.56%
+2024-10-01 23:21:51,828 - INFO - Iteration 608/1000: Training on task 9af7a82c.json
+2024-10-01 23:21:51,856 - INFO - Iteration 608: Pixel correctness: 0.00%
+2024-10-01 23:21:51,859 - INFO - Iteration 609/1000: Training on task f8a8fe49.json
+2024-10-01 23:21:54,111 - INFO - Iteration 609: Pixel correctness: 94.67%
+2024-10-01 23:21:54,114 - INFO - Iteration 610/1000: Training on task d4a91cb9.json
+2024-10-01 23:21:55,959 - INFO - Iteration 610: Pixel correctness: 89.39%
+2024-10-01 23:21:55,961 - INFO - Iteration 610: Loss = 203.1661, Average Reward = -21.8279, Solved Tasks = 0, Average Pixel Correctness = 49.82%
+2024-10-01 23:21:55,961 - INFO - Iteration 611/1000: Training on task ded97339.json
+2024-10-01 23:21:56,022 - INFO - Iteration 611: Pixel correctness: 91.00%
+2024-10-01 23:21:56,025 - INFO - Iteration 612/1000: Training on task 7447852a.json
+2024-10-01 23:21:56,391 - INFO - Iteration 612: Pixel correctness: 73.33%
+2024-10-01 23:21:56,393 - INFO - Iteration 613/1000: Training on task 0ca9ddb6.json
+2024-10-01 23:21:57,984 - INFO - Iteration 613: Pixel correctness: 88.89%
+2024-10-01 23:21:57,988 - INFO - Iteration 614/1000: Training on task 3631a71a.json
+2024-10-01 23:22:00,247 - INFO - Iteration 614: Pixel correctness: 91.56%
+2024-10-01 23:22:00,252 - INFO - Iteration 615/1000: Training on task a740d043.json
+2024-10-01 23:22:00,899 - INFO - Iteration 615: Pixel correctness: 0.00%
+2024-10-01 23:22:00,901 - INFO - Iteration 616/1000: Training on task 36fdfd69.json
+2024-10-01 23:22:01,246 - INFO - Iteration 616: Pixel correctness: 93.75%
+2024-10-01 23:22:01,249 - INFO - Iteration 617/1000: Training on task a2fd1cf0.json
+2024-10-01 23:22:01,473 - INFO - Iteration 617: Pixel correctness: 90.62%
+2024-10-01 23:22:01,476 - INFO - Iteration 618/1000: Training on task 239be575.json
+2024-10-01 23:22:01,646 - INFO - Iteration 618: Pixel correctness: 0.00%
+2024-10-01 23:22:01,649 - INFO - Iteration 619/1000: Training on task 178fcbfb.json
+2024-10-01 23:22:01,767 - INFO - Iteration 619: Pixel correctness: 61.82%
+2024-10-01 23:22:01,771 - INFO - Iteration 620/1000: Training on task d23f8c26.json
+2024-10-01 23:22:01,818 - INFO - Iteration 620: Pixel correctness: 64.00%
+2024-10-01 23:22:01,821 - INFO - Iteration 620: Loss = 54.5117, Average Reward = -21.8048, Solved Tasks = 0, Average Pixel Correctness = 50.07%
+2024-10-01 23:22:01,821 - INFO - Iteration 621/1000: Training on task 025d127b.json
+2024-10-01 23:22:01,966 - INFO - Iteration 621: Pixel correctness: 86.51%
+2024-10-01 23:22:01,979 - INFO - Iteration 622/1000: Training on task 272f95fa.json
+2024-10-01 23:22:02,661 - INFO - Iteration 622: Pixel correctness: 58.77%
+2024-10-01 23:22:02,667 - INFO - Iteration 623/1000: Training on task e76a88a6.json
+2024-10-01 23:22:02,850 - INFO - Iteration 623: Pixel correctness: 76.00%
+2024-10-01 23:22:02,854 - INFO - Iteration 624/1000: Training on task d06dbe63.json
+2024-10-01 23:22:02,982 - INFO - Iteration 624: Pixel correctness: 90.53%
+2024-10-01 23:22:02,985 - INFO - Iteration 625/1000: Training on task e73095fd.json
+2024-10-01 23:22:05,243 - INFO - Iteration 625: Pixel correctness: 92.11%
+2024-10-01 23:22:05,246 - INFO - Iteration 626/1000: Training on task 963e52fc.json
+2024-10-01 23:22:05,287 - INFO - Iteration 626: Pixel correctness: 0.00%
+2024-10-01 23:22:05,290 - INFO - Iteration 627/1000: Training on task 5c2c9af4.json
+2024-10-01 23:22:08,546 - INFO - Iteration 627: Pixel correctness: 54.63%
+2024-10-01 23:22:08,548 - INFO - Iteration 628/1000: Training on task 673ef223.json
+2024-10-01 23:22:08,772 - INFO - Iteration 628: Pixel correctness: 92.11%
+2024-10-01 23:22:08,776 - INFO - Iteration 629/1000: Training on task 1caeab9d.json
+2024-10-01 23:22:08,885 - INFO - Iteration 629: Pixel correctness: 76.00%
+2024-10-01 23:22:08,888 - INFO - Iteration 630/1000: Training on task 1f876c06.json
+2024-10-01 23:22:09,041 - INFO - Iteration 630: Pixel correctness: 92.00%
+2024-10-01 23:22:09,044 - INFO - Iteration 630: Loss = 76.2292, Average Reward = -22.2540, Solved Tasks = 0, Average Pixel Correctness = 50.42%
+2024-10-01 23:22:09,044 - INFO - Iteration 631/1000: Training on task 54d82841.json
+2024-10-01 23:22:09,682 - INFO - Iteration 631: Pixel correctness: 96.88%
+2024-10-01 23:22:09,686 - INFO - Iteration 632/1000: Training on task 7b6016b9.json
+2024-10-01 23:22:16,747 - INFO - Iteration 632: Pixel correctness: 18.55%
+2024-10-01 23:22:16,750 - INFO - Iteration 633/1000: Training on task e6721834.json
+2024-10-01 23:22:20,168 - INFO - Iteration 633: Pixel correctness: 0.00%
+2024-10-01 23:22:20,171 - INFO - Iteration 634/1000: Training on task 810b9b61.json
+2024-10-01 23:22:20,351 - INFO - Iteration 634: Pixel correctness: 96.44%
+2024-10-01 23:22:20,354 - INFO - Iteration 635/1000: Training on task 694f12f3.json
+2024-10-01 23:22:21,647 - INFO - Iteration 635: Pixel correctness: 88.00%
+2024-10-01 23:22:21,649 - INFO - Iteration 636/1000: Training on task 8403a5d5.json
+2024-10-01 23:22:21,729 - INFO - Iteration 636: Pixel correctness: 48.00%
+2024-10-01 23:22:21,733 - INFO - Iteration 637/1000: Training on task c444b776.json
+2024-10-01 23:22:22,439 - INFO - Iteration 637: Pixel correctness: 91.41%
+2024-10-01 23:22:22,442 - INFO - Iteration 638/1000: Training on task 8d510a79.json
+2024-10-01 23:22:23,108 - INFO - Iteration 638: Pixel correctness: 86.00%
+2024-10-01 23:22:23,110 - INFO - Iteration 639/1000: Training on task 7e0986d6.json
+2024-10-01 23:22:23,296 - INFO - Iteration 639: Pixel correctness: 90.66%
+2024-10-01 23:22:23,299 - INFO - Iteration 640/1000: Training on task 25d487eb.json
+2024-10-01 23:22:25,047 - INFO - Iteration 640: Pixel correctness: 94.44%
+2024-10-01 23:22:25,049 - INFO - Iteration 640: Loss = 105.1668, Average Reward = -22.8359, Solved Tasks = 0, Average Pixel Correctness = 50.74%
+2024-10-01 23:22:25,049 - INFO - Iteration 641/1000: Training on task ea786f4a.json
+2024-10-01 23:22:25,134 - INFO - Iteration 641: Pixel correctness: 75.51%
+2024-10-01 23:22:25,138 - INFO - Iteration 642/1000: Training on task 3618c87e.json
+2024-10-01 23:22:25,174 - INFO - Iteration 642: Pixel correctness: 84.00%
+2024-10-01 23:22:25,177 - INFO - Iteration 643/1000: Training on task a3df8b1e.json
+2024-10-01 23:22:25,199 - INFO - Iteration 643: Pixel correctness: 70.00%
+2024-10-01 23:22:25,202 - INFO - Iteration 644/1000: Training on task f15e1fac.json
+2024-10-01 23:22:25,347 - INFO - Iteration 644: Pixel correctness: 82.86%
+2024-10-01 23:22:25,351 - INFO - Iteration 645/1000: Training on task 88a10436.json
+2024-10-01 23:22:25,512 - INFO - Iteration 645: Pixel correctness: 91.36%
+2024-10-01 23:22:25,515 - INFO - Iteration 646/1000: Training on task 3c9b0459.json
+2024-10-01 23:22:25,574 - INFO - Iteration 646: Pixel correctness: 33.33%
+2024-10-01 23:22:25,576 - INFO - Iteration 647/1000: Training on task 08ed6ac7.json
+2024-10-01 23:22:25,958 - INFO - Iteration 647: Pixel correctness: 67.90%
+2024-10-01 23:22:25,961 - INFO - Iteration 648/1000: Training on task a78176bb.json
+2024-10-01 23:22:26,165 - INFO - Iteration 648: Pixel correctness: 80.00%
+2024-10-01 23:22:26,169 - INFO - Iteration 649/1000: Training on task e8dc4411.json
+2024-10-01 23:22:26,458 - INFO - Iteration 649: Pixel correctness: 93.85%
+2024-10-01 23:22:26,463 - INFO - Iteration 650/1000: Training on task 4290ef0e.json
+2024-10-01 23:22:27,137 - INFO - Iteration 650: Pixel correctness: 0.00%
+2024-10-01 23:22:27,140 - INFO - Iteration 650: Loss = 5.8955, Average Reward = -22.6708, Solved Tasks = 0, Average Pixel Correctness = 51.00%
+2024-10-01 23:22:27,140 - INFO - Iteration 651/1000: Training on task 22168020.json
+2024-10-01 23:22:27,232 - INFO - Iteration 651: Pixel correctness: 81.00%
+2024-10-01 23:22:27,235 - INFO - Iteration 652/1000: Training on task 928ad970.json
+2024-10-01 23:22:27,832 - INFO - Iteration 652: Pixel correctness: 78.85%
+2024-10-01 23:22:27,834 - INFO - Iteration 653/1000: Training on task 9f236235.json
+2024-10-01 23:22:28,395 - INFO - Iteration 653: Pixel correctness: 0.00%
+2024-10-01 23:22:28,398 - INFO - Iteration 654/1000: Training on task a1570a43.json
+2024-10-01 23:22:28,473 - INFO - Iteration 654: Pixel correctness: 79.01%
+2024-10-01 23:22:28,475 - INFO - Iteration 655/1000: Training on task feca6190.json
+2024-10-01 23:22:28,494 - INFO - Iteration 655: Pixel correctness: 0.00%
+2024-10-01 23:22:28,496 - INFO - Iteration 656/1000: Training on task 22168020.json
+2024-10-01 23:22:28,579 - INFO - Iteration 656: Pixel correctness: 87.00%
+2024-10-01 23:22:28,582 - INFO - Iteration 657/1000: Training on task ea32f347.json
+2024-10-01 23:22:30,057 - INFO - Iteration 657: Pixel correctness: 85.00%
+2024-10-01 23:22:30,061 - INFO - Iteration 658/1000: Training on task a8d7556c.json
+2024-10-01 23:22:33,191 - INFO - Iteration 658: Pixel correctness: 93.21%
+2024-10-01 23:22:33,194 - INFO - Iteration 659/1000: Training on task 8403a5d5.json
+2024-10-01 23:22:33,335 - INFO - Iteration 659: Pixel correctness: 68.00%
+2024-10-01 23:22:33,338 - INFO - Iteration 660/1000: Training on task 83302e8f.json
+2024-10-01 23:22:43,694 - INFO - Iteration 660: Pixel correctness: 24.14%
+2024-10-01 23:22:43,697 - INFO - Iteration 660: Loss = 406986.1250, Average Reward = -23.5258, Solved Tasks = 0, Average Pixel Correctness = 51.14%
+2024-10-01 23:22:43,698 - INFO - Iteration 661/1000: Training on task 694f12f3.json
+2024-10-01 23:22:45,032 - INFO - Iteration 661: Pixel correctness: 88.00%
+2024-10-01 23:22:45,036 - INFO - Iteration 662/1000: Training on task b548a754.json
+2024-10-01 23:22:46,397 - INFO - Iteration 662: Pixel correctness: 85.12%
+2024-10-01 23:22:46,400 - INFO - Iteration 663/1000: Training on task 1cf80156.json
+2024-10-01 23:22:46,477 - INFO - Iteration 663: Pixel correctness: 0.00%
+2024-10-01 23:22:46,482 - INFO - Iteration 664/1000: Training on task 88a62173.json
+2024-10-01 23:22:46,525 - INFO - Iteration 664: Pixel correctness: 0.00%
+2024-10-01 23:22:46,529 - INFO - Iteration 665/1000: Training on task 673ef223.json
+2024-10-01 23:22:46,735 - INFO - Iteration 665: Pixel correctness: 92.76%
+2024-10-01 23:22:46,738 - INFO - Iteration 666/1000: Training on task 63613498.json
+2024-10-01 23:22:46,894 - INFO - Iteration 666: Pixel correctness: 95.00%
+2024-10-01 23:22:46,897 - INFO - Iteration 667/1000: Training on task 8e5a5113.json
+2024-10-01 23:22:46,995 - INFO - Iteration 667: Pixel correctness: 42.42%
+2024-10-01 23:22:46,997 - INFO - Iteration 668/1000: Training on task 0962bcdd.json
+2024-10-01 23:22:47,109 - INFO - Iteration 668: Pixel correctness: 82.64%
+2024-10-01 23:22:47,111 - INFO - Iteration 669/1000: Training on task 36d67576.json
+2024-10-01 23:22:49,874 - INFO - Iteration 669: Pixel correctness: 95.27%
+2024-10-01 23:22:49,877 - INFO - Iteration 670/1000: Training on task 3bdb4ada.json
+2024-10-01 23:22:50,117 - INFO - Iteration 670: Pixel correctness: 91.25%
+2024-10-01 23:22:50,120 - INFO - Iteration 670: Loss = 540.0733, Average Reward = -23.3552, Solved Tasks = 0, Average Pixel Correctness = 51.38%
+2024-10-01 23:22:50,120 - INFO - Iteration 671/1000: Training on task 9edfc990.json
+2024-10-01 23:22:50,933 - INFO - Iteration 671: Pixel correctness: 73.05%
+2024-10-01 23:22:50,938 - INFO - Iteration 672/1000: Training on task 9aec4887.json
+2024-10-01 23:22:51,373 - INFO - Iteration 672: Pixel correctness: 0.00%
+2024-10-01 23:22:51,376 - INFO - Iteration 673/1000: Training on task ea32f347.json
+2024-10-01 23:22:52,784 - INFO - Iteration 673: Pixel correctness: 86.00%
+2024-10-01 23:22:52,788 - INFO - Iteration 674/1000: Training on task ddf7fa4f.json
+2024-10-01 23:22:52,914 - INFO - Iteration 674: Pixel correctness: 63.00%
+2024-10-01 23:22:52,918 - INFO - Iteration 675/1000: Training on task e73095fd.json
+2024-10-01 23:22:54,550 - INFO - Iteration 675: Pixel correctness: 92.55%
+2024-10-01 23:22:54,553 - INFO - Iteration 676/1000: Training on task 0e206a2e.json
+2024-10-01 23:22:54,884 - INFO - Iteration 676: Pixel correctness: 91.43%
+2024-10-01 23:22:54,887 - INFO - Iteration 677/1000: Training on task 673ef223.json
+2024-10-01 23:22:56,881 - INFO - Iteration 677: Pixel correctness: 92.76%
+2024-10-01 23:22:56,885 - INFO - Iteration 678/1000: Training on task 760b3cac.json
+2024-10-01 23:22:56,935 - INFO - Iteration 678: Pixel correctness: 90.74%
+2024-10-01 23:22:56,938 - INFO - Iteration 679/1000: Training on task c1d99e64.json
+2024-10-01 23:23:01,247 - INFO - Iteration 679: Pixel correctness: 86.40%
+2024-10-01 23:23:01,265 - INFO - Iteration 680/1000: Training on task a9f96cdd.json
+2024-10-01 23:23:01,345 - INFO - Iteration 680: Pixel correctness: 66.67%
+2024-10-01 23:23:01,350 - INFO - Iteration 680: Loss = 28.3594, Average Reward = -23.3206, Solved Tasks = 0, Average Pixel Correctness = 51.71%
+2024-10-01 23:23:01,350 - INFO - Iteration 681/1000: Training on task cbded52d.json
+2024-10-01 23:23:02,679 - INFO - Iteration 681: Pixel correctness: 95.31%
+2024-10-01 23:23:02,683 - INFO - Iteration 682/1000: Training on task d43fd935.json
+2024-10-01 23:23:02,784 - INFO - Iteration 682: Pixel correctness: 92.00%
+2024-10-01 23:23:02,788 - INFO - Iteration 683/1000: Training on task 28e73c20.json
+2024-10-01 23:23:02,932 - INFO - Iteration 683: Pixel correctness: 42.60%
+2024-10-01 23:23:02,935 - INFO - Iteration 684/1000: Training on task 6aa20dc0.json
+2024-10-01 23:23:03,490 - INFO - Iteration 684: Pixel correctness: 86.90%
+2024-10-01 23:23:03,494 - INFO - Iteration 685/1000: Training on task 5614dbcf.json
+2024-10-01 23:23:05,315 - INFO - Iteration 685: Pixel correctness: 0.00%
+2024-10-01 23:23:05,319 - INFO - Iteration 686/1000: Training on task 9edfc990.json
+2024-10-01 23:23:12,017 - INFO - Iteration 686: Pixel correctness: 56.89%
+2024-10-01 23:23:12,021 - INFO - Iteration 687/1000: Training on task d511f180.json
+2024-10-01 23:23:12,069 - INFO - Iteration 687: Pixel correctness: 44.44%
+2024-10-01 23:23:12,073 - INFO - Iteration 688/1000: Training on task e3497940.json
+2024-10-01 23:23:12,619 - INFO - Iteration 688: Pixel correctness: 0.00%
+2024-10-01 23:23:12,622 - INFO - Iteration 689/1000: Training on task b782dc8a.json
+2024-10-01 23:23:12,856 - INFO - Iteration 689: Pixel correctness: 80.77%
+2024-10-01 23:23:12,859 - INFO - Iteration 690/1000: Training on task e3497940.json
+2024-10-01 23:23:13,783 - INFO - Iteration 690: Pixel correctness: 0.00%
+2024-10-01 23:23:13,785 - INFO - Iteration 690: Loss = 15.3170, Average Reward = -23.4217, Solved Tasks = 0, Average Pixel Correctness = 51.69%
+2024-10-01 23:23:13,785 - INFO - Iteration 691/1000: Training on task 0962bcdd.json
+2024-10-01 23:23:13,898 - INFO - Iteration 691: Pixel correctness: 83.33%
+2024-10-01 23:23:13,901 - INFO - Iteration 692/1000: Training on task 6a1e5592.json
+2024-10-01 23:23:15,845 - INFO - Iteration 692: Pixel correctness: 78.00%
+2024-10-01 23:23:15,848 - INFO - Iteration 693/1000: Training on task 54d9e175.json
+2024-10-01 23:23:16,668 - INFO - Iteration 693: Pixel correctness: 21.21%
+2024-10-01 23:23:16,672 - INFO - Iteration 694/1000: Training on task 29ec7d0e.json
+2024-10-01 23:23:17,258 - INFO - Iteration 694: Pixel correctness: 89.81%
+2024-10-01 23:23:17,263 - INFO - Iteration 695/1000: Training on task a699fb00.json
+2024-10-01 23:23:17,581 - INFO - Iteration 695: Pixel correctness: 92.00%
+2024-10-01 23:23:17,584 - INFO - Iteration 696/1000: Training on task 8efcae92.json
+2024-10-01 23:23:17,978 - INFO - Iteration 696: Pixel correctness: 0.00%
+2024-10-01 23:23:17,981 - INFO - Iteration 697/1000: Training on task 90f3ed37.json
+2024-10-01 23:23:18,104 - INFO - Iteration 697: Pixel correctness: 91.33%
+2024-10-01 23:23:18,107 - INFO - Iteration 698/1000: Training on task 22eb0ac0.json
+2024-10-01 23:23:18,319 - INFO - Iteration 698: Pixel correctness: 84.00%
+2024-10-01 23:23:18,323 - INFO - Iteration 699/1000: Training on task 6d0aefbc.json
+2024-10-01 23:23:18,355 - INFO - Iteration 699: Pixel correctness: 0.00%
+2024-10-01 23:23:18,358 - INFO - Iteration 700/1000: Training on task 57aa92db.json
+2024-10-01 23:23:18,776 - INFO - Iteration 700: Pixel correctness: 82.03%
+2024-10-01 23:23:18,779 - INFO - Iteration 700: Loss = 3123.2903, Average Reward = -23.3786, Solved Tasks = 0, Average Pixel Correctness = 51.84%
+2024-10-01 23:23:18,783 - INFO - Model weights saved at iteration 700
+2024-10-01 23:23:18,783 - INFO - Iteration 701/1000: Training on task 2c608aff.json
+2024-10-01 23:23:18,949 - INFO - Iteration 701: Pixel correctness: 97.50%
+2024-10-01 23:23:18,952 - INFO - Iteration 702/1000: Training on task 5daaa586.json
+2024-10-01 23:23:19,677 - INFO - Iteration 702: Pixel correctness: 0.00%
+2024-10-01 23:23:19,680 - INFO - Iteration 703/1000: Training on task 67e8384a.json
+2024-10-01 23:23:19,708 - INFO - Iteration 703: Pixel correctness: 0.00%
+2024-10-01 23:23:19,711 - INFO - Iteration 704/1000: Training on task a699fb00.json
+2024-10-01 23:23:20,038 - INFO - Iteration 704: Pixel correctness: 88.00%
+2024-10-01 23:23:20,043 - INFO - Iteration 705/1000: Training on task 9af7a82c.json
+2024-10-01 23:23:20,112 - INFO - Iteration 705: Pixel correctness: 0.00%
+2024-10-01 23:23:20,114 - INFO - Iteration 706/1000: Training on task 445eab21.json
+2024-10-01 23:23:20,998 - INFO - Iteration 706: Pixel correctness: 0.00%
+2024-10-01 23:23:21,001 - INFO - Iteration 707/1000: Training on task b91ae062.json
+2024-10-01 23:23:21,031 - INFO - Iteration 707: Pixel correctness: 0.00%
+2024-10-01 23:23:21,034 - INFO - Iteration 708/1000: Training on task fafffa47.json
+2024-10-01 23:23:21,202 - INFO - Iteration 708: Pixel correctness: 0.00%
+2024-10-01 23:23:21,206 - INFO - Iteration 709/1000: Training on task 29ec7d0e.json
+2024-10-01 23:23:21,803 - INFO - Iteration 709: Pixel correctness: 89.81%
+2024-10-01 23:23:21,806 - INFO - Iteration 710/1000: Training on task 952a094c.json
+2024-10-01 23:23:22,034 - INFO - Iteration 710: Pixel correctness: 91.00%
+2024-10-01 23:23:22,040 - INFO - Iteration 710: Loss = 146.3502, Average Reward = -23.1254, Solved Tasks = 0, Average Pixel Correctness = 51.62%
+2024-10-01 23:23:22,040 - INFO - Iteration 711/1000: Training on task 5c0a986e.json
+2024-10-01 23:23:22,364 - INFO - Iteration 711: Pixel correctness: 93.00%
+2024-10-01 23:23:22,369 - INFO - Iteration 712/1000: Training on task 3e980e27.json
+2024-10-01 23:23:22,642 - INFO - Iteration 712: Pixel correctness: 91.72%
+2024-10-01 23:23:22,645 - INFO - Iteration 713/1000: Training on task ac0a08a4.json
+2024-10-01 23:23:22,669 - INFO - Iteration 713: Pixel correctness: 0.00%
+2024-10-01 23:23:22,673 - INFO - Iteration 714/1000: Training on task 8d5021e8.json
+2024-10-01 23:23:22,692 - INFO - Iteration 714: Pixel correctness: 0.00%
+2024-10-01 23:23:22,695 - INFO - Iteration 715/1000: Training on task c444b776.json
+2024-10-01 23:23:23,326 - INFO - Iteration 715: Pixel correctness: 91.69%
+2024-10-01 23:23:23,329 - INFO - Iteration 716/1000: Training on task 6150a2bd.json
+2024-10-01 23:23:23,356 - INFO - Iteration 716: Pixel correctness: 11.11%
+2024-10-01 23:23:23,359 - INFO - Iteration 717/1000: Training on task b782dc8a.json
+2024-10-01 23:23:25,695 - INFO - Iteration 717: Pixel correctness: 81.32%
+2024-10-01 23:23:25,699 - INFO - Iteration 718/1000: Training on task 47c1f68c.json
+2024-10-01 23:23:25,825 - INFO - Iteration 718: Pixel correctness: 0.00%
+2024-10-01 23:23:25,827 - INFO - Iteration 719/1000: Training on task 228f6490.json
+2024-10-01 23:23:27,321 - INFO - Iteration 719: Pixel correctness: 81.00%
+2024-10-01 23:23:27,325 - INFO - Iteration 720/1000: Training on task 2013d3e2.json
+2024-10-01 23:23:27,495 - INFO - Iteration 720: Pixel correctness: 0.00%
+2024-10-01 23:23:27,498 - INFO - Iteration 720: Loss = 10.7133, Average Reward = -22.9653, Solved Tasks = 0, Average Pixel Correctness = 51.53%
+2024-10-01 23:23:27,498 - INFO - Iteration 721/1000: Training on task 32597951.json
+2024-10-01 23:23:27,832 - INFO - Iteration 721: Pixel correctness: 95.50%
+2024-10-01 23:23:27,837 - INFO - Iteration 722/1000: Training on task 952a094c.json
+2024-10-01 23:23:29,711 - INFO - Iteration 722: Pixel correctness: 91.00%
+2024-10-01 23:23:29,715 - INFO - Iteration 723/1000: Training on task 6cf79266.json
+2024-10-01 23:23:30,130 - INFO - Iteration 723: Pixel correctness: 95.50%
+2024-10-01 23:23:30,134 - INFO - Iteration 724/1000: Training on task 94f9d214.json
+2024-10-01 23:23:30,176 - INFO - Iteration 724: Pixel correctness: 0.00%
+2024-10-01 23:23:30,179 - INFO - Iteration 725/1000: Training on task e40b9e2f.json
+2024-10-01 23:23:30,260 - INFO - Iteration 725: Pixel correctness: 97.00%
+2024-10-01 23:23:30,263 - INFO - Iteration 726/1000: Training on task 045e512c.json
+2024-10-01 23:23:36,103 - INFO - Iteration 726: Pixel correctness: 93.42%
+2024-10-01 23:23:36,108 - INFO - Iteration 727/1000: Training on task a48eeaf7.json
+2024-10-01 23:23:36,976 - INFO - Iteration 727: Pixel correctness: 92.00%
+2024-10-01 23:23:36,979 - INFO - Iteration 728/1000: Training on task 178fcbfb.json
+2024-10-01 23:23:37,822 - INFO - Iteration 728: Pixel correctness: 61.82%
+2024-10-01 23:23:37,825 - INFO - Iteration 729/1000: Training on task a5f85a15.json
+2024-10-01 23:23:37,879 - INFO - Iteration 729: Pixel correctness: 90.62%
+2024-10-01 23:23:37,881 - INFO - Iteration 730/1000: Training on task ded97339.json
+2024-10-01 23:23:37,939 - INFO - Iteration 730: Pixel correctness: 88.00%
+2024-10-01 23:23:37,943 - INFO - Iteration 730: Loss = 127.9620, Average Reward = -22.8438, Solved Tasks = 0, Average Pixel Correctness = 51.93%
+2024-10-01 23:23:37,943 - INFO - Iteration 731/1000: Training on task 8f2ea7aa.json
+2024-10-01 23:23:38,489 - INFO - Iteration 731: Pixel correctness: 85.19%
+2024-10-01 23:23:38,492 - INFO - Iteration 732/1000: Training on task 00d62c1b.json
+2024-10-01 23:23:38,618 - INFO - Iteration 732: Pixel correctness: 93.00%
+2024-10-01 23:23:38,621 - INFO - Iteration 733/1000: Training on task 543a7ed5.json
+2024-10-01 23:23:38,893 - INFO - Iteration 733: Pixel correctness: 63.11%
+2024-10-01 23:23:38,897 - INFO - Iteration 734/1000: Training on task bdad9b1f.json
+2024-10-01 23:23:39,001 - INFO - Iteration 734: Pixel correctness: 77.78%
+2024-10-01 23:23:39,004 - INFO - Iteration 735/1000: Training on task 46442a0e.json
+2024-10-01 23:23:39,025 - INFO - Iteration 735: Pixel correctness: 0.00%
+2024-10-01 23:23:39,028 - INFO - Iteration 736/1000: Training on task 98cf29f8.json
+2024-10-01 23:23:41,242 - INFO - Iteration 736: Pixel correctness: 93.59%
+2024-10-01 23:23:41,245 - INFO - Iteration 737/1000: Training on task db3e9e38.json
+2024-10-01 23:23:41,298 - INFO - Iteration 737: Pixel correctness: 69.64%
+2024-10-01 23:23:41,300 - INFO - Iteration 738/1000: Training on task 1f642eb9.json
+2024-10-01 23:23:42,025 - INFO - Iteration 738: Pixel correctness: 93.00%
+2024-10-01 23:23:42,029 - INFO - Iteration 739/1000: Training on task 7b7f7511.json
+2024-10-01 23:23:42,114 - INFO - Iteration 739: Pixel correctness: 0.00%
+2024-10-01 23:23:42,118 - INFO - Iteration 740/1000: Training on task 776ffc46.json
+2024-10-01 23:23:47,156 - INFO - Iteration 740: Pixel correctness: 95.50%
+2024-10-01 23:23:47,159 - INFO - Iteration 740: Loss = 343.1862, Average Reward = -22.7635, Solved Tasks = 0, Average Pixel Correctness = 52.13%
+2024-10-01 23:23:47,160 - INFO - Iteration 741/1000: Training on task 5582e5ca.json
+2024-10-01 23:23:47,199 - INFO - Iteration 741: Pixel correctness: 22.22%
+2024-10-01 23:23:47,202 - INFO - Iteration 742/1000: Training on task 445eab21.json
+2024-10-01 23:23:48,971 - INFO - Iteration 742: Pixel correctness: 0.00%
+2024-10-01 23:23:48,976 - INFO - Iteration 743/1000: Training on task 72ca375d.json
+2024-10-01 23:23:49,097 - INFO - Iteration 743: Pixel correctness: 0.00%
+2024-10-01 23:23:49,100 - INFO - Iteration 744/1000: Training on task ce602527.json
+2024-10-01 23:23:49,673 - INFO - Iteration 744: Pixel correctness: 0.00%
+2024-10-01 23:23:49,680 - INFO - Iteration 745/1000: Training on task 88a10436.json
+2024-10-01 23:23:49,792 - INFO - Iteration 745: Pixel correctness: 90.00%
+2024-10-01 23:23:49,813 - INFO - Iteration 746/1000: Training on task 0dfd9992.json
+2024-10-01 23:23:54,262 - INFO - Iteration 746: Pixel correctness: 83.45%
+2024-10-01 23:23:54,266 - INFO - Iteration 747/1000: Training on task 46442a0e.json
+2024-10-01 23:23:54,295 - INFO - Iteration 747: Pixel correctness: 0.00%
+2024-10-01 23:23:54,298 - INFO - Iteration 748/1000: Training on task 90c28cc7.json
+2024-10-01 23:24:01,127 - INFO - Iteration 748: Pixel correctness: 0.00%
+2024-10-01 23:24:01,131 - INFO - Iteration 749/1000: Training on task 5168d44c.json
+2024-10-01 23:24:02,107 - INFO - Iteration 749: Pixel correctness: 89.01%
+2024-10-01 23:24:02,110 - INFO - Iteration 750/1000: Training on task 0e206a2e.json
+2024-10-01 23:24:02,491 - INFO - Iteration 750: Pixel correctness: 89.29%
+2024-10-01 23:24:02,495 - INFO - Iteration 750: Loss = 783.6628, Average Reward = -22.6333, Solved Tasks = 0, Average Pixel Correctness = 51.93%
+2024-10-01 23:24:02,495 - INFO - Iteration 751/1000: Training on task 780d0b14.json
+2024-10-01 23:24:03,314 - INFO - Iteration 751: Pixel correctness: 0.00%
+2024-10-01 23:24:03,318 - INFO - Iteration 752/1000: Training on task 4347f46a.json
+2024-10-01 23:24:03,767 - INFO - Iteration 752: Pixel correctness: 89.24%
+2024-10-01 23:24:03,770 - INFO - Iteration 753/1000: Training on task 469497ad.json
+2024-10-01 23:24:03,825 - INFO - Iteration 753: Pixel correctness: 0.00%
+2024-10-01 23:24:03,827 - INFO - Iteration 754/1000: Training on task ff805c23.json
+2024-10-01 23:24:05,148 - INFO - Iteration 754: Pixel correctness: 0.00%
+2024-10-01 23:24:05,152 - INFO - Iteration 755/1000: Training on task 6b9890af.json
+2024-10-01 23:24:05,743 - INFO - Iteration 755: Pixel correctness: 0.00%
+2024-10-01 23:24:05,747 - INFO - Iteration 756/1000: Training on task 673ef223.json
+2024-10-01 23:24:06,031 - INFO - Iteration 756: Pixel correctness: 84.50%
+2024-10-01 23:24:06,035 - INFO - Iteration 757/1000: Training on task a2fd1cf0.json
+2024-10-01 23:24:08,142 - INFO - Iteration 757: Pixel correctness: 90.62%
+2024-10-01 23:24:08,146 - INFO - Iteration 758/1000: Training on task 2dc579da.json
+2024-10-01 23:24:08,239 - INFO - Iteration 758: Pixel correctness: 0.00%
+2024-10-01 23:24:08,243 - INFO - Iteration 759/1000: Training on task 25d8a9c8.json
+2024-10-01 23:24:08,268 - INFO - Iteration 759: Pixel correctness: 0.00%
+2024-10-01 23:24:08,272 - INFO - Iteration 760/1000: Training on task ae3edfdc.json
+2024-10-01 23:24:11,752 - INFO - Iteration 760: Pixel correctness: 94.22%
+2024-10-01 23:24:11,755 - INFO - Iteration 760: Loss = 183.8928, Average Reward = -22.4724, Solved Tasks = 0, Average Pixel Correctness = 51.72%
+2024-10-01 23:24:11,755 - INFO - Iteration 761/1000: Training on task 41e4d17e.json
+2024-10-01 23:24:12,201 - INFO - Iteration 761: Pixel correctness: 88.44%
+2024-10-01 23:24:12,207 - INFO - Iteration 762/1000: Training on task dbc1a6ce.json
+2024-10-01 23:24:12,716 - INFO - Iteration 762: Pixel correctness: 85.56%
+2024-10-01 23:24:12,719 - INFO - Iteration 763/1000: Training on task bdad9b1f.json
+2024-10-01 23:24:13,250 - INFO - Iteration 763: Pixel correctness: 80.56%
+2024-10-01 23:24:13,253 - INFO - Iteration 764/1000: Training on task ded97339.json
+2024-10-01 23:24:13,354 - INFO - Iteration 764: Pixel correctness: 87.00%
+2024-10-01 23:24:13,357 - INFO - Iteration 765/1000: Training on task aedd82e4.json
+2024-10-01 23:24:13,378 - INFO - Iteration 765: Pixel correctness: 81.25%
+2024-10-01 23:24:13,381 - INFO - Iteration 766/1000: Training on task bc1d5164.json
+2024-10-01 23:24:13,439 - INFO - Iteration 766: Pixel correctness: 0.00%
+2024-10-01 23:24:13,442 - INFO - Iteration 767/1000: Training on task 56dc2b01.json
+2024-10-01 23:24:13,533 - INFO - Iteration 767: Pixel correctness: 71.76%
+2024-10-01 23:24:13,537 - INFO - Iteration 768/1000: Training on task 1b2d62fb.json
+2024-10-01 23:24:13,590 - INFO - Iteration 768: Pixel correctness: 0.00%
+2024-10-01 23:24:13,592 - INFO - Iteration 769/1000: Training on task 10fcaaa3.json
+2024-10-01 23:24:13,859 - INFO - Iteration 769: Pixel correctness: 0.00%
+2024-10-01 23:24:13,861 - INFO - Iteration 770/1000: Training on task c9f8e694.json
+2024-10-01 23:24:15,886 - INFO - Iteration 770: Pixel correctness: 74.31%
+2024-10-01 23:24:15,888 - INFO - Iteration 770: Loss = 1375.4094, Average Reward = -22.3442, Solved Tasks = 0, Average Pixel Correctness = 51.79%
+2024-10-01 23:24:15,888 - INFO - Iteration 771/1000: Training on task e48d4e1a.json
+2024-10-01 23:24:16,231 - INFO - Iteration 771: Pixel correctness: 62.00%
+2024-10-01 23:24:16,236 - INFO - Iteration 772/1000: Training on task cbded52d.json
+2024-10-01 23:24:16,305 - INFO - Iteration 772: Pixel correctness: 93.75%
+2024-10-01 23:24:16,309 - INFO - Iteration 773/1000: Training on task 00d62c1b.json
+2024-10-01 23:24:16,939 - INFO - Iteration 773: Pixel correctness: 99.00%
+2024-10-01 23:24:16,942 - INFO - Iteration 774/1000: Training on task 7b6016b9.json
+2024-10-01 23:24:23,214 - INFO - Iteration 774: Pixel correctness: 20.42%
+2024-10-01 23:24:23,217 - INFO - Iteration 775/1000: Training on task 9d9215db.json
+2024-10-01 23:24:23,662 - INFO - Iteration 775: Pixel correctness: 90.86%
+2024-10-01 23:24:23,666 - INFO - Iteration 776/1000: Training on task 868de0fa.json
+2024-10-01 23:24:23,971 - INFO - Iteration 776: Pixel correctness: 81.78%
+2024-10-01 23:24:23,975 - INFO - Iteration 777/1000: Training on task 25ff71a9.json
+2024-10-01 23:24:23,998 - INFO - Iteration 777: Pixel correctness: 55.56%
+2024-10-01 23:24:24,001 - INFO - Iteration 778/1000: Training on task d90796e8.json
+2024-10-01 23:24:24,064 - INFO - Iteration 778: Pixel correctness: 88.10%
+2024-10-01 23:24:24,067 - INFO - Iteration 779/1000: Training on task 1b2d62fb.json
+2024-10-01 23:24:24,158 - INFO - Iteration 779: Pixel correctness: 0.00%
+2024-10-01 23:24:24,160 - INFO - Iteration 780/1000: Training on task d13f3404.json
+2024-10-01 23:24:24,181 - INFO - Iteration 780: Pixel correctness: 0.00%
+2024-10-01 23:24:24,183 - INFO - Iteration 780: Loss = 6.8288, Average Reward = -22.7615, Solved Tasks = 0, Average Pixel Correctness = 51.88%
+2024-10-01 23:24:24,183 - INFO - Iteration 781/1000: Training on task 1f642eb9.json
+2024-10-01 23:24:24,437 - INFO - Iteration 781: Pixel correctness: 94.00%
+2024-10-01 23:24:24,440 - INFO - Iteration 782/1000: Training on task 28e73c20.json
+2024-10-01 23:24:24,568 - INFO - Iteration 782: Pixel correctness: 44.00%
+2024-10-01 23:24:24,571 - INFO - Iteration 783/1000: Training on task 2dc579da.json
+2024-10-01 23:24:24,726 - INFO - Iteration 783: Pixel correctness: 0.00%
+2024-10-01 23:24:24,730 - INFO - Iteration 784/1000: Training on task d8c310e9.json
+2024-10-01 23:24:25,602 - INFO - Iteration 784: Pixel correctness: 84.00%
+2024-10-01 23:24:25,605 - INFO - Iteration 785/1000: Training on task a1570a43.json
+2024-10-01 23:24:25,652 - INFO - Iteration 785: Pixel correctness: 71.43%
+2024-10-01 23:24:25,654 - INFO - Iteration 786/1000: Training on task 941d9a10.json
+2024-10-01 23:24:25,833 - INFO - Iteration 786: Pixel correctness: 87.00%
+2024-10-01 23:24:25,837 - INFO - Iteration 787/1000: Training on task bda2d7a6.json
+2024-10-01 23:24:25,897 - INFO - Iteration 787: Pixel correctness: 1.56%
+2024-10-01 23:24:25,901 - INFO - Iteration 788/1000: Training on task ea32f347.json
+2024-10-01 23:24:26,071 - INFO - Iteration 788: Pixel correctness: 85.00%
+2024-10-01 23:24:26,075 - INFO - Iteration 789/1000: Training on task d13f3404.json
+2024-10-01 23:24:26,095 - INFO - Iteration 789: Pixel correctness: 0.00%
+2024-10-01 23:24:26,098 - INFO - Iteration 790/1000: Training on task beb8660c.json
+2024-10-01 23:24:26,589 - INFO - Iteration 790: Pixel correctness: 64.29%
+2024-10-01 23:24:26,592 - INFO - Iteration 790: Loss = 134.2161, Average Reward = -22.8038, Solved Tasks = 0, Average Pixel Correctness = 51.90%
+2024-10-01 23:24:26,592 - INFO - Iteration 791/1000: Training on task ba97ae07.json
+2024-10-01 23:24:26,692 - INFO - Iteration 791: Pixel correctness: 98.21%
+2024-10-01 23:24:26,695 - INFO - Iteration 792/1000: Training on task 469497ad.json
+2024-10-01 23:24:26,845 - INFO - Iteration 792: Pixel correctness: 0.00%
+2024-10-01 23:24:26,847 - INFO - Iteration 793/1000: Training on task 25d487eb.json
+2024-10-01 23:24:28,158 - INFO - Iteration 793: Pixel correctness: 96.53%
+2024-10-01 23:24:28,160 - INFO - Iteration 794/1000: Training on task 6cdd2623.json
+2024-10-01 23:24:31,380 - INFO - Iteration 794: Pixel correctness: 74.90%
+2024-10-01 23:24:31,383 - INFO - Iteration 795/1000: Training on task 5c2c9af4.json
+2024-10-01 23:24:31,720 - INFO - Iteration 795: Pixel correctness: 74.48%
+2024-10-01 23:24:31,723 - INFO - Iteration 796/1000: Training on task 2bcee788.json
+2024-10-01 23:24:33,011 - INFO - Iteration 796: Pixel correctness: 4.00%
+2024-10-01 23:24:33,015 - INFO - Iteration 797/1000: Training on task 4938f0c2.json
+2024-10-01 23:24:33,151 - INFO - Iteration 797: Pixel correctness: 82.00%
+2024-10-01 23:24:33,154 - INFO - Iteration 798/1000: Training on task 6e82a1ae.json
+2024-10-01 23:24:33,290 - INFO - Iteration 798: Pixel correctness: 85.00%
+2024-10-01 23:24:33,293 - INFO - Iteration 799/1000: Training on task 9af7a82c.json
+2024-10-01 23:24:33,317 - INFO - Iteration 799: Pixel correctness: 0.00%
+2024-10-01 23:24:33,320 - INFO - Iteration 800/1000: Training on task 22233c11.json
+2024-10-01 23:24:34,317 - INFO - Iteration 800: Pixel correctness: 96.00%
+2024-10-01 23:24:34,321 - INFO - Iteration 800: Loss = 23.5481, Average Reward = -22.9438, Solved Tasks = 0, Average Pixel Correctness = 52.02%
+2024-10-01 23:24:34,324 - INFO - Model weights saved at iteration 800
+2024-10-01 23:24:34,324 - INFO - Iteration 801/1000: Training on task d0f5fe59.json
+2024-10-01 23:24:34,668 - INFO - Iteration 801: Pixel correctness: 0.00%
+2024-10-01 23:24:34,672 - INFO - Iteration 802/1000: Training on task 54d82841.json
+2024-10-01 23:24:35,301 - INFO - Iteration 802: Pixel correctness: 95.31%
+2024-10-01 23:24:35,304 - INFO - Iteration 803/1000: Training on task 3af2c5a8.json
+2024-10-01 23:24:35,322 - INFO - Iteration 803: Pixel correctness: 0.00%
+2024-10-01 23:24:35,325 - INFO - Iteration 804/1000: Training on task ecdecbb3.json
+2024-10-01 23:24:36,047 - INFO - Iteration 804: Pixel correctness: 88.76%
+2024-10-01 23:24:36,050 - INFO - Iteration 805/1000: Training on task 6f8cd79b.json
+2024-10-01 23:24:36,071 - INFO - Iteration 805: Pixel correctness: 8.33%
+2024-10-01 23:24:36,075 - INFO - Iteration 806/1000: Training on task 22eb0ac0.json
+2024-10-01 23:24:36,270 - INFO - Iteration 806: Pixel correctness: 99.00%
+2024-10-01 23:24:36,273 - INFO - Iteration 807/1000: Training on task 4290ef0e.json
+2024-10-01 23:24:36,558 - INFO - Iteration 807: Pixel correctness: 0.00%
+2024-10-01 23:24:36,561 - INFO - Iteration 808/1000: Training on task 7837ac64.json
+2024-10-01 23:24:37,536 - INFO - Iteration 808: Pixel correctness: 0.00%
+2024-10-01 23:24:37,539 - INFO - Iteration 809/1000: Training on task 9f236235.json
+2024-10-01 23:24:37,676 - INFO - Iteration 809: Pixel correctness: 0.00%
+2024-10-01 23:24:37,680 - INFO - Iteration 810/1000: Training on task 137eaa0f.json
+2024-10-01 23:24:37,850 - INFO - Iteration 810: Pixel correctness: 0.00%
+2024-10-01 23:24:37,852 - INFO - Iteration 810: Loss = 7.5878, Average Reward = -22.7099, Solved Tasks = 0, Average Pixel Correctness = 51.73%
+2024-10-01 23:24:37,853 - INFO - Iteration 811/1000: Training on task 776ffc46.json
+2024-10-01 23:24:42,943 - INFO - Iteration 811: Pixel correctness: 97.75%
+2024-10-01 23:24:42,946 - INFO - Iteration 812/1000: Training on task 995c5fa3.json
+2024-10-01 23:24:43,036 - INFO - Iteration 812: Pixel correctness: 0.00%
+2024-10-01 23:24:43,038 - INFO - Iteration 813/1000: Training on task 543a7ed5.json
+2024-10-01 23:24:43,373 - INFO - Iteration 813: Pixel correctness: 63.56%
+2024-10-01 23:24:43,376 - INFO - Iteration 814/1000: Training on task 662c240a.json
+2024-10-01 23:24:43,627 - INFO - Iteration 814: Pixel correctness: 0.00%
+2024-10-01 23:24:43,630 - INFO - Iteration 815/1000: Training on task bda2d7a6.json
+2024-10-01 23:24:43,977 - INFO - Iteration 815: Pixel correctness: 2.78%
+2024-10-01 23:24:43,980 - INFO - Iteration 816/1000: Training on task 4290ef0e.json
+2024-10-01 23:24:46,761 - INFO - Iteration 816: Pixel correctness: 0.00%
+2024-10-01 23:24:46,764 - INFO - Iteration 817/1000: Training on task 44d8ac46.json
+2024-10-01 23:24:47,887 - INFO - Iteration 817: Pixel correctness: 96.53%
+2024-10-01 23:24:47,891 - INFO - Iteration 818/1000: Training on task 363442ee.json
+2024-10-01 23:24:48,185 - INFO - Iteration 818: Pixel correctness: 60.68%
+2024-10-01 23:24:48,188 - INFO - Iteration 819/1000: Training on task 36d67576.json
+2024-10-01 23:24:48,471 - INFO - Iteration 819: Pixel correctness: 93.49%
+2024-10-01 23:24:48,474 - INFO - Iteration 820/1000: Training on task eb281b96.json
+2024-10-01 23:24:48,768 - INFO - Iteration 820: Pixel correctness: 0.00%
+2024-10-01 23:24:48,771 - INFO - Iteration 820: Loss = 22.9306, Average Reward = -22.6671, Solved Tasks = 0, Average Pixel Correctness = 51.61%
+2024-10-01 23:24:48,771 - INFO - Iteration 821/1000: Training on task cbded52d.json
+2024-10-01 23:24:48,842 - INFO - Iteration 821: Pixel correctness: 93.75%
+2024-10-01 23:24:48,845 - INFO - Iteration 822/1000: Training on task 2bcee788.json
+2024-10-01 23:24:50,051 - INFO - Iteration 822: Pixel correctness: 5.00%
+2024-10-01 23:24:50,054 - INFO - Iteration 823/1000: Training on task 5c0a986e.json
+2024-10-01 23:24:50,181 - INFO - Iteration 823: Pixel correctness: 87.00%
+2024-10-01 23:24:50,183 - INFO - Iteration 824/1000: Training on task 3af2c5a8.json
+2024-10-01 23:24:50,218 - INFO - Iteration 824: Pixel correctness: 0.00%
+2024-10-01 23:24:50,221 - INFO - Iteration 825/1000: Training on task c3f564a4.json
+2024-10-01 23:24:56,635 - INFO - Iteration 825: Pixel correctness: 83.98%
+2024-10-01 23:24:56,638 - INFO - Iteration 826/1000: Training on task db93a21d.json
+2024-10-01 23:24:57,125 - INFO - Iteration 826: Pixel correctness: 41.25%
+2024-10-01 23:24:57,128 - INFO - Iteration 827/1000: Training on task 39e1d7f9.json
+2024-10-01 23:25:04,797 - INFO - Iteration 827: Pixel correctness: 92.46%
+2024-10-01 23:25:04,801 - INFO - Iteration 828/1000: Training on task 91413438.json
+2024-10-01 23:25:04,840 - INFO - Iteration 828: Pixel correctness: 0.00%
+2024-10-01 23:25:04,843 - INFO - Iteration 829/1000: Training on task 7468f01a.json
+2024-10-01 23:25:04,964 - INFO - Iteration 829: Pixel correctness: 0.00%
+2024-10-01 23:25:04,968 - INFO - Iteration 830/1000: Training on task 780d0b14.json
+2024-10-01 23:25:05,680 - INFO - Iteration 830: Pixel correctness: 0.00%
+2024-10-01 23:25:05,684 - INFO - Iteration 830: Loss = 10.4069, Average Reward = -22.9325, Solved Tasks = 0, Average Pixel Correctness = 51.47%
+2024-10-01 23:25:05,684 - INFO - Iteration 831/1000: Training on task ac0a08a4.json
+2024-10-01 23:25:05,787 - INFO - Iteration 831: Pixel correctness: 0.00%
+2024-10-01 23:25:05,791 - INFO - Iteration 832/1000: Training on task e509e548.json
+2024-10-01 23:25:11,868 - INFO - Iteration 832: Pixel correctness: 86.97%
+2024-10-01 23:25:11,872 - INFO - Iteration 833/1000: Training on task ea786f4a.json
+2024-10-01 23:25:11,902 - INFO - Iteration 833: Pixel correctness: 66.67%
+2024-10-01 23:25:11,906 - INFO - Iteration 834/1000: Training on task ce602527.json
+2024-10-01 23:25:12,425 - INFO - Iteration 834: Pixel correctness: 0.00%
+2024-10-01 23:25:12,427 - INFO - Iteration 835/1000: Training on task 74dd1130.json
+2024-10-01 23:25:12,460 - INFO - Iteration 835: Pixel correctness: 22.22%
+2024-10-01 23:25:12,463 - INFO - Iteration 836/1000: Training on task a64e4611.json
+2024-10-01 23:25:13,580 - INFO - Iteration 836: Pixel correctness: 71.00%
+2024-10-01 23:25:13,583 - INFO - Iteration 837/1000: Training on task a48eeaf7.json
+2024-10-01 23:25:14,534 - INFO - Iteration 837: Pixel correctness: 94.00%
+2024-10-01 23:25:14,537 - INFO - Iteration 838/1000: Training on task 321b1fc6.json
+2024-10-01 23:25:15,780 - INFO - Iteration 838: Pixel correctness: 80.00%
+2024-10-01 23:25:15,783 - INFO - Iteration 839/1000: Training on task a699fb00.json
+2024-10-01 23:25:15,825 - INFO - Iteration 839: Pixel correctness: 88.00%
+2024-10-01 23:25:15,829 - INFO - Iteration 840/1000: Training on task 31aa019c.json
+2024-10-01 23:25:16,066 - INFO - Iteration 840: Pixel correctness: 77.00%
+2024-10-01 23:25:16,070 - INFO - Iteration 840: Loss = 550.6616, Average Reward = -23.1083, Solved Tasks = 0, Average Pixel Correctness = 51.56%
+2024-10-01 23:25:16,070 - INFO - Iteration 841/1000: Training on task 1e32b0e9.json
+2024-10-01 23:25:16,354 - INFO - Iteration 841: Pixel correctness: 91.00%
+2024-10-01 23:25:16,357 - INFO - Iteration 842/1000: Training on task cce03e0d.json
+2024-10-01 23:25:16,380 - INFO - Iteration 842: Pixel correctness: 0.00%
+2024-10-01 23:25:16,383 - INFO - Iteration 843/1000: Training on task 6d0aefbc.json
+2024-10-01 23:25:16,401 - INFO - Iteration 843: Pixel correctness: 0.00%
+2024-10-01 23:25:16,404 - INFO - Iteration 844/1000: Training on task 9565186b.json
+2024-10-01 23:25:16,426 - INFO - Iteration 844: Pixel correctness: 55.56%
+2024-10-01 23:25:16,429 - INFO - Iteration 845/1000: Training on task 3de23699.json
+2024-10-01 23:25:16,603 - INFO - Iteration 845: Pixel correctness: 0.00%
+2024-10-01 23:25:16,606 - INFO - Iteration 846/1000: Training on task 6d58a25d.json
+2024-10-01 23:25:20,440 - INFO - Iteration 846: Pixel correctness: 91.00%
+2024-10-01 23:25:20,445 - INFO - Iteration 847/1000: Training on task c59eb873.json
+2024-10-01 23:25:20,494 - INFO - Iteration 847: Pixel correctness: 0.00%
+2024-10-01 23:25:20,497 - INFO - Iteration 848/1000: Training on task 67a3c6ac.json
+2024-10-01 23:25:20,547 - INFO - Iteration 848: Pixel correctness: 13.89%
+2024-10-01 23:25:20,550 - INFO - Iteration 849/1000: Training on task d4f3cd78.json
+2024-10-01 23:25:20,683 - INFO - Iteration 849: Pixel correctness: 80.00%
+2024-10-01 23:25:20,685 - INFO - Iteration 850/1000: Training on task f15e1fac.json
+2024-10-01 23:25:20,859 - INFO - Iteration 850: Pixel correctness: 77.08%
+2024-10-01 23:25:20,863 - INFO - Iteration 850: Loss = 1107.9337, Average Reward = -23.0176, Solved Tasks = 0, Average Pixel Correctness = 51.43%
+2024-10-01 23:25:20,863 - INFO - Iteration 851/1000: Training on task 0e206a2e.json
+2024-10-01 23:25:25,573 - INFO - Iteration 851: Pixel correctness: 89.68%
+2024-10-01 23:25:25,582 - INFO - Iteration 852/1000: Training on task 321b1fc6.json
+2024-10-01 23:25:26,803 - INFO - Iteration 852: Pixel correctness: 79.00%
+2024-10-01 23:25:26,809 - INFO - Iteration 853/1000: Training on task 780d0b14.json
+2024-10-01 23:25:34,704 - INFO - Iteration 853: Pixel correctness: 0.00%
+2024-10-01 23:25:34,709 - INFO - Iteration 854/1000: Training on task 57aa92db.json
+2024-10-01 23:25:39,108 - INFO - Iteration 854: Pixel correctness: 94.44%
+2024-10-01 23:25:39,112 - INFO - Iteration 855/1000: Training on task bd4472b8.json
+2024-10-01 23:25:39,161 - INFO - Iteration 855: Pixel correctness: 20.83%
+2024-10-01 23:25:39,165 - INFO - Iteration 856/1000: Training on task 1a07d186.json
+2024-10-01 23:25:41,706 - INFO - Iteration 856: Pixel correctness: 96.67%
+2024-10-01 23:25:41,709 - INFO - Iteration 857/1000: Training on task d13f3404.json
+2024-10-01 23:25:41,733 - INFO - Iteration 857: Pixel correctness: 0.00%
+2024-10-01 23:25:41,736 - INFO - Iteration 858/1000: Training on task 7e0986d6.json
+2024-10-01 23:25:43,881 - INFO - Iteration 858: Pixel correctness: 94.23%
+2024-10-01 23:25:43,884 - INFO - Iteration 859/1000: Training on task 6f8cd79b.json
+2024-10-01 23:25:44,195 - INFO - Iteration 859: Pixel correctness: 30.00%
+2024-10-01 23:25:44,198 - INFO - Iteration 860/1000: Training on task 0e206a2e.json
+2024-10-01 23:25:48,268 - INFO - Iteration 860: Pixel correctness: 89.68%
+2024-10-01 23:25:48,271 - INFO - Iteration 860: Loss = 693.8199, Average Reward = -22.9163, Solved Tasks = 0, Average Pixel Correctness = 51.52%
+2024-10-01 23:25:48,271 - INFO - Iteration 861/1000: Training on task 6d0aefbc.json
+2024-10-01 23:25:48,314 - INFO - Iteration 861: Pixel correctness: 0.00%
+2024-10-01 23:25:48,316 - INFO - Iteration 862/1000: Training on task feca6190.json
+2024-10-01 23:25:48,333 - INFO - Iteration 862: Pixel correctness: 0.00%
+2024-10-01 23:25:48,337 - INFO - Iteration 863/1000: Training on task 776ffc46.json
+2024-10-01 23:25:53,317 - INFO - Iteration 863: Pixel correctness: 96.75%
+2024-10-01 23:25:53,320 - INFO - Iteration 864/1000: Training on task 88a10436.json
+2024-10-01 23:25:53,496 - INFO - Iteration 864: Pixel correctness: 90.00%
+2024-10-01 23:25:53,500 - INFO - Iteration 865/1000: Training on task 95990924.json
+2024-10-01 23:25:57,847 - INFO - Iteration 865: Pixel correctness: 92.89%
+2024-10-01 23:25:57,851 - INFO - Iteration 866/1000: Training on task 234bbc79.json
+2024-10-01 23:25:57,908 - INFO - Iteration 866: Pixel correctness: 0.00%
+2024-10-01 23:25:57,911 - INFO - Iteration 867/1000: Training on task 1e0a9b12.json
+2024-10-01 23:25:57,974 - INFO - Iteration 867: Pixel correctness: 86.11%
+2024-10-01 23:25:57,977 - INFO - Iteration 868/1000: Training on task d8c310e9.json
+2024-10-01 23:25:58,092 - INFO - Iteration 868: Pixel correctness: 80.00%
+2024-10-01 23:25:58,095 - INFO - Iteration 869/1000: Training on task 0e206a2e.json
+2024-10-01 23:26:01,790 - INFO - Iteration 869: Pixel correctness: 92.41%
+2024-10-01 23:26:01,796 - INFO - Iteration 870/1000: Training on task e509e548.json
+2024-10-01 23:26:02,007 - INFO - Iteration 870: Pixel correctness: 76.36%
+2024-10-01 23:26:02,011 - INFO - Iteration 870: Loss = 729.7972, Average Reward = -22.7770, Solved Tasks = 0, Average Pixel Correctness = 51.64%
+2024-10-01 23:26:02,011 - INFO - Iteration 871/1000: Training on task 72ca375d.json
+2024-10-01 23:26:02,122 - INFO - Iteration 871: Pixel correctness: 0.00%
+2024-10-01 23:26:02,126 - INFO - Iteration 872/1000: Training on task 36d67576.json
+2024-10-01 23:26:02,463 - INFO - Iteration 872: Pixel correctness: 93.49%
+2024-10-01 23:26:02,468 - INFO - Iteration 873/1000: Training on task 23b5c85d.json
+2024-10-01 23:26:02,558 - INFO - Iteration 873: Pixel correctness: 0.00%
+2024-10-01 23:26:02,561 - INFO - Iteration 874/1000: Training on task a740d043.json
+2024-10-01 23:26:03,067 - INFO - Iteration 874: Pixel correctness: 0.00%
+2024-10-01 23:26:03,070 - INFO - Iteration 875/1000: Training on task bb43febb.json
+2024-10-01 23:26:03,453 - INFO - Iteration 875: Pixel correctness: 88.00%
+2024-10-01 23:26:03,456 - INFO - Iteration 876/1000: Training on task 8efcae92.json
+2024-10-01 23:26:03,859 - INFO - Iteration 876: Pixel correctness: 0.00%
+2024-10-01 23:26:03,861 - INFO - Iteration 877/1000: Training on task 5c2c9af4.json
+2024-10-01 23:26:04,211 - INFO - Iteration 877: Pixel correctness: 71.46%
+2024-10-01 23:26:04,215 - INFO - Iteration 878/1000: Training on task 47c1f68c.json
+2024-10-01 23:26:04,739 - INFO - Iteration 878: Pixel correctness: 0.00%
+2024-10-01 23:26:04,741 - INFO - Iteration 879/1000: Training on task af902bf9.json
+2024-10-01 23:26:04,818 - INFO - Iteration 879: Pixel correctness: 84.00%
+2024-10-01 23:26:04,822 - INFO - Iteration 880/1000: Training on task d90796e8.json
+2024-10-01 23:26:04,938 - INFO - Iteration 880: Pixel correctness: 85.71%
+2024-10-01 23:26:04,940 - INFO - Iteration 880: Loss = 59.3638, Average Reward = -22.7477, Solved Tasks = 0, Average Pixel Correctness = 51.53%
+2024-10-01 23:26:04,940 - INFO - Iteration 881/1000: Training on task b94a9452.json
+2024-10-01 23:26:06,069 - INFO - Iteration 881: Pixel correctness: 0.00%
+2024-10-01 23:26:06,071 - INFO - Iteration 882/1000: Training on task 4347f46a.json
+2024-10-01 23:26:09,695 - INFO - Iteration 882: Pixel correctness: 89.58%
+2024-10-01 23:26:09,698 - INFO - Iteration 883/1000: Training on task a3325580.json
+2024-10-01 23:26:10,924 - INFO - Iteration 883: Pixel correctness: 0.00%
+2024-10-01 23:26:10,929 - INFO - Iteration 884/1000: Training on task a68b268e.json
+2024-10-01 23:26:11,055 - INFO - Iteration 884: Pixel correctness: 0.00%
+2024-10-01 23:26:11,058 - INFO - Iteration 885/1000: Training on task c0f76784.json
+2024-10-01 23:26:11,293 - INFO - Iteration 885: Pixel correctness: 89.58%
+2024-10-01 23:26:11,296 - INFO - Iteration 886/1000: Training on task d4469b4b.json
+2024-10-01 23:26:11,374 - INFO - Iteration 886: Pixel correctness: 0.00%
+2024-10-01 23:26:11,377 - INFO - Iteration 887/1000: Training on task 97a05b5b.json
+2024-10-01 23:26:12,161 - INFO - Iteration 887: Pixel correctness: 0.00%
+2024-10-01 23:26:12,165 - INFO - Iteration 888/1000: Training on task aabf363d.json
+2024-10-01 23:26:12,708 - INFO - Iteration 888: Pixel correctness: 73.47%
+2024-10-01 23:26:12,710 - INFO - Iteration 889/1000: Training on task 623ea044.json
+2024-10-01 23:26:12,743 - INFO - Iteration 889: Pixel correctness: 79.59%
+2024-10-01 23:26:12,746 - INFO - Iteration 890/1000: Training on task 913fb3ed.json
+2024-10-01 23:26:12,780 - INFO - Iteration 890: Pixel correctness: 77.78%
+2024-10-01 23:26:12,784 - INFO - Iteration 890: Loss = 65.2913, Average Reward = -22.5831, Solved Tasks = 0, Average Pixel Correctness = 51.41%
+2024-10-01 23:26:12,784 - INFO - Iteration 891/1000: Training on task 7c008303.json
+2024-10-01 23:26:14,717 - INFO - Iteration 891: Pixel correctness: 0.00%
+2024-10-01 23:26:14,721 - INFO - Iteration 892/1000: Training on task 363442ee.json
+2024-10-01 23:26:14,958 - INFO - Iteration 892: Pixel correctness: 61.54%
+2024-10-01 23:26:14,961 - INFO - Iteration 893/1000: Training on task d511f180.json
+2024-10-01 23:26:15,086 - INFO - Iteration 893: Pixel correctness: 44.00%
+2024-10-01 23:26:15,089 - INFO - Iteration 894/1000: Training on task 5c0a986e.json
+2024-10-01 23:26:15,170 - INFO - Iteration 894: Pixel correctness: 95.00%
+2024-10-01 23:26:15,172 - INFO - Iteration 895/1000: Training on task 6e82a1ae.json
+2024-10-01 23:26:16,432 - INFO - Iteration 895: Pixel correctness: 89.00%
+2024-10-01 23:26:16,434 - INFO - Iteration 896/1000: Training on task 8efcae92.json
+2024-10-01 23:26:16,789 - INFO - Iteration 896: Pixel correctness: 0.00%
+2024-10-01 23:26:16,793 - INFO - Iteration 897/1000: Training on task 5521c0d9.json
+2024-10-01 23:26:19,739 - INFO - Iteration 897: Pixel correctness: 66.22%
+2024-10-01 23:26:19,743 - INFO - Iteration 898/1000: Training on task d631b094.json
+2024-10-01 23:26:19,785 - INFO - Iteration 898: Pixel correctness: 0.00%
+2024-10-01 23:26:19,787 - INFO - Iteration 899/1000: Training on task 9dfd6313.json
+2024-10-01 23:26:20,000 - INFO - Iteration 899: Pixel correctness: 66.67%
+2024-10-01 23:26:20,003 - INFO - Iteration 900/1000: Training on task a5313dff.json
+2024-10-01 23:26:20,056 - INFO - Iteration 900: Pixel correctness: 87.50%
+2024-10-01 23:26:20,058 - INFO - Iteration 900: Loss = 85.0719, Average Reward = -22.5211, Solved Tasks = 0, Average Pixel Correctness = 51.41%
+2024-10-01 23:26:20,062 - INFO - Model weights saved at iteration 900
+2024-10-01 23:26:20,062 - INFO - Iteration 901/1000: Training on task 045e512c.json
+2024-10-01 23:26:20,610 - INFO - Iteration 901: Pixel correctness: 93.42%
+2024-10-01 23:26:20,614 - INFO - Iteration 902/1000: Training on task 2dee498d.json
+2024-10-01 23:26:21,091 - INFO - Iteration 902: Pixel correctness: 0.00%
+2024-10-01 23:26:21,093 - INFO - Iteration 903/1000: Training on task 447fd412.json
+2024-10-01 23:26:21,529 - INFO - Iteration 903: Pixel correctness: 85.12%
+2024-10-01 23:26:21,531 - INFO - Iteration 904/1000: Training on task e8dc4411.json
+2024-10-01 23:26:22,261 - INFO - Iteration 904: Pixel correctness: 92.86%
+2024-10-01 23:26:22,263 - INFO - Iteration 905/1000: Training on task db3e9e38.json
+2024-10-01 23:26:22,362 - INFO - Iteration 905: Pixel correctness: 65.71%
+2024-10-01 23:26:22,365 - INFO - Iteration 906/1000: Training on task f9012d9b.json
+2024-10-01 23:26:22,394 - INFO - Iteration 906: Pixel correctness: 0.00%
+2024-10-01 23:26:22,396 - INFO - Iteration 907/1000: Training on task a416b8f3.json
+2024-10-01 23:26:22,418 - INFO - Iteration 907: Pixel correctness: 0.00%
+2024-10-01 23:26:22,420 - INFO - Iteration 908/1000: Training on task 22233c11.json
+2024-10-01 23:26:23,371 - INFO - Iteration 908: Pixel correctness: 98.00%
+2024-10-01 23:26:23,375 - INFO - Iteration 909/1000: Training on task 539a4f51.json
+2024-10-01 23:26:23,669 - INFO - Iteration 909: Pixel correctness: 0.00%
+2024-10-01 23:26:23,672 - INFO - Iteration 910/1000: Training on task 0b148d64.json
+2024-10-01 23:26:24,105 - INFO - Iteration 910: Pixel correctness: 0.00%
+2024-10-01 23:26:24,109 - INFO - Iteration 910: Loss = 20.3265, Average Reward = -22.3670, Solved Tasks = 0, Average Pixel Correctness = 51.32%
+2024-10-01 23:26:24,109 - INFO - Iteration 911/1000: Training on task b60334d2.json
+2024-10-01 23:26:24,186 - INFO - Iteration 911: Pixel correctness: 65.43%
+2024-10-01 23:26:24,189 - INFO - Iteration 912/1000: Training on task dc433765.json
+2024-10-01 23:26:24,255 - INFO - Iteration 912: Pixel correctness: 77.78%
+2024-10-01 23:26:24,258 - INFO - Iteration 913/1000: Training on task 94f9d214.json
+2024-10-01 23:26:24,608 - INFO - Iteration 913: Pixel correctness: 0.00%
+2024-10-01 23:26:24,611 - INFO - Iteration 914/1000: Training on task 36fdfd69.json
+2024-10-01 23:26:27,352 - INFO - Iteration 914: Pixel correctness: 96.67%
+2024-10-01 23:26:27,354 - INFO - Iteration 915/1000: Training on task b1948b0a.json
+2024-10-01 23:26:27,432 - INFO - Iteration 915: Pixel correctness: 50.00%
+2024-10-01 23:26:27,434 - INFO - Iteration 916/1000: Training on task d8c310e9.json
+2024-10-01 23:26:27,723 - INFO - Iteration 916: Pixel correctness: 85.33%
+2024-10-01 23:26:27,726 - INFO - Iteration 917/1000: Training on task de1cd16c.json
+2024-10-01 23:26:30,146 - INFO - Iteration 917: Pixel correctness: 0.00%
+2024-10-01 23:26:30,149 - INFO - Iteration 918/1000: Training on task a8c38be5.json
+2024-10-01 23:26:30,668 - INFO - Iteration 918: Pixel correctness: 0.00%
+2024-10-01 23:26:30,672 - INFO - Iteration 919/1000: Training on task feca6190.json
+2024-10-01 23:26:30,715 - INFO - Iteration 919: Pixel correctness: 0.00%
+2024-10-01 23:26:30,718 - INFO - Iteration 920/1000: Training on task 29623171.json
+2024-10-01 23:26:32,136 - INFO - Iteration 920: Pixel correctness: 89.26%
+2024-10-01 23:26:32,139 - INFO - Iteration 920: Loss = 202.1880, Average Reward = -22.3902, Solved Tasks = 0, Average Pixel Correctness = 51.27%
+2024-10-01 23:26:32,139 - INFO - Iteration 921/1000: Training on task 4938f0c2.json
+2024-10-01 23:26:36,114 - INFO - Iteration 921: Pixel correctness: 94.83%
+2024-10-01 23:26:36,118 - INFO - Iteration 922/1000: Training on task 88a10436.json
+2024-10-01 23:26:37,055 - INFO - Iteration 922: Pixel correctness: 89.29%
+2024-10-01 23:26:37,058 - INFO - Iteration 923/1000: Training on task ff28f65a.json
+2024-10-01 23:26:37,442 - INFO - Iteration 923: Pixel correctness: 0.00%
+2024-10-01 23:26:37,446 - INFO - Iteration 924/1000: Training on task a9f96cdd.json
+2024-10-01 23:26:37,478 - INFO - Iteration 924: Pixel correctness: 60.00%
+2024-10-01 23:26:37,480 - INFO - Iteration 925/1000: Training on task 1190e5a7.json
+2024-10-01 23:26:42,021 - INFO - Iteration 925: Pixel correctness: 0.00%
+2024-10-01 23:26:42,024 - INFO - Iteration 926/1000: Training on task 017c7c7b.json
+2024-10-01 23:26:42,053 - INFO - Iteration 926: Pixel correctness: 0.00%
+2024-10-01 23:26:42,055 - INFO - Iteration 927/1000: Training on task dae9d2b5.json
+2024-10-01 23:26:42,085 - INFO - Iteration 927: Pixel correctness: 0.00%
+2024-10-01 23:26:42,087 - INFO - Iteration 928/1000: Training on task d511f180.json
+2024-10-01 23:26:42,828 - INFO - Iteration 928: Pixel correctness: 48.00%
+2024-10-01 23:26:42,830 - INFO - Iteration 929/1000: Training on task 77fdfe62.json
+2024-10-01 23:26:42,898 - INFO - Iteration 929: Pixel correctness: 0.00%
+2024-10-01 23:26:42,901 - INFO - Iteration 930/1000: Training on task 00d62c1b.json
+2024-10-01 23:26:43,306 - INFO - Iteration 930: Pixel correctness: 92.00%
+2024-10-01 23:26:43,310 - INFO - Iteration 930: Loss = 1031.0367, Average Reward = -22.2495, Solved Tasks = 0, Average Pixel Correctness = 51.13%
+2024-10-01 23:26:43,310 - INFO - Iteration 931/1000: Training on task f8ff0b80.json
+2024-10-01 23:26:45,219 - INFO - Iteration 931: Pixel correctness: 0.00%
+2024-10-01 23:26:45,223 - INFO - Iteration 932/1000: Training on task a2fd1cf0.json
+2024-10-01 23:26:45,565 - INFO - Iteration 932: Pixel correctness: 92.44%
+2024-10-01 23:26:45,569 - INFO - Iteration 933/1000: Training on task 228f6490.json
+2024-10-01 23:26:45,706 - INFO - Iteration 933: Pixel correctness: 80.00%
+2024-10-01 23:26:45,709 - INFO - Iteration 934/1000: Training on task 1caeab9d.json
+2024-10-01 23:26:45,769 - INFO - Iteration 934: Pixel correctness: 90.00%
+2024-10-01 23:26:45,774 - INFO - Iteration 935/1000: Training on task d0f5fe59.json
+2024-10-01 23:26:45,880 - INFO - Iteration 935: Pixel correctness: 0.00%
+2024-10-01 23:26:45,883 - INFO - Iteration 936/1000: Training on task f35d900a.json
+2024-10-01 23:26:49,421 - INFO - Iteration 936: Pixel correctness: 84.56%
+2024-10-01 23:26:49,424 - INFO - Iteration 937/1000: Training on task 0d3d703e.json
+2024-10-01 23:26:49,713 - INFO - Iteration 937: Pixel correctness: 0.00%
+2024-10-01 23:26:49,717 - INFO - Iteration 938/1000: Training on task ef135b50.json
+2024-10-01 23:26:50,667 - INFO - Iteration 938: Pixel correctness: 88.00%
+2024-10-01 23:26:50,671 - INFO - Iteration 939/1000: Training on task 9d9215db.json
+2024-10-01 23:26:51,325 - INFO - Iteration 939: Pixel correctness: 93.35%
+2024-10-01 23:26:51,328 - INFO - Iteration 940/1000: Training on task a1570a43.json
+2024-10-01 23:26:51,451 - INFO - Iteration 940: Pixel correctness: 84.72%
+2024-10-01 23:26:51,454 - INFO - Iteration 940: Loss = 120.0646, Average Reward = -22.1638, Solved Tasks = 0, Average Pixel Correctness = 51.24%
+2024-10-01 23:26:51,454 - INFO - Iteration 941/1000: Training on task ea32f347.json
+2024-10-01 23:26:52,931 - INFO - Iteration 941: Pixel correctness: 87.00%
+2024-10-01 23:26:52,935 - INFO - Iteration 942/1000: Training on task d511f180.json
+2024-10-01 23:26:52,967 - INFO - Iteration 942: Pixel correctness: 44.44%
+2024-10-01 23:26:52,970 - INFO - Iteration 943/1000: Training on task 963e52fc.json
+2024-10-01 23:26:53,006 - INFO - Iteration 943: Pixel correctness: 0.00%
+2024-10-01 23:26:53,008 - INFO - Iteration 944/1000: Training on task 794b24be.json
+2024-10-01 23:26:53,026 - INFO - Iteration 944: Pixel correctness: 22.22%
+2024-10-01 23:26:53,028 - INFO - Iteration 945/1000: Training on task d10ecb37.json
+2024-10-01 23:26:53,127 - INFO - Iteration 945: Pixel correctness: 0.00%
+2024-10-01 23:26:53,130 - INFO - Iteration 946/1000: Training on task 90c28cc7.json
+2024-10-01 23:26:53,790 - INFO - Iteration 946: Pixel correctness: 0.00%
+2024-10-01 23:26:53,793 - INFO - Iteration 947/1000: Training on task 54d82841.json
+2024-10-01 23:26:53,857 - INFO - Iteration 947: Pixel correctness: 95.31%
+2024-10-01 23:26:53,860 - INFO - Iteration 948/1000: Training on task 5c2c9af4.json
+2024-10-01 23:26:54,234 - INFO - Iteration 948: Pixel correctness: 71.46%
+2024-10-01 23:26:54,237 - INFO - Iteration 949/1000: Training on task 5c0a986e.json
+2024-10-01 23:26:55,228 - INFO - Iteration 949: Pixel correctness: 94.00%
+2024-10-01 23:26:55,231 - INFO - Iteration 950/1000: Training on task 91714a58.json
+2024-10-01 23:27:03,383 - INFO - Iteration 950: Pixel correctness: 64.84%
+2024-10-01 23:27:03,391 - INFO - Iteration 950: Loss = 8097.1216, Average Reward = -22.2232, Solved Tasks = 0, Average Pixel Correctness = 51.20%
+2024-10-01 23:27:03,391 - INFO - Iteration 951/1000: Training on task 363442ee.json
+2024-10-01 23:27:03,718 - INFO - Iteration 951: Pixel correctness: 76.07%
+2024-10-01 23:27:03,722 - INFO - Iteration 952/1000: Training on task 50cb2852.json
+2024-10-01 23:27:07,261 - INFO - Iteration 952: Pixel correctness: 85.64%
+2024-10-01 23:27:07,269 - INFO - Iteration 953/1000: Training on task 4258a5f9.json
+2024-10-01 23:27:08,167 - INFO - Iteration 953: Pixel correctness: 60.49%
+2024-10-01 23:27:08,170 - INFO - Iteration 954/1000: Training on task 42a50994.json
+2024-10-01 23:27:08,693 - INFO - Iteration 954: Pixel correctness: 95.22%
+2024-10-01 23:27:08,695 - INFO - Iteration 955/1000: Training on task 0a938d79.json
+2024-10-01 23:27:08,870 - INFO - Iteration 955: Pixel correctness: 75.16%
+2024-10-01 23:27:08,873 - INFO - Iteration 956/1000: Training on task b1948b0a.json
+2024-10-01 23:27:08,897 - INFO - Iteration 956: Pixel correctness: 55.56%
+2024-10-01 23:27:08,900 - INFO - Iteration 957/1000: Training on task ddf7fa4f.json
+2024-10-01 23:27:10,307 - INFO - Iteration 957: Pixel correctness: 64.00%
+2024-10-01 23:27:10,311 - INFO - Iteration 958/1000: Training on task 1e32b0e9.json
+2024-10-01 23:27:12,850 - INFO - Iteration 958: Pixel correctness: 90.66%
+2024-10-01 23:27:12,855 - INFO - Iteration 959/1000: Training on task 83302e8f.json
+2024-10-01 23:27:13,776 - INFO - Iteration 959: Pixel correctness: 24.14%
+2024-10-01 23:27:13,780 - INFO - Iteration 960/1000: Training on task 42a50994.json
+2024-10-01 23:27:13,971 - INFO - Iteration 960: Pixel correctness: 94.77%
+2024-10-01 23:27:13,973 - INFO - Iteration 960: Loss = 56.0392, Average Reward = -22.8823, Solved Tasks = 0, Average Pixel Correctness = 51.42%
+2024-10-01 23:27:13,973 - INFO - Iteration 961/1000: Training on task 6e19193c.json
+2024-10-01 23:27:14,052 - INFO - Iteration 961: Pixel correctness: 93.00%
+2024-10-01 23:27:14,055 - INFO - Iteration 962/1000: Training on task 0dfd9992.json
+2024-10-01 23:27:15,040 - INFO - Iteration 962: Pixel correctness: 86.17%
+2024-10-01 23:27:15,044 - INFO - Iteration 963/1000: Training on task 794b24be.json
+2024-10-01 23:27:15,073 - INFO - Iteration 963: Pixel correctness: 88.89%
+2024-10-01 23:27:15,075 - INFO - Iteration 964/1000: Training on task a740d043.json
+2024-10-01 23:27:15,610 - INFO - Iteration 964: Pixel correctness: 0.00%
+2024-10-01 23:27:15,615 - INFO - Iteration 965/1000: Training on task d9fac9be.json
+2024-10-01 23:27:15,715 - INFO - Iteration 965: Pixel correctness: 0.00%
+2024-10-01 23:27:15,719 - INFO - Iteration 966/1000: Training on task 28bf18c6.json
+2024-10-01 23:27:16,192 - INFO - Iteration 966: Pixel correctness: 0.00%
+2024-10-01 23:27:16,194 - INFO - Iteration 967/1000: Training on task 952a094c.json
+2024-10-01 23:27:18,107 - INFO - Iteration 967: Pixel correctness: 92.00%
+2024-10-01 23:27:18,109 - INFO - Iteration 968/1000: Training on task eb5a1d5d.json
+2024-10-01 23:27:18,698 - INFO - Iteration 968: Pixel correctness: 0.00%
+2024-10-01 23:27:18,701 - INFO - Iteration 969/1000: Training on task 39e1d7f9.json
+2024-10-01 23:27:27,663 - INFO - Iteration 969: Pixel correctness: 86.42%
+2024-10-01 23:27:27,666 - INFO - Iteration 970/1000: Training on task 9565186b.json
+2024-10-01 23:27:27,714 - INFO - Iteration 970: Pixel correctness: 44.44%
+2024-10-01 23:27:27,718 - INFO - Iteration 970: Loss = 26.7558, Average Reward = -22.8907, Solved Tasks = 0, Average Pixel Correctness = 51.40%
+2024-10-01 23:27:27,718 - INFO - Iteration 971/1000: Training on task 28bf18c6.json
+2024-10-01 23:27:27,762 - INFO - Iteration 971: Pixel correctness: 0.00%
+2024-10-01 23:27:27,765 - INFO - Iteration 972/1000: Training on task d6ad076f.json
+2024-10-01 23:27:27,876 - INFO - Iteration 972: Pixel correctness: 94.00%
+2024-10-01 23:27:27,880 - INFO - Iteration 973/1000: Training on task 1fad071e.json
+2024-10-01 23:27:28,030 - INFO - Iteration 973: Pixel correctness: 0.00%
+2024-10-01 23:27:28,032 - INFO - Iteration 974/1000: Training on task 941d9a10.json
+2024-10-01 23:27:28,215 - INFO - Iteration 974: Pixel correctness: 88.00%
+2024-10-01 23:27:28,220 - INFO - Iteration 975/1000: Training on task d0f5fe59.json
+2024-10-01 23:27:28,315 - INFO - Iteration 975: Pixel correctness: 0.00%
+2024-10-01 23:27:28,320 - INFO - Iteration 976/1000: Training on task 8f2ea7aa.json
+2024-10-01 23:27:28,563 - INFO - Iteration 976: Pixel correctness: 75.31%
+2024-10-01 23:27:28,566 - INFO - Iteration 977/1000: Training on task 9af7a82c.json
+2024-10-01 23:27:28,590 - INFO - Iteration 977: Pixel correctness: 0.00%
+2024-10-01 23:27:28,593 - INFO - Iteration 978/1000: Training on task 3bdb4ada.json
+2024-10-01 23:27:31,168 - INFO - Iteration 978: Pixel correctness: 91.67%
+2024-10-01 23:27:31,173 - INFO - Iteration 979/1000: Training on task 3ac3eb23.json
+2024-10-01 23:27:31,257 - INFO - Iteration 979: Pixel correctness: 73.33%
+2024-10-01 23:27:31,261 - INFO - Iteration 980/1000: Training on task 2bee17df.json
+2024-10-01 23:27:31,473 - INFO - Iteration 980: Pixel correctness: 55.56%
+2024-10-01 23:27:31,476 - INFO - Iteration 980: Loss = 4042.8257, Average Reward = -22.8020, Solved Tasks = 0, Average Pixel Correctness = 51.36%
+2024-10-01 23:27:31,476 - INFO - Iteration 981/1000: Training on task 5582e5ca.json
+2024-10-01 23:27:31,502 - INFO - Iteration 981: Pixel correctness: 33.33%
+2024-10-01 23:27:31,504 - INFO - Iteration 982/1000: Training on task 08ed6ac7.json
+2024-10-01 23:27:31,697 - INFO - Iteration 982: Pixel correctness: 66.67%
+2024-10-01 23:27:31,700 - INFO - Iteration 983/1000: Training on task dbc1a6ce.json
+2024-10-01 23:27:31,792 - INFO - Iteration 983: Pixel correctness: 86.36%
+2024-10-01 23:27:31,795 - INFO - Iteration 984/1000: Training on task 25d8a9c8.json
+2024-10-01 23:27:31,854 - INFO - Iteration 984: Pixel correctness: 0.00%
+2024-10-01 23:27:31,858 - INFO - Iteration 985/1000: Training on task 46442a0e.json
+2024-10-01 23:27:31,877 - INFO - Iteration 985: Pixel correctness: 0.00%
+2024-10-01 23:27:31,880 - INFO - Iteration 986/1000: Training on task 91413438.json
+2024-10-01 23:27:31,899 - INFO - Iteration 986: Pixel correctness: 0.00%
+2024-10-01 23:27:31,901 - INFO - Iteration 987/1000: Training on task 90c28cc7.json
+2024-10-01 23:27:38,425 - INFO - Iteration 987: Pixel correctness: 0.00%
+2024-10-01 23:27:38,429 - INFO - Iteration 988/1000: Training on task e21d9049.json
+2024-10-01 23:27:41,820 - INFO - Iteration 988: Pixel correctness: 90.00%
+2024-10-01 23:27:41,824 - INFO - Iteration 989/1000: Training on task 017c7c7b.json
+2024-10-01 23:27:41,852 - INFO - Iteration 989: Pixel correctness: 0.00%
+2024-10-01 23:27:41,855 - INFO - Iteration 990/1000: Training on task f1cefba8.json
+2024-10-01 23:27:42,058 - INFO - Iteration 990: Pixel correctness: 83.40%
+2024-10-01 23:27:42,062 - INFO - Iteration 990: Loss = 1752.7885, Average Reward = -22.6960, Solved Tasks = 0, Average Pixel Correctness = 51.21%
+2024-10-01 23:27:42,062 - INFO - Iteration 991/1000: Training on task 178fcbfb.json
+2024-10-01 23:27:43,390 - INFO - Iteration 991: Pixel correctness: 60.91%
+2024-10-01 23:27:43,392 - INFO - Iteration 992/1000: Training on task 995c5fa3.json
+2024-10-01 23:27:44,336 - INFO - Iteration 992: Pixel correctness: 0.00%
+2024-10-01 23:27:44,341 - INFO - Iteration 993/1000: Training on task d10ecb37.json
+2024-10-01 23:27:44,722 - INFO - Iteration 993: Pixel correctness: 0.00%
+2024-10-01 23:27:44,724 - INFO - Iteration 994/1000: Training on task 2204b7a8.json
+2024-10-01 23:27:44,876 - INFO - Iteration 994: Pixel correctness: 94.00%
+2024-10-01 23:27:44,879 - INFO - Iteration 995/1000: Training on task caa06a1f.json
+2024-10-01 23:27:44,935 - INFO - Iteration 995: Pixel correctness: 0.00%
+2024-10-01 23:27:44,938 - INFO - Iteration 996/1000: Training on task 5c0a986e.json
+2024-10-01 23:27:45,913 - INFO - Iteration 996: Pixel correctness: 88.00%
+2024-10-01 23:27:45,919 - INFO - Iteration 997/1000: Training on task 57aa92db.json
+2024-10-01 23:27:49,920 - INFO - Iteration 997: Pixel correctness: 82.35%
+2024-10-01 23:27:49,923 - INFO - Iteration 998/1000: Training on task 1caeab9d.json
+2024-10-01 23:27:50,039 - INFO - Iteration 998: Pixel correctness: 76.00%
+2024-10-01 23:27:50,042 - INFO - Iteration 999/1000: Training on task 3bd67248.json
+2024-10-01 23:27:50,226 - INFO - Iteration 999: Pixel correctness: 73.47%
+2024-10-01 23:27:50,228 - INFO - Iteration 1000/1000: Training on task 74dd1130.json
+2024-10-01 23:27:50,247 - INFO - Iteration 1000: Pixel correctness: 55.56%
+2024-10-01 23:27:50,248 - INFO - Iteration 1000: Loss = 24.2248, Average Reward = -22.6910, Solved Tasks = 0, Average Pixel Correctness = 51.22%
+2024-10-01 23:27:50,252 - INFO - Model weights saved at iteration 1000
+2024-10-01 23:27:50,254 - INFO - Final model weights saved
+2024-10-01 23:27:50,254 - INFO - Training completed. Total solved tasks: 0/1000
+Average reward per iteration: -22.6910
+Average pixel correctness: 51.22%
+2024-10-01 23:27:50,254 - INFO - Full training completed successfully!
+2024-10-01 23:27:50,255 - INFO - Final model saved successfully!

@@ -1,4 +1,6 @@
 models = [
+    "openai/o1-mini",
+    "openai/o1-preview",
     "mattshumer/reflection-70b",
     "gryphe/mythomax-l2-13b",
     "openai/gpt-4o-mini",
