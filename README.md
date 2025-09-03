@@ -2,9 +2,9 @@
 
 One of the key drivers of AI progress has been researchers attempting to achieve SOTA on benchmarks. How good is AI at doing this? In particular, can we build an agent that improves its own performance to reach SOTA on the [ARC-AGI](https://arcprize.org/arc-agi/2/) benchmark?
 
-Consider any of the new coding agents (claude code, gemini cli, openai's codex, etc) -- what is their baseline performance? Can they improve this performance by modifying their own prompts or source code? By how much / to what level of performance does this scale? What is their chosen optimal scaffolding? Can they replicate other methods shared online -- that are known to perform better -- as part of improving their own performance? How long do they take?
+Consider any of the new coding agents (claude code, gemini cli, openai's codex, etc) -- what is their baseline performance? Can they improve this performance by modifying their own prompts or source code? By how much / to what level of performance does this scale? What is their chosen optimal scaffolding? **Can they replicate other methods shared online -- including training models -- that are known to perform better, as part of improving their own performance?** How long do they take?
 
-Can we produce better "seed" scaffoldings (read: *at least* prompts, though could be more, like models or any glue in-between) that result in more lifetime improvement / scale better or yield better max benchmark performance? If there is a limit, what is it? Why does it occur? And what are the appropriate monitoring infrastructure, scripts, and software to conduct such experiments?
+Can we produce better "seed" scaffoldings (read: *at least* prompts, though could include more, like models or any glue in-between) that result in more lifetime improvement / scale better or yield better max benchmark performance? If there is a limit, what is it? Why does it occur? And what are the appropriate monitoring infrastructure, scripts, and software to conduct such experiments?
 
 Some related experiments we take inspiration from: [SEAL](https://arxiv.org/abs/2506.10943), [Voyager](https://arxiv.org/abs/2305.16291). 
 
