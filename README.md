@@ -10,7 +10,7 @@ In general, we are interested in [Meta-learning](https://en.wikipedia.org/wiki/M
 
 ## Roadmap
 
-**Note: This is always subject to change. I used Claude to make one for now.**
+**Note: This is always subject to change. I used Claude to make one for now. PR's can deviate with justification.**
 
 Day 1: Baseline & Environment Questions
 
