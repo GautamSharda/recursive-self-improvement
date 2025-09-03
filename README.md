@@ -46,7 +46,8 @@ How does performance scale when moving from 20 to 50+ problems?
 What failure modes emerge during extended self-improvement chains?
 
 ## Guidelines
-**Note: This is also subject to change, though I wrote this myself.**
+**Note: Also subject to change, though I wrote this myself.**
+
 Since the roadmap is essentially a series of questions, we will conduct a series of experiments answering those questions. We care about replicability, quick experimental cycle time / iteration, and ease of understanding (for others). Therefore,
 1) Experiments should be self-contained and come with explanatory documenation: What did you do? What was the result? Why did you do this? / What does it answer?
 2) Code should be maintainable, readable, and reusable.
