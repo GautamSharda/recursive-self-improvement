@@ -1,6 +1,6 @@
 ## Motivations
 
-Can we build an agent that improves its own performance to reach SOTA on the [ARC-AGI](https://arcprize.org/arc-agi/2/) benchmark?
+AI research has historically been driven by researchers attempting to achieve SOTA on benchmarks. How good is AI at doing this? In particular, can we build an agent that improves its own performance to reach SOTA on the [ARC-AGI](https://arcprize.org/arc-agi/2/) benchmark?
 
 Consider any of the new coding agents (claude code, gemini cli, openai's codex, etc) -- what is their baseline performance? Can they improve this performance by modifying their own prompts or source code? By how much / to what level of performance does this scale? What is their chosen optimal scaffolding? Can they replicate other methods shared online -- that are known to perform better -- as part of improving their own performance? How long do they take?
 
