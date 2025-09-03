@@ -6,7 +6,7 @@ Consider any of the new coding agents (claude code, gemini cli, openai's codex, 
 
 Can we produce better "seed" scaffoldings (read: *at least* prompts, though could be more, like models or any glue in-between) that result in more lifetime improvement / scale better or yield better max benchmark performance? If there is a limit, what is it? Why does it occur? And what are the appropriate monitoring infrastructure, scripts, and software to conduct such experiments?
 
-In general, we are interested in [Meta-learning](https://en.wikipedia.org/wiki/Meta-learning_(computer_science)), [Reinforcement-learning](https://en.wikipedia.org/wiki/Reinforcement_learning), [Online-learning](https://en.wikipedia.org/wiki/Online_machine_learning), [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model), [Recursive Self-Improvement](https://en.wikipedia.org/wiki/Recursive_self-improvement), and [Mesa-Optimization](https://www.alignmentforum.org/w/mesa-optimization).
+In general, we are interested in [Meta-learning](https://en.wikipedia.org/wiki/Meta-learning_(computer_science)), [Reinforcement-learning](https://en.wikipedia.org/wiki/Reinforcement_learning), [Online-learning](https://en.wikipedia.org/wiki/Online_machine_learning), [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model), [Recursive Self-Improvement](https://en.wikipedia.org/wiki/Recursive_self-improvement), and [Mesa-Optimization](https://www.alignmentforum.org/w/mesa-optimization). **Note: This broadly defines our scope and should not really be subject to change.**
 
 ## Roadmap
 
