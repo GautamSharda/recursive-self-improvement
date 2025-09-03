@@ -47,6 +47,8 @@ What causes the plateau - is it a fundamental limit or a bug in the approach?
 How does performance scale when moving from 20 to 50+ problems?
 What failure modes emerge during extended self-improvement chains?
 
+Long term: OSWorld? Self-sustenance (in dollars)?
+
 ## Guidelines
 **Note: Also subject to change, though I wrote this myself.**
 
