@@ -1,4 +1,4 @@
-## Motivations
+## Motivation
 
 One of the key drivers of AI progress has been researchers attempting to achieve SOTA on benchmarks. How good is AI at doing this? In particular, can we build an agent that improves its own performance to reach SOTA on the [ARC-AGI](https://arcprize.org/arc-agi/2/) benchmark?
 
