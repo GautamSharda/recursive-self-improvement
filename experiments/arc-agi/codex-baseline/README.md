@@ -1,0 +1,1 @@
+Measure codex's ability to execute on arc-agi without any additional scaffolding provided outside of the rsimp repository at this commit.

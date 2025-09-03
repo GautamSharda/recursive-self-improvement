@@ -1,0 +1,3 @@
+[submodule "experiments/arc-agi/codex-baseline/codex"]
+	path = experiments/arc-agi/codex-baseline/codex
+	url = https://github.com/openai/codex
