@@ -1,0 +1,1 @@
+Not open source! Can't self-modify as far as I can tell.
